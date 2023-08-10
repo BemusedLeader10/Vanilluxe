@@ -1,4 +1,4 @@
-Vanilluxe is a datapack with the goal of providing a deluxe vanilla gameplay experience. It is designed to mesh seamlessly with the existing 'vanilla' Minecraft content.
+Vanilluxe is the one-stop shop for the deluxe vanilla gameplay experience. It improves upon the vanilla textures and models, whilst also adding worldgen and new items. It is designed to mesh seamlessly with the existing 'vanilla' Minecraft content for the best possible Minecraft experience.
 
 ### Join our discord for developer updates amd help out with brainstorming new features at [discord.gg/Ts8H5BzJRT](https://discord.gg/Ts8H5BzJRT)!
 ### Here's some Vanilluxe gameplay screenshots:
