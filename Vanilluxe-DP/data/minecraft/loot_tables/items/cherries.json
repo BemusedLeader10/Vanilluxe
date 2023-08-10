@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:540002,id:\"cherries\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.minecraft.cherries",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

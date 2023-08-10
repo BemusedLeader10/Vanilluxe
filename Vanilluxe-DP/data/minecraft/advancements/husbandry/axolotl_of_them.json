@@ -1,0 +1,142 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:axolotl_bucket",
+      "nbt": "{Variant:4}"
+    },
+    "title": {
+      "translate": "advancements.husbandry.axolotl_of_them.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.axolotl_of_them.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/tactical_fishing",
+  "criteria": {
+    "leucistic": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:water_bucket"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:axolotl",
+              "nbt": "{Variant:0}"
+            }
+          }
+        ]
+      }
+    },
+    "wild": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:water_bucket"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:axolotl",
+              "nbt": "{Variant:1}"
+            }
+          }
+        ]
+      }
+    },
+    "gold": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:water_bucket"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:axolotl",
+              "nbt": "{Variant:2}"
+            }
+          }
+        ]
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:water_bucket"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:axolotl",
+              "nbt": "{Variant:3}"
+            }
+          }
+        ]
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:water_bucket"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:axolotl",
+              "nbt": "{Variant:4}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "leucistic"
+    ],
+    [
+      "wild"
+    ],
+    [
+      "gold"
+    ],
+    [
+      "cyan"
+    ],
+    [
+      "blue"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}

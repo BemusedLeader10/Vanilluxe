@@ -1,0 +1,38 @@
+{
+  "variants": {
+    "half=lower": [
+      {
+        "model": "minecraft:block/rose_bush_bottom"
+      },
+      {
+        "model": "minecraft:block/rose_bush_bottom",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/rose_bush_bottom",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/rose_bush_bottom",
+        "y": 270
+      }
+    ],
+    "half=upper": [
+      {
+        "model": "minecraft:block/rose_bush_top"
+      },
+      {
+        "model": "minecraft:block/rose_bush_top",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/rose_bush_top",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/rose_bush_top",
+        "y": 270
+      }
+    ]
+  }
+}

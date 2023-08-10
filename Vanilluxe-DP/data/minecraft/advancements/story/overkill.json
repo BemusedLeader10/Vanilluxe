@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:story/librarian",
+  "criteria": {
+    "overkill": {
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 18
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.overkill.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_sword",
+      "nbt": "{Damage:0,Enchantments:[{}]}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.overkill.title"
+    }
+  },
+  "requirements": [
+    [
+      "overkill"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "monument": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:monument"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.enter_monument.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.enter_monument.title"
+    }
+  },
+  "requirements": [
+    [
+      "monument"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

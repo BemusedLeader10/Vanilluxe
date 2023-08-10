@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/echolocation",
+  "criteria": {
+    "loot_buried_treasure": {
+      "conditions": {
+        "loot_table": "minecraft:chests/buried_treasure"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.loot_buried_treasure.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.loot_buried_treasure.title"
+    }
+  },
+  "requirements": [
+    [
+      "adventure.loot_buried_treasure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "minecraft:skyroot_tree",
+    "features": [
+      {
+        "chance": 0.01,
+        "feature": "minecraft:golden_oak_tree"
+      }
+    ]
+  }
+}

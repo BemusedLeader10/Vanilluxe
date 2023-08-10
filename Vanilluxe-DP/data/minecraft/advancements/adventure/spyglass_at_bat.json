@@ -1,0 +1,55 @@
+{
+  "parent": "minecraft:adventure/spyglass_at_dragon",
+  "criteria": {
+    "spyglass_at_bat": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "distance": {
+                    "absolute": {
+                      "min": 50
+                    }
+                  },
+                  "type": "minecraft:bat"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.spyglass_at_bat.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.spyglass_at_bat.title"
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_at_bat"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "tamed_animal": {
+      "conditions": {
+        "player": [],
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.leader_of_the_pack.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bone"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.leader_of_the_pack.title"
+    }
+  },
+  "requirements": [
+    [
+      "tamed_animal"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

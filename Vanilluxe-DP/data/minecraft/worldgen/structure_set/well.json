@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 16071350,
+    "separation": 1,
+    "spacing": 32
+  },
+  "structures": [
+    {
+      "structure": "minecraft:desert_well",
+      "weight": 1
+    }
+  ]
+}

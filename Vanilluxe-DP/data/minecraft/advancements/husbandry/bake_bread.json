@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "bake_bread": {
+      "conditions": {
+        "recipe_id": "minecraft:bread"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.bake_bread.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.bake_bread.title"
+    }
+  },
+  "requirements": [
+    [
+      "bake_bread"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

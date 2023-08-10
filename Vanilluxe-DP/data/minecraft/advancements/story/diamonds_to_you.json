@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:story/mine_diamond",
+  "criteria": {
+    "diamonds_to_you_entity": {
+      "conditions": {
+        "entity": {
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:diamond"
+          ]
+        }
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_entity"
+    },
+    "diamonds_to_you_player": {
+      "conditions": {
+        "entity": {
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:diamond"
+          ]
+        }
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_player"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.diamonds_to_you.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.diamonds_to_you.title"
+    }
+  },
+  "requirements": [
+    [
+      "diamonds_to_you_entity",
+      "diamonds_to_you_player"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

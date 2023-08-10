@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "better_christmas_chests:item/christmas_jungle_chest_boat"
+  }
+}

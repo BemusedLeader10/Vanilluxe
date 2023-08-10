@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:end/respawn_dragon",
+  "criteria": {
+    "ring_of_the_end": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "stat": "minecraft:ender_dragon",
+                    "type": "minecraft:killed",
+                    "value": {
+                      "min": 20
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.end.ring_of_the_end.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.end.ring_of_the_end.title"
+    }
+  },
+  "requirements": [
+    [
+      "ring_of_the_end"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": false
+}

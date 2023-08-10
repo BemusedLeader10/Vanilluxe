@@ -1,0 +1,59 @@
+{
+  "parent": "minecraft:adventure/echolocation",
+  "criteria": {
+    "shipwreck": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:shipwreck"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "shipwreck_beached": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:shipwreck_beached"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.ahoy.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.ahoy.title"
+    }
+  },
+  "requirements": [
+    [
+      "shipwreck",
+      "shipwreck_beached"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

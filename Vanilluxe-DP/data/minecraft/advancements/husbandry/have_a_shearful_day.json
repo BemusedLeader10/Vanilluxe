@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "shears": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shears"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:sheep"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.have_a_shearful_day.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:shears"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.have_a_shearful_day.title"
+    }
+  },
+  "requirements": [
+    [
+      "shears"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

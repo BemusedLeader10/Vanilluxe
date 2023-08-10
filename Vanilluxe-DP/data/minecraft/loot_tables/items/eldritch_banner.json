@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Patterns:[{Color:9,Pattern:tts},{Color:9,Pattern:bts},{Color:15,Pattern:bri},{Color:3,Pattern:mr},{Color:9,Pattern:bo},{Color:15,Pattern:cbo},{Color:15,Pattern:cr},{Color:15,Pattern:sc}],id:\"minecraft:banner\"},HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.minecraft.eldritch_banner",
+                "color": "gold"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

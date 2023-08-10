@@ -1,0 +1,238 @@
+{
+  "tab_enabled": true,
+  "tab_name": "spawnEggs",
+  "replace": false,
+  "tab_stack": {
+    "name": "minecraft:pig_spawn_egg"
+  },
+  "tab_items": [
+    {
+      "name": "minecraft:spawner"
+    },
+    {
+      "name": "minecraft:allay_spawn_egg"
+    },
+    {
+      "name": "minecraft:axolotl_spawn_egg"
+    },
+    {
+      "name": "minecraft:bat_spawn_egg"
+    },
+    {
+      "name": "minecraft:bee_spawn_egg"
+    },
+    {
+      "name": "minecraft:blaze_spawn_egg"
+    },
+    {
+      "name": "minecraft:camel_spawn_egg"
+    },
+    {
+      "name": "minecraft:cat_spawn_egg"
+    },
+    {
+      "name": "minecraft:cave_spider_spawn_egg"
+    },
+    {
+      "name": "minecraft:chicken_spawn_egg"
+    },
+    {
+      "name": "minecraft:cod_spawn_egg"
+    },
+    {
+      "name": "minecraft:cow_spawn_egg"
+    },
+    {
+      "name": "minecraft:creeper_spawn_egg"
+    },
+    {
+      "name": "minecraft:dolphin_spawn_egg"
+    },
+    {
+      "name": "minecraft:donkey_spawn_egg"
+    },
+    {
+      "name": "minecraft:drowned_spawn_egg"
+    },
+    {
+      "name": "minecraft:elder_guardian_spawn_egg"
+    },
+    {
+      "name": "minecraft:enderman_spawn_egg"
+    },
+    {
+      "name": "minecraft:endermite_spawn_egg"
+    },
+    {
+      "name": "minecraft:evoker_spawn_egg"
+    },
+    {
+      "name": "minecraft:fox_spawn_egg"
+    },
+    {
+      "name": "minecraft:frog_spawn_egg"
+    },
+    {
+      "name": "minecraft:ghast_spawn_egg"
+    },
+    {
+      "name": "minecraft:glow_squid_spawn_egg"
+    },
+    {
+      "name": "minecraft:goat_spawn_egg"
+    },
+    {
+      "name": "minecraft:guardian_spawn_egg"
+    },
+    {
+      "name": "minecraft:hoglin_spawn_egg"
+    },
+    {
+      "name": "minecraft:horse_spawn_egg"
+    },
+    {
+      "name": "minecraft:husk_spawn_egg"
+    },
+    {
+      "name": "minecraft:iron_golem_spawn_egg"
+    },
+    {
+      "name": "minecraft:llama_spawn_egg"
+    },
+    {
+      "name": "minecraft:magma_cube_spawn_egg"
+    },
+    {
+      "name": "minecraft:mooshroom_spawn_egg"
+    },
+    {
+      "name": "minecraft:mule_spawn_egg"
+    },
+    {
+      "name": "minecraft:ocelot_spawn_egg"
+    },
+    {
+      "name": "minecraft:panda_spawn_egg"
+    },
+    {
+      "name": "minecraft:parrot_spawn_egg"
+    },
+    {
+      "name": "minecraft:phantom_spawn_egg"
+    },
+    {
+      "name": "minecraft:pig_spawn_egg"
+    },
+    {
+      "name": "minecraft:piglin_spawn_egg"
+    },
+    {
+      "name": "minecraft:piglin_brute_spawn_egg"
+    },
+    {
+      "name": "minecraft:pillager_spawn_egg"
+    },
+    {
+      "name": "minecraft:polar_bear_spawn_egg"
+    },
+    {
+      "name": "minecraft:pufferfish_spawn_egg"
+    },
+    {
+      "name": "minecraft:rabbit_spawn_egg"
+    },
+    {
+      "name": "minecraft:ravager_spawn_egg"
+    },
+    {
+      "name": "minecraft:salmon_spawn_egg"
+    },
+    {
+      "name": "minecraft:sheep_spawn_egg"
+    },
+    {
+      "name": "minecraft:shulker_spawn_egg"
+    },
+    {
+      "name": "minecraft:silverfish_spawn_egg"
+    },
+    {
+      "name": "minecraft:skeleton_spawn_egg"
+    },
+    {
+      "name": "minecraft:skeleton_horse_spawn_egg"
+    },
+    {
+      "name": "minecraft:slime_spawn_egg"
+    },
+    {
+      "name": "minecraft:sniffer_spawn_egg"
+    },
+    {
+      "name": "minecraft:snow_golem_spawn_egg"
+    },
+    {
+      "name": "minecraft:spider_spawn_egg"
+    },
+    {
+      "name": "minecraft:squid_spawn_egg"
+    },
+    {
+      "name": "minecraft:stray_spawn_egg"
+    },
+    {
+      "name": "minecraft:strider_spawn_egg"
+    },
+    {
+      "name": "minecraft:tadpole_spawn_egg"
+    },
+    {
+      "name": "minecraft:trader_llama_spawn_egg"
+    },
+    {
+      "name": "minecraft:tropical_fish_spawn_egg"
+    },
+    {
+      "name": "minecraft:turtle_spawn_egg"
+    },
+    {
+      "name": "minecraft:vex_spawn_egg"
+    },
+    {
+      "name": "minecraft:villager_spawn_egg"
+    },
+    {
+      "name": "minecraft:vindicator_spawn_egg"
+    },
+    {
+      "name": "minecraft:wandering_trader_spawn_egg"
+    },
+    {
+      "name": "minecraft:warden_spawn_egg"
+    },
+    {
+      "name": "minecraft:witch_spawn_egg"
+    },
+    {
+      "name": "minecraft:wither_skeleton_spawn_egg"
+    },
+    {
+      "name": "minecraft:wolf_spawn_egg"
+    },
+    {
+      "name": "minecraft:zoglin_spawn_egg"
+    },
+    {
+      "name": "minecraft:zombie_spawn_egg"
+    },
+    {
+      "name": "minecraft:zombie_horse_spawn_egg"
+    },
+    {
+      "name": "minecraft:zombie_villager_spawn_egg"
+    },
+    {
+      "name": "minecraft:zombified_piglin_spawn_egg"
+    }
+  ]
+}

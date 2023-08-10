@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_hide",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:540001,id:\"bat_wing\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.minecraft.bat_wing",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

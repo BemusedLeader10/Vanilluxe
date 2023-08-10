@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:husbandry/repopulation",
+  "criteria": {
+    "minecraft:mule": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:mule"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.artificial_selection.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.artificial_selection.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:mule"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

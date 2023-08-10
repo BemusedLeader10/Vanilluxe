@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:husbandry/bake_bread",
+  "criteria": {
+    "bake_cake": {
+      "conditions": {
+        "recipe_id": "minecraft:cake"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.the_lie.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.the_lie.title"
+    }
+  },
+  "requirements": [
+    [
+      "bake_cake"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

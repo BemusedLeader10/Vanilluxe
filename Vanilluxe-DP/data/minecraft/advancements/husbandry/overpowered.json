@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:husbandry/iron_belly",
+  "criteria": {
+    "enchanted_golden_apple": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.overpowered.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.overpowered.title"
+    }
+  },
+  "requirements": [
+    [
+      "enchanted_golden_apple"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

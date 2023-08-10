@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:adventure/kill_an_elder_guardian",
+  "criteria": {
+    "dry_sponge": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sponge"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.dry_spell.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:sponge"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.adventure.dry_spell.title"
+    }
+  },
+  "requirements": [
+    [
+      "dry_sponge"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

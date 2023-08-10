@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "wood": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "advancements.story.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.story.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "wood"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

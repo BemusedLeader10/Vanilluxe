@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:adventure/hero_of_the_village",
+  "criteria": {
+    "trade": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:hero_of_the_village": {
+                  "amplifier": {
+                    "min": 0
+                  },
+                  "duration": {
+                    "min": 1
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "villager": {
+          "type": "villager"
+        }
+      },
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.buy_low_sell_high.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.buy_low_sell_high.title"
+    }
+  },
+  "requirements": [
+    [
+      "trade"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

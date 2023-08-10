@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "rotten_flesh": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rotten_flesh"
+          ]
+        },
+        "player": {
+          "nbt": "{foodLevel:4}"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.iron_belly.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.iron_belly.title"
+    }
+  },
+  "requirements": [
+    [
+      "rotten_flesh"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

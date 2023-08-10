@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "killed_creeper": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:creeper"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.kill_a_creeper.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.kill_a_creeper.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_creeper"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

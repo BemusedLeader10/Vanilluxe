@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:story/enchant_item",
+  "criteria": {
+    "bookshelf": {
+      "conditions": {
+        "recipe_id": "minecraft:bookshelf"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.librarian.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bookshelf"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.librarian.title"
+    }
+  },
+  "requirements": [
+    [
+      "bookshelf"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

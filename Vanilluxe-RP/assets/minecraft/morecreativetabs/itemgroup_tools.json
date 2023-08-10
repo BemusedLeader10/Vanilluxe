@@ -1,0 +1,351 @@
+{
+  "tab_enabled": true,
+  "tab_name": "tools",
+  "replace": false,
+  "tab_stack": {
+    "name": "minecraft:diamond_pickaxe"
+  },
+  "tab_items": [
+    {
+      "name": "minecraft:wooden_shovel"
+    },
+    {
+      "name": "minecraft:wooden_pickaxe"
+    },
+    {
+      "name": "minecraft:wooden_axe"
+    },
+    {
+      "name": "minecraft:wooden_hoe"
+    },
+    {
+      "name": "minecraft:stone_shovel"
+    },
+    {
+      "name": "minecraft:stone_pickaxe"
+    },
+    {
+      "name": "minecraft:stone_axe"
+    },
+    {
+      "name": "minecraft:stone_hoe"
+    },
+    {
+      "name": "minecraft:iron_shovel"
+    },
+    {
+      "name": "minecraft:iron_pickaxe"
+    },
+    {
+      "name": "minecraft:iron_axe"
+    },
+    {
+      "name": "minecraft:iron_hoe"
+    },
+    {
+      "name": "minecraft:golden_shovel"
+    },
+    {
+      "name": "minecraft:golden_pickaxe"
+    },
+    {
+      "name": "minecraft:golden_axe"
+    },
+    {
+      "name": "minecraft:golden_hoe"
+    },
+    {
+      "name": "minecraft:diamond_shovel"
+    },
+    {
+      "name": "minecraft:diamond_pickaxe"
+    },
+    {
+      "name": "minecraft:diamond_axe"
+    },
+    {
+      "name": "minecraft:diamond_hoe"
+    },
+    {
+      "name": "minecraft:netherite_shovel"
+    },
+    {
+      "name": "minecraft:netherite_pickaxe"
+    },
+    {
+      "name": "minecraft:netherite_axe"
+    },
+    {
+      "name": "minecraft:netherite_hoe"
+    },
+    {
+      "name": "minecraft:bucket"
+    },
+    {
+      "name": "minecraft:water_bucket"
+    },
+    {
+      "name": "minecraft:cod_bucket"
+    },
+    {
+      "name": "minecraft:salmon_bucket"
+    },
+    {
+      "name": "minecraft:tropical_fish_bucket"
+    },
+    {
+      "name": "minecraft:pufferfish_bucket"
+    },
+    {
+      "name": "minecraft:axolotl_bucket"
+    },
+    {
+      "name": "minecraft:tadpole_bucket"
+    },
+    {
+      "name": "minecraft:lava_bucket"
+    },
+    {
+      "name": "minecraft:powder_snow_bucket"
+    },
+    {
+      "name": "minecraft:milk_bucket"
+    },
+    {
+      "name": "minecraft:fishing_rod"
+    },
+    {
+      "name": "minecraft:flint_and_steel"
+    },
+    {
+      "name": "minecraft:fire_charge"
+    },
+    {
+      "name": "minecraft:bone_meal"
+    },
+    {
+      "name": "minecraft:shears"
+    },
+    {
+      "name": "minecraft:brush"
+    },
+    {
+      "name": "minecraft:name_tag"
+    },
+    {
+      "name": "minecraft:lead"
+    },
+    {
+      "name": "minecraft:bundle"
+    },
+    {
+      "name": "minecraft:compass"
+    },
+    {
+      "name": "minecraft:recovery_compass"
+    },
+    {
+      "name": "minecraft:clock"
+    },
+    {
+      "name": "minecraft:spyglass"
+    },
+    {
+      "name": "minecraft:map"
+    },
+    {
+      "name": "minecraft:writable_book"
+    },
+    {
+      "name": "minecraft:ender_pearl"
+    },
+    {
+      "name": "minecraft:ender_eye"
+    },
+    {
+      "name": "minecraft:elytra"
+    },
+    {
+      "name": "minecraft:firework_rocket",
+      "nbt": "{Fireworks:{Flight:1b}}"
+    },
+    {
+      "name": "minecraft:firework_rocket",
+      "nbt": "{Fireworks:{Flight:2b}}"
+    },
+    {
+      "name": "minecraft:firework_rocket",
+      "nbt": "{Fireworks:{Flight:3b}}"
+    },
+    {
+      "name": "minecraft:saddle"
+    },
+    {
+      "name": "minecraft:carrot_on_a_stick"
+    },
+    {
+      "name": "minecraft:warped_fungus_on_a_stick"
+    },
+    {
+      "name": "minecraft:oak_boat"
+    },
+    {
+      "name": "minecraft:oak_chest_boat"
+    },
+    {
+      "name": "minecraft:spruce_boat"
+    },
+    {
+      "name": "minecraft:spruce_chest_boat"
+    },
+    {
+      "name": "minecraft:birch_boat"
+    },
+    {
+      "name": "minecraft:birch_chest_boat"
+    },
+    {
+      "name": "minecraft:jungle_boat"
+    },
+    {
+      "name": "minecraft:jungle_chest_boat"
+    },
+    {
+      "name": "minecraft:acacia_boat"
+    },
+    {
+      "name": "minecraft:acacia_chest_boat"
+    },
+    {
+      "name": "minecraft:dark_oak_boat"
+    },
+    {
+      "name": "minecraft:dark_oak_chest_boat"
+    },
+    {
+      "name": "minecraft:mangrove_boat"
+    },
+    {
+      "name": "minecraft:mangrove_chest_boat"
+    },
+    {
+      "name": "minecraft:cherry_boat"
+    },
+    {
+      "name": "minecraft:cherry_chest_boat"
+    },
+    {
+      "name": "minecraft:bamboo_raft"
+    },
+    {
+      "name": "minecraft:bamboo_chest_raft"
+    },
+    {
+      "name": "minecraft:rail"
+    },
+    {
+      "name": "minecraft:powered_rail"
+    },
+    {
+      "name": "minecraft:detector_rail"
+    },
+    {
+      "name": "minecraft:activator_rail"
+    },
+    {
+      "name": "minecraft:minecart"
+    },
+    {
+      "name": "minecraft:hopper_minecart"
+    },
+    {
+      "name": "minecraft:chest_minecart"
+    },
+    {
+      "name": "minecraft:furnace_minecart"
+    },
+    {
+      "name": "minecraft:tnt_minecart"
+    },
+    {
+      "name": "minecraft:goat_horn",
+      "nbt": "{instrument:\"minecraft:ponder_goat_horn\"}"
+    },
+    {
+      "name": "minecraft:goat_horn",
+      "nbt": "{instrument:\"minecraft:sing_goat_horn\"}"
+    },
+    {
+      "name": "minecraft:goat_horn",
+      "nbt": "{instrument:\"minecraft:seek_goat_horn\"}"
+    },
+    {
+      "name": "minecraft:goat_horn",
+      "nbt": "{instrument:\"minecraft:feel_goat_horn\"}"
+    },
+    {
+      "name": "minecraft:goat_horn",
+      "nbt": "{instrument:\"minecraft:admire_goat_horn\"}"
+    },
+    {
+      "name": "minecraft:goat_horn",
+      "nbt": "{instrument:\"minecraft:call_goat_horn\"}"
+    },
+    {
+      "name": "minecraft:goat_horn",
+      "nbt": "{instrument:\"minecraft:yearn_goat_horn\"}"
+    },
+    {
+      "name": "minecraft:goat_horn",
+      "nbt": "{instrument:\"minecraft:dream_goat_horn\"}"
+    },
+    {
+      "name": "minecraft:music_disc_13"
+    },
+    {
+      "name": "minecraft:music_disc_cat"
+    },
+    {
+      "name": "minecraft:music_disc_blocks"
+    },
+    {
+      "name": "minecraft:music_disc_chirp"
+    },
+    {
+      "name": "minecraft:music_disc_far"
+    },
+    {
+      "name": "minecraft:music_disc_mall"
+    },
+    {
+      "name": "minecraft:music_disc_mellohi"
+    },
+    {
+      "name": "minecraft:music_disc_stal"
+    },
+    {
+      "name": "minecraft:music_disc_strad"
+    },
+    {
+      "name": "minecraft:music_disc_ward"
+    },
+    {
+      "name": "minecraft:music_disc_11"
+    },
+    {
+      "name": "minecraft:music_disc_wait"
+    },
+    {
+      "name": "minecraft:music_disc_otherside"
+    },
+    {
+      "name": "minecraft:music_disc_5"
+    },
+    {
+      "name": "minecraft:music_disc_pigstep"
+    },
+    {
+      "name": "minecraft:music_disc_relic"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:earth",
+    "minecraft:fire",
+    "minecraft:water",
+    "minecraft:wind"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "asset_name": "echo",
+  "description": {
+    "color": "#1C99A3",
+    "translate": "trim_material.minecraft.echo"
+  },
+  "ingredient": "minecraft:echo_shard",
+  "item_model_index": 0.82,
+  "override_armor_materials": {
+    "echo": "echo_darker"
+  }
+}

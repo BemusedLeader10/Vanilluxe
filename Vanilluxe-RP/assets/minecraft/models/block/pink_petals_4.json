@@ -1,0 +1,72 @@
+{
+	"parent": "minecraft:block/flowerbed_4",
+	"textures": {
+		"flowerbed": "block/pink_petals",
+		"stem": "block/pink_petals_stem"
+	},
+	"elements": [
+		{
+			"from": [10, 2, 2],
+			"to": [13, 2, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 1, -8]},
+			"faces": {
+				"up": {"uv": [3, 10, 6, 13], "texture": "#flowerbed"},
+				"down": {"uv": [3, 13, 6, 10], "texture": "#flowerbed"}
+			}
+		},
+		{
+			"from": [10, 2, 0],
+			"to": [13, 2, 2],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [13, 2, 2]},
+			"faces": {
+				"up": {"uv": [3, 8, 6, 10], "texture": "#flowerbed"},
+				"down": {"uv": [3, 8, 6, 10], "texture": "#flowerbed"}
+			}
+		},
+		{
+			"from": [13, 2, 2],
+			"to": [15, 2, 5],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [13, 2, 5]},
+			"faces": {
+				"up": {"uv": [6, 10, 8, 13], "texture": "#flowerbed"},
+				"down": {"uv": [6, 10, 8, 13], "texture": "#flowerbed"}
+			}
+		},
+		{
+			"from": [10, 2, 5],
+			"to": [13, 2, 7],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [10, 2, 5]},
+			"faces": {
+				"up": {"uv": [3, 13, 6, 15], "texture": "#flowerbed"},
+				"down": {"uv": [3, 13, 6, 15], "texture": "#flowerbed"}
+			}
+		},
+		{
+			"from": [8, 2, 2],
+			"to": [10, 2, 5],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [10, 2, 2]},
+			"faces": {
+				"up": {"uv": [1, 10, 3, 13], "texture": "#flowerbed"},
+				"down": {"uv": [1, 10, 3, 13], "texture": "#flowerbed"}
+			}
+		},
+		{
+			"from": [12.4, 0, -7.7],
+			"to": [12.4, 2, -6.7],
+			"rotation": {"angle": -45, "axis": "y", "origin": [-1, 0, -3]},
+			"faces": {
+				"east": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1},
+				"west": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1}
+			}
+		},
+		{
+			"from": [11.9, 0, -7.2],
+			"to": [12.9, 2, -7.2],
+			"rotation": {"angle": -45, "axis": "y", "origin": [-1, 0, -3]},
+			"faces": {
+				"north": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1},
+				"south": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1}
+			}
+		}
+	]
+}

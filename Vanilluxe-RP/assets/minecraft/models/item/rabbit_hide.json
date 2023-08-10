@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/rabbit_hide"
+  },
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 540001}, "model": "item/bat_wing"
+    }
+  ]
+}

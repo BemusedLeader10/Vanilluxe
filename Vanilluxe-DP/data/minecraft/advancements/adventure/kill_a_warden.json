@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:adventure/avoid_vibration",
+  "criteria": {
+    "killed_warden": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.kill_a_warden.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.kill_a_warden.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_warden"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}

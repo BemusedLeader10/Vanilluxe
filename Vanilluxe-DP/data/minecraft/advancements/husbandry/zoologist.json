@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:husbandry/artificial_selection",
+  "criteria": {
+    "minecraft:panda": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:panda"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.zoologist.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bamboo"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.zoologist.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:panda"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,51 @@
+{
+    "parent": "minecraft:husbandry/fishy_business",
+    "criteria": {
+      "obtain_cooked_cod": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cooked_cod"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "obtain_cooked_salmon": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cooked_salmon"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "announce_to_chat": true,
+      "description": {
+        "translate": "advancements.husbandry.obtain_cooked_fish.description"
+      },
+      "frame": "task",
+      "hidden": false,
+      "icon": {
+        "item": "minecraft:cooked_cod"
+      },
+      "show_toast": true,
+      "title": {
+        "translate": "advancements.husbandry.obtain_cooked_fish.title"
+      }
+    },
+    "requirements": [
+      [
+        "obtain_cooked_cod",
+        "obtain_cooked_salmon"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

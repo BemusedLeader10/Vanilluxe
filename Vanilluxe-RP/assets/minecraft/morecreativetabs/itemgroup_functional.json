@@ -1,0 +1,642 @@
+{
+  "tab_enabled": true,
+  "tab_name": "functional",
+  "replace": false,
+  "tab_stack": {
+    "name": "minecraft:oak_sign"
+  },
+  "tab_items": [
+    {
+      "name": "minecraft:torch"
+    },
+    {
+      "name": "minecraft:soul_torch"
+    },
+    {
+      "name": "minecraft:redstone_torch"
+    },
+    {
+      "name": "minecraft:lantern"
+    },
+    {
+      "name": "minecraft:soul_lantern"
+    },
+    {
+      "name": "minecraft:chain"
+    },
+    {
+      "name": "minecraft:end_rod"
+    },
+    {
+      "name": "minecraft:sea_lantern"
+    },
+    {
+      "name": "minecraft:redstone_lamp"
+    },
+    {
+      "name": "minecraft:glowstone"
+    },
+    {
+      "name": "minecraft:shroomlight"
+    },
+    {
+      "name": "minecraft:ochre_froglight"
+    },
+    {
+      "name": "minecraft:verdant_froglight"
+    },
+    {
+      "name": "minecraft:pearlescent_froglight"
+    },
+    {
+      "name": "minecraft:crying_obsidian"
+    },
+    {
+      "name": "minecraft:glow_lichen"
+    },
+    {
+      "name": "minecraft:magma_block"
+    },
+    {
+      "name": "minecraft:crafting_table"
+    },
+    {
+      "name": "minecraft:stonecutter"
+    },
+    {
+      "name": "minecraft:cartography_table"
+    },
+    {
+      "name": "minecraft:fletching_table"
+    },
+    {
+      "name": "minecraft:smithing_table"
+    },
+    {
+      "name": "minecraft:grindstone"
+    },
+    {
+      "name": "minecraft:loom"
+    },
+    {
+      "name": "minecraft:furnace"
+    },
+    {
+      "name": "minecraft:smoker"
+    },
+    {
+      "name": "minecraft:blast_furnace"
+    },
+    {
+      "name": "minecraft:campfire"
+    },
+    {
+      "name": "minecraft:soul_campfire"
+    },
+    {
+      "name": "minecraft:anvil"
+    },
+    {
+      "name": "minecraft:chipped_anvil"
+    },
+    {
+      "name": "minecraft:damaged_anvil"
+    },
+    {
+      "name": "minecraft:composter"
+    },
+    {
+      "name": "minecraft:note_block"
+    },
+    {
+      "name": "minecraft:jukebox"
+    },
+    {
+      "name": "minecraft:enchanting_table"
+    },
+    {
+      "name": "minecraft:end_crystal"
+    },
+    {
+      "name": "minecraft:brewing_stand"
+    },
+    {
+      "name": "minecraft:cauldron"
+    },
+    {
+      "name": "minecraft:bell"
+    },
+    {
+      "name": "minecraft:beacon"
+    },
+    {
+      "name": "minecraft:conduit"
+    },
+    {
+      "name": "minecraft:lodestone"
+    },
+    {
+      "name": "minecraft:ladder"
+    },
+    {
+      "name": "minecraft:scaffolding"
+    },
+    {
+      "name": "minecraft:bee_nest"
+    },
+    {
+      "name": "minecraft:beehive"
+    },
+    {
+      "name": "minecraft:suspicious_sand"
+    },
+    {
+      "name": "minecraft:suspicious_gravel"
+    },
+    {
+      "name": "minecraft:lightning_rod"
+    },
+    {
+      "name": "minecraft:flower_pot"
+    },
+    {
+      "name": "minecraft:decorated_pot"
+    },
+    {
+      "name": "minecraft:armor_stand"
+    },
+    {
+      "name": "minecraft:item_frame"
+    },
+    {
+      "name": "minecraft:glow_item_frame"
+    },
+    {
+      "name": "minecraft:painting"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:kebab\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:aztec\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:alban\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:aztec2\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:bomb\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:plant\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:wasteland\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:wanderer\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:graham\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:pool\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:courbet\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:sea\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:sunset\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:creebet\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:match\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:bust\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:stage\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:void\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:skull_and_roses\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:wither\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:earth\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:wind\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:water\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:fire\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:fighters\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:skeleton\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:donkey_kong\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:pointer\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:pigscene\"}}"
+    },
+    {
+      "name": "minecraft:painting",
+      "nbt": "{EntityTag:{variant:\"minecraft:burning_skull\"}}"
+    },
+    {
+      "name": "minecraft:bookshelf"
+    },
+    {
+      "name": "minecraft:lectern"
+    },
+    {
+      "name": "minecraft:tinted_glass"
+    },
+    {
+      "name": "minecraft:oak_sign"
+    },
+    {
+      "name": "minecraft:oak_hanging_sign"
+    },
+    {
+      "name": "minecraft:spruce_sign"
+    },
+    {
+      "name": "minecraft:spruce_hanging_sign"
+    },
+    {
+      "name": "minecraft:birch_sign"
+    },
+    {
+      "name": "minecraft:birch_hanging_sign"
+    },
+    {
+      "name": "minecraft:jungle_sign"
+    },
+    {
+      "name": "minecraft:jungle_hanging_sign"
+    },
+    {
+      "name": "minecraft:acacia_sign"
+    },
+    {
+      "name": "minecraft:acacia_hanging_sign"
+    },
+    {
+      "name": "minecraft:dark_oak_sign"
+    },
+    {
+      "name": "minecraft:dark_oak_hanging_sign"
+    },
+    {
+      "name": "minecraft:mangrove_sign"
+    },
+    {
+      "name": "minecraft:mangrove_hanging_sign"
+    },
+    {
+      "name": "minecraft:cherry_sign"
+    },
+    {
+      "name": "minecraft:cherry_hanging_sign"
+    },
+    {
+      "name": "minecraft:bamboo_sign"
+    },
+    {
+      "name": "minecraft:bamboo_hanging_sign"
+    },
+    {
+      "name": "minecraft:crimson_sign"
+    },
+    {
+      "name": "minecraft:crimson_hanging_sign"
+    },
+    {
+      "name": "minecraft:warped_sign"
+    },
+    {
+      "name": "minecraft:warped_hanging_sign"
+    },
+    {
+      "name": "minecraft:chest"
+    },
+    {
+      "name": "minecraft:barrel"
+    },
+    {
+      "name": "minecraft:ender_chest"
+    },
+    {
+      "name": "minecraft:shulker_box"
+    },
+    {
+      "name": "minecraft:white_shulker_box"
+    },
+    {
+      "name": "minecraft:light_gray_shulker_box"
+    },
+    {
+      "name": "minecraft:gray_shulker_box"
+    },
+    {
+      "name": "minecraft:black_shulker_box"
+    },
+    {
+      "name": "minecraft:brown_shulker_box"
+    },
+    {
+      "name": "minecraft:red_shulker_box"
+    },
+    {
+      "name": "minecraft:orange_shulker_box"
+    },
+    {
+      "name": "minecraft:yellow_shulker_box"
+    },
+    {
+      "name": "minecraft:lime_shulker_box"
+    },
+    {
+      "name": "minecraft:green_shulker_box"
+    },
+    {
+      "name": "minecraft:cyan_shulker_box"
+    },
+    {
+      "name": "minecraft:light_blue_shulker_box"
+    },
+    {
+      "name": "minecraft:blue_shulker_box"
+    },
+    {
+      "name": "minecraft:purple_shulker_box"
+    },
+    {
+      "name": "minecraft:magenta_shulker_box"
+    },
+    {
+      "name": "minecraft:pink_shulker_box"
+    },
+    {
+      "name": "minecraft:respawn_anchor"
+    },
+    {
+      "name": "minecraft:white_bed"
+    },
+    {
+      "name": "minecraft:light_gray_bed"
+    },
+    {
+      "name": "minecraft:gray_bed"
+    },
+    {
+      "name": "minecraft:black_bed"
+    },
+    {
+      "name": "minecraft:brown_bed"
+    },
+    {
+      "name": "minecraft:red_bed"
+    },
+    {
+      "name": "minecraft:orange_bed"
+    },
+    {
+      "name": "minecraft:yellow_bed"
+    },
+    {
+      "name": "minecraft:lime_bed"
+    },
+    {
+      "name": "minecraft:green_bed"
+    },
+    {
+      "name": "minecraft:cyan_bed"
+    },
+    {
+      "name": "minecraft:light_blue_bed"
+    },
+    {
+      "name": "minecraft:blue_bed"
+    },
+    {
+      "name": "minecraft:purple_bed"
+    },
+    {
+      "name": "minecraft:magenta_bed"
+    },
+    {
+      "name": "minecraft:pink_bed"
+    },
+    {
+      "name": "minecraft:candle"
+    },
+    {
+      "name": "minecraft:white_candle"
+    },
+    {
+      "name": "minecraft:light_gray_candle"
+    },
+    {
+      "name": "minecraft:gray_candle"
+    },
+    {
+      "name": "minecraft:black_candle"
+    },
+    {
+      "name": "minecraft:brown_candle"
+    },
+    {
+      "name": "minecraft:red_candle"
+    },
+    {
+      "name": "minecraft:orange_candle"
+    },
+    {
+      "name": "minecraft:yellow_candle"
+    },
+    {
+      "name": "minecraft:lime_candle"
+    },
+    {
+      "name": "minecraft:green_candle"
+    },
+    {
+      "name": "minecraft:cyan_candle"
+    },
+    {
+      "name": "minecraft:light_blue_candle"
+    },
+    {
+      "name": "minecraft:blue_candle"
+    },
+    {
+      "name": "minecraft:purple_candle"
+    },
+    {
+      "name": "minecraft:magenta_candle"
+    },
+    {
+      "name": "minecraft:pink_candle"
+    },
+    {
+      "name": "minecraft:white_banner"
+    },
+    {
+      "name": "minecraft:light_gray_banner"
+    },
+    {
+      "name": "minecraft:gray_banner"
+    },
+    {
+      "name": "minecraft:black_banner"
+    },
+    {
+      "name": "minecraft:brown_banner"
+    },
+    {
+      "name": "minecraft:red_banner"
+    },
+    {
+      "name": "minecraft:orange_banner"
+    },
+    {
+      "name": "minecraft:yellow_banner"
+    },
+    {
+      "name": "minecraft:lime_banner"
+    },
+    {
+      "name": "minecraft:green_banner"
+    },
+    {
+      "name": "minecraft:cyan_banner"
+    },
+    {
+      "name": "minecraft:light_blue_banner"
+    },
+    {
+      "name": "minecraft:blue_banner"
+    },
+    {
+      "name": "minecraft:purple_banner"
+    },
+    {
+      "name": "minecraft:magenta_banner"
+    },
+    {
+      "name": "minecraft:pink_banner"
+    },
+    {
+      "name": "minecraft:white_banner",
+      "nbt": "{BlockEntityTag:{Patterns:[{Color:9,Pattern:mr},{Color:8,Pattern:bs},{Color:7,Pattern:cs},{Color:8,Pattern:bo},{Color:15,Pattern:ms},{Color:8,Pattern:hh},{Color:8,Pattern:mc},{Color:15,Pattern:bo}],id:\"minecraft:banner\"},HideFlags:32,display:{Name:'{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}'}}"
+    },
+    {
+      "name": "minecraft:cyan_banner",
+      "nbt": "{BlockEntityTag:{Patterns:[{Color:9,Pattern:tts},{Color:9,Pattern:bts},{Color:15,Pattern:bri},{Color:3,Pattern:mr},{Color:9,Pattern:bo},{Color:15,Pattern:cbo},{Color:15,Pattern:cr},{Color:15,Pattern:sc}],id:\"minecraft:banner\"},HideFlags:32,display:{Name:'{\"color\":\"gold\",\"translate\":\"block.minecraft.eldritch_banner\"}'}}"
+    },
+    {
+      "name": "minecraft:skeleton_skull"
+    },
+    {
+      "name": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "name": "minecraft:player_head"
+    },
+    {
+      "name": "minecraft:zombie_head"
+    },
+    {
+      "name": "minecraft:creeper_head"
+    },
+    {
+      "name": "minecraft:piglin_head"
+    },
+    {
+      "name": "minecraft:dragon_head"
+    },
+    {
+      "name": "minecraft:dragon_egg"
+    },
+    {
+      "name": "minecraft:end_portal_frame"
+    },
+    {
+      "name": "minecraft:ender_eye"
+    },
+    {
+      "name": "minecraft:infested_stone"
+    },
+    {
+      "name": "minecraft:infested_cobblestone"
+    },
+    {
+      "name": "minecraft:infested_stone_bricks"
+    },
+    {
+      "name": "minecraft:infested_mossy_stone_bricks"
+    },
+    {
+      "name": "minecraft:infested_cracked_stone_bricks"
+    },
+    {
+      "name": "minecraft:infested_chiseled_stone_bricks"
+    },
+    {
+      "name": "minecraft:infested_deepslate"
+    }
+  ]
+}

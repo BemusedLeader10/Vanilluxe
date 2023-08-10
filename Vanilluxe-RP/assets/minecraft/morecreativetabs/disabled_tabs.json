@@ -1,0 +1,3 @@
+{
+  "disabled_tabs": ["itemGroup.buildingBlocks", "itemGroup.coloredBlocks", "itemGroup.natural", "itemGroup.functional", "itemGroup.redstone", "itemGroup.hotbar", "itemGroup.tools", "itemGroup.combat", "itemGroup.foodAndDrink", "itemGroup.ingredients", "itemGroup.spawnEggs", "itemGroup.op"]
+}

@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": [
+      {
+        "text": "Vanilluxe",
+        "color": "#b9f2ff"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Version 1.0",
+        "color": "dark_aqua"
+      }
+    ]
+  }
+}

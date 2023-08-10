@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "minecraft:cow": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.repopulation.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.repopulation.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:cow"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

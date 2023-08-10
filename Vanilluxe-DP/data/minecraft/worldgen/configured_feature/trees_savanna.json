@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "minecraft:oak_checked",
+    "features": [
+      {
+        "chance": 0.7,
+        "feature": "minecraft:acacia_checked"
+      },
+      {
+        "chance": 0.1,
+        "feature": "minecraft:baobab_checked"
+      }
+    ]
+  }
+}

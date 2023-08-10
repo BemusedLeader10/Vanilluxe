@@ -1,0 +1,346 @@
+{
+  "ambient.beach.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/beach/ambience",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.caves.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/caves/ambience1",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/caves/ambience2",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/caves/ambience3",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.deep_dark.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/deep_dark/ambience",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.desert.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/desert/ambience1",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/desert/ambience2",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/desert/ambience3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/desert/ambience4",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.dripstone_caves.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/dripstone_caves/ambience",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.forest.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/forest/ambience1",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/forest/ambience2",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/forest/ambience3",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.grove.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/grove/ambience",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.jungle.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/jungle/ambience",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.lush_caves.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/lush_caves/ambience",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.ocean.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/ocean/ambience1",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/ocean/ambience2",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.plains.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/plains/ambience1",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/plains/ambience2",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/plains/ambience3",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.river.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/river/ambience",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.savanna.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/savanna/ambience1",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/savanna/ambience2",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.snowy_plains.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/snowy_plains/ambience1",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/snowy_plains/ambience2",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.snowy_slopes.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/snowy_slopes/ambience1",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/snowy_slopes/ambience2",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/snowy_slopes/ambience3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/snowy_slopes/ambience4",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.swamp.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/swamp/ambience",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.taiga.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/taiga/ambience1",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/taiga/ambience2",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.the_end.loop": {
+    "sounds": [
+      {
+        "name": "ambient/end/ambience",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "ambient.windswept_forest.loop": {
+    "sounds": [
+      {
+        "name": "ambient/overworld/windswept_forest/ambience1",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "ambient/overworld/windswept_forest/ambience2",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "entity.player.hurt_old": {
+    "sounds": [
+      "damage/old"
+    ],
+    "subtitle": "subtitles.entity.player.hurt"
+  },
+  "music.aether": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/aether/welcome_to_paradise",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/aether/wings",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/aether/moas_song",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/aether/meadow",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/aether/clouds",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.dripstone_caves": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "music/game/dirtmouth",
+        "stream": true,
+        "volume": 0.2,
+        "weight": 4
+      }
+    ]
+  },
+  "music.overworld.lush_caves": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "music/game/greenpath",
+        "stream": true,
+        "volume": 0.2,
+        "weight": 4
+      },
+      {
+        "name": "music/game/queens_garden",
+        "stream": true,
+        "volume": 0.2,
+        "weight": 4
+      }
+    ]
+  },
+  "music_disc.11": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/11",
+        "stream": true,
+        "weight": 111
+      },
+      {
+        "name": "records/eleven",
+        "stream": true,
+        "weight": 11
+      }
+    ]
+  },
+  "music_disc.cat": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/cat",
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "records/dog",
+        "stream": true,
+        "weight": 26
+      }
+    ]
+  }
+}

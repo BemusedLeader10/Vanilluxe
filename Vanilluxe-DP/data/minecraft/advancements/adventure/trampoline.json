@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "slime_block": {
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 30.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:slime_block"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:fall_from_height"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.trampoline.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:slime_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.trampoline.title"
+    }
+  },
+  "requirements": [
+    [
+      "slime_block"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

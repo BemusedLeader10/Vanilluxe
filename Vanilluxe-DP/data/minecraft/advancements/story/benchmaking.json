@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "crafting_table": {
+      "conditions": {
+        "recipe_id": "minecraft:crafting_table"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.benchmaking.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.benchmaking.title"
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

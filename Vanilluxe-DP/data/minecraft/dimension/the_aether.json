@@ -1,0 +1,432 @@
+{
+  "type": "minecraft:the_aether",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:skylands",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "minecraft:skyroot_meadow",
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.8
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_meadow",
+          "parameters": {
+            "temperature": [
+              -0.8,
+              0
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_forest",
+          "parameters": {
+            "temperature": [
+              -0.8,
+              0
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_grove",
+          "parameters": {
+            "temperature": [
+              0,
+              0.4
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_forest",
+          "parameters": {
+            "temperature": [
+              0,
+              0.4
+            ],
+            "humidity": [
+              0,
+              0.8
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_grove",
+          "parameters": {
+            "temperature": [
+              0,
+              0.4
+            ],
+            "humidity": [
+              0.8,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_grove",
+          "parameters": {
+            "temperature": [
+              0.4,
+              0.93
+            ],
+            "humidity": [
+              -1,
+              -0.1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_forest",
+          "parameters": {
+            "temperature": [
+              0.4,
+              0.93
+            ],
+            "humidity": [
+              -0.1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_meadow",
+          "parameters": {
+            "temperature": [
+              0.93,
+              0.94
+            ],
+            "humidity": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_grove",
+          "parameters": {
+            "temperature": [
+              0.93,
+              0.94
+            ],
+            "humidity": [
+              -0.6,
+              -0.3
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_forest",
+          "parameters": {
+            "temperature": [
+              0.93,
+              0.94
+            ],
+            "humidity": [
+              -0.3,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_meadow",
+          "parameters": {
+            "temperature": [
+              0.94,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_woodland",
+          "parameters": {
+            "temperature": [
+              0.94,
+              1
+            ],
+            "humidity": [
+              -0.1,
+              0.8
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:skyroot_forest",
+          "parameters": {
+            "temperature": [
+              0.93,
+              0.94
+            ],
+            "humidity": [
+              0.8,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}
