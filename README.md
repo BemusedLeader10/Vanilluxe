@@ -1,14 +1,6 @@
-<!-- hide_on_smithed -->
-<p align="center">
-  <img width='50%' src="https://github.com/TheNuclearNexus/smithed/blob/master/public/sponsored_project.png?raw=true">
-</p>
-<!-- end_hide_on_smithed -->
+Vanilluxe is a datapack with the goal of providing a deluxe vanilla gameplay experience. It is designed to mesh seamlessly with the existing 'vanilla' Minecraft content.
 
-The Creeper's Code is a vanilla+ datapack intends to add features that mesh seamlessly with the existing 'vanilla' Minecraft content.
-
-All of the features follow strict guidelines in order to maintain compatibility with other datapacks, along with making sure your experience is as lag-free as possible.
-
-### Join our discord for daily developer updates, at [discord.gg/J3AtMSW](https://discord.gg/J3AtMSW)!
+### Join our discord for daily developer updates, at [discord.gg/Ts8H5BzJRT](https://discord.gg/Ts8H5BzJRT)!
 ### Here's a list of some of our best features:
 
 <div align="center">
@@ -71,20 +63,21 @@ All of the features follow strict guidelines in order to maintain compatibility 
   <h1>And much much more...</h1>
   <img src="https://cdn.discordapp.com/attachments/883840237837619240/956416526846668800/spreadsheet.png">
   <p align="center">
-    And there's tons and tons more features! That wasn't even a fifth of the features in this pack. If you want to check out more, go to our website at <a href="https://thecreeperscode.com"/>https://thecreeperscode.com</a>!
+    And there's tons and tons more features! That wasn't even a fifth of the features in this pack. If you want to check out more, go to our wiki at <a href="https://thecreeperscode.com"/>https://thecreeperscode.com</a>!
   </p>
 </div>
 
-<!-- hide_on_smithed -->
 <b>
   DOWNLOAD STEPS. READ BEFORE INSTALLING.
 </b>
 <details>
   <summary>Download Steps</summary>
 
-- Follow the download steps found at [https://thecreeperscode.com/download/](https://thecreeperscode.com/download/).
-- This above page also lists valid versions and alternatives.
-- Enjoy your experience with the datapack!
+- Download one of the above files and unzip it.
+- Place “Vanilluxe-DP.zip” in world/datapacks/…
+- Place “Vanilluxe-RP.zip” in minecraft/resourcepacks/…
+- Use the resource pack you just installed.
+- Execute /reload in-game, and you’re done!
 
 FAQ:
 - Where's the resource pack?
@@ -92,10 +85,10 @@ FAQ:
 It's bundled with the rest of the files in the download link. Please, read the download steps.
 - What version should I use?
 
-Whatever version the latest release page says. I'm not outright stating the version here, because then I'd have to update that text whenever I release a version, which is VERY often.
+The latest release is whatever the release page says. It is not stated here to save me from updating this line every update.
 - Can you disable certain features?
 
-No, this pack is not modular. You cannot turn off and on specific content. This is how it will always be, due to the nature of this datapack.
+No.
   </p>
 </details>
 <!-- end_hide_on_smithed -->
