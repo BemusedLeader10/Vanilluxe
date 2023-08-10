@@ -1,7 +1,7 @@
 Vanilluxe is a datapack with the goal of providing a deluxe vanilla gameplay experience. It is designed to mesh seamlessly with the existing 'vanilla' Minecraft content.
 
-### Join our discord for daily developer updates, at [discord.gg/Ts8H5BzJRT](https://discord.gg/Ts8H5BzJRT)!
-### Here's a list of some of our best features:
+### Join our discord for developer updates amd help out with brainstorming new features at [discord.gg/Ts8H5BzJRT](https://discord.gg/Ts8H5BzJRT)!
+### Here's some Vanilluxe gameplay screenshots:
 
 <div align="center">
   <h1>Illagers</h1>
