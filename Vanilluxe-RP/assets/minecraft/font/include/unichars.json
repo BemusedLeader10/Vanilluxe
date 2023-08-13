@@ -1,0 +1,12 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/extra_chars.png",
+            "ascent": 8,
+            "chars": [
+                "\uD83E\uDDE2\uD83D\uDC5F\u2020\uD83D\uDEE1\uD83D\uDC56"
+            ]
+        }
+    ]
+}
