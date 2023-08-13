@@ -247,7 +247,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:red_sand",
+          "name": "minecraft:sand",
           "weight": 10
         }
       ],
@@ -275,5 +275,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:chests/badlands_pyramid"
+  "random_sequence": "minecraft:chests/desert_pyramid"
 }

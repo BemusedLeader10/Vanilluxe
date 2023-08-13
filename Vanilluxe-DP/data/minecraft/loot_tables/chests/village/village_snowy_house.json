@@ -6,28 +6,28 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:blue_ice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snow_block",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 7.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:slime_ball"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:mangrove_roots",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:blue_orchid",
-          "weight": 5
+          "name": "minecraft:potato",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -63,6 +63,14 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:beetroot_soup"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace"
+        },
+        {
+          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
@@ -74,8 +82,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:emerald",
-          "weight": 2
+          "name": "minecraft:emerald"
         },
         {
           "type": "minecraft:item",
@@ -84,37 +91,30 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 7.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:mangrove_propagule",
+          "name": "minecraft:snowball",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:saddle"
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 4.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:lantern"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tadpole_bucket"
+          "name": "minecraft:coal",
+          "weight": 5
         }
       ],
       "rolls": {
@@ -124,5 +124,5 @@
       }
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_mangrove_house"
+  "random_sequence": "minecraft:chests/village/village_snowy_house"
 }

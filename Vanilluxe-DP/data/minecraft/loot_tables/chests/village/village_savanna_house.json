@@ -17,16 +17,16 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:slime_ball"
+          "name": "minecraft:gold_nugget"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:mangrove_roots",
+          "name": "minecraft:grass",
           "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:blue_orchid",
+          "name": "minecraft:tall_grass",
           "weight": 5
         },
         {
@@ -58,7 +58,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:beetroot_seeds",
+          "name": "minecraft:wheat_seeds",
           "weight": 10
         },
         {
@@ -90,7 +90,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:mangrove_propagule",
+          "name": "minecraft:acacia_sapling",
           "weight": 10
         },
         {
@@ -110,11 +110,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:lantern"
+          "name": "minecraft:torch"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:tadpole_bucket"
+          "name": "minecraft:bucket"
         }
       ],
       "rolls": {
@@ -124,5 +124,5 @@
       }
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_mangrove_house"
+  "random_sequence": "minecraft:chests/village/village_savanna_house"
 }

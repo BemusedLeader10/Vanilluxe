@@ -18,7 +18,7 @@
             }
           ],
           "name": "minecraft:diamond",
-          "weight": 5
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -34,7 +34,7 @@
             }
           ],
           "name": "minecraft:iron_ingot",
-          "weight": 15
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -65,8 +65,24 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:emerald",
+          "name": "minecraft:bamboo",
           "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -82,23 +98,7 @@
             }
           ],
           "name": "minecraft:bone",
-          "weight": 25
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:spider_eye",
-          "weight": 25
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -114,56 +114,40 @@
             }
           ],
           "name": "minecraft:rotten_flesh",
-          "weight": 25
+          "weight": 16
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:saddle",
-          "weight": 20
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 15
+          "name": "minecraft:iron_horse_armor"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 10
+          "name": "minecraft:golden_horse_armor"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 5
+          "name": "minecraft:diamond_horse_armor"
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "treasure": true
             }
           ],
-          "name": "minecraft:book",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_apple",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 15
+          "name": "minecraft:book"
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 4.0,
+        "max": 6.0,
         "min": 2.0
       }
     },
@@ -171,94 +155,8 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bone",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gunpowder",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:rotten_flesh",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:string",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:red_sand",
-          "weight": 10
-        }
-      ],
-      "rolls": 4.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
           "type": "minecraft:empty",
-          "weight": 6
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -269,11 +167,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:dune_armor_trim_smithing_template"
+          "name": "minecraft:wild_armor_trim_smithing_template"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:chests/badlands_pyramid"
+  "random_sequence": "minecraft:chests/jungle_temple"
 }

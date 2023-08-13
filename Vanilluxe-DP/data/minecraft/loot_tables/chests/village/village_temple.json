@@ -11,23 +11,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 4.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:slime_ball"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:mangrove_roots",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:blue_orchid",
-          "weight": 5
+          "name": "minecraft:redstone",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -43,23 +34,7 @@
             }
           ],
           "name": "minecraft:bread",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:beetroot_seeds",
-          "weight": 10
+          "weight": 7
         },
         {
           "type": "minecraft:item",
@@ -74,8 +49,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:emerald",
-          "weight": 2
+          "name": "minecraft:rotten_flesh",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
@@ -84,18 +59,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 4.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:mangrove_propagule",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:saddle"
+          "name": "minecraft:lapis_lazuli"
         },
         {
           "type": "minecraft:item",
@@ -104,17 +74,28 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 4.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:lantern"
+          "name": "minecraft:gold_ingot"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:tadpole_bucket"
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
         }
       ],
       "rolls": {
@@ -124,5 +105,5 @@
       }
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_mangrove_house"
+  "random_sequence": "minecraft:chests/village/village_temple"
 }
