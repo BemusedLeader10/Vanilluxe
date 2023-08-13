@@ -3,23 +3,18 @@
         "section": "Vanilluxe",
         "disciplines": [
             {
-                "discipline": "Mojang Studios Leadership",
-                "titles": [
-                    {
-                        "title": "Head of Datapack Development",
-                        "names": [
-                            "Jacob Klasky"
-                        ]
-                    }
-                ]
-            },
-            {
                 "discipline": "Design",
                 "titles": [
                     {
-                        "title": "Game Director, Vanilluxe",
+                        "title": "Game Director",
                         "names": [
-                            "Jacob Klasky"
+                            "MonaMons"
+                        ]
+                    },
+                    {
+                        "title": "Chief Creative Officer",
+                        "names": [
+                            "SKULLMASTER"
                         ]
                     }
                 ]
