@@ -1,6 +1,6 @@
 {
-    "values": [
-      "minecraft:warden_bossbar_reload",
-      "minecraft:crystal_bossbar_reload"
-    ]
-  }
+  "values": [
+    "minecraft:warden_bossbar_load",
+    "minecraft:crystal_bossbar_load"
+  ]
+}
