@@ -704,6 +704,31 @@
               },
               "reward_experience": true,
               "trader_experience": 30.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 15.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:emerald"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:compass"
+              },
+              "max_uses": 12.0,
+              "price_multiplier": 0.2,
+              "result": {
+                "type": "minecraft:loot_table",
+                "name": "minecraft:items/ancient_explorer_map"
+              },
+              "reward_experience": true,
+              "trader_experience": 30.0
             }
           ]
         }

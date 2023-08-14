@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+                "decoration": "banner_cyan",
+                "destination": "minecraft:on_ancient_explorer_maps",
+                "function": "minecraft:exploration_map",
+                "search_radius": 100,
+                "skip_existing_chunks": true,
+                "zoom": 1
+              },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.minecraft.ancient_explorer_map"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:540003,id:\"ancient_explorer_map\"}"
+            }
+          ],
+          "name": "minecraft:map"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:items/ancient_explorer_map"
+}
