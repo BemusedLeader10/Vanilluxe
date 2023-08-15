@@ -411,17 +411,17 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 59
+          "weight": 52
         },
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:items/random_golden_enchanted_book",
-          "weight": 10
+          "weight": 15
         },
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:items/eldritch_banner",
-          "weight": 6
+          "weight": 8
         },
         {
           "type": "minecraft:item",

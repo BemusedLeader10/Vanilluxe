@@ -5,17 +5,17 @@
     "B": {
       "item": "minecraft:basalt"
     },
-    "C": {
-      "tag": "minecraft:coals"
+    "Q": {
+      "item": "minecraft:quartz"
     }
   },
   "pattern": [
-    "BC",
-    "CB"
+    "BQ",
+    "QB"
   ],
   "result": {
     "count": 2,
-    "item": "minecraft:blackstone"
+    "item": "minecraft:tuff"
   },
   "show_notification": true
 }

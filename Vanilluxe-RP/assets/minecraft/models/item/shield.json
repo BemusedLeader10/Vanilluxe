@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:item/template_shield",
+  "textures": {
+    "layer0": "minecraft:item/shield_base_nopattern"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "minecraft:item/shield_blocking"
+    },
+    {
+      "predicate":{
+        "custom_model_data": 540004
+      },
+      "model": "minecraft:item/netherite_shield"
+    },
+    {
+      "predicate":{
+        "blocking": 1,
+        "custom_model_data": 540004
+      },
+      "model": "minecraft:item/netherite_shield_blocking"
+    }
+  ]
+}

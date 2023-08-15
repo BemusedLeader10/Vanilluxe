@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_shield_blocking",
+  "textures": {
+    "layer0": "minecraft:item/netherite_shield_base_nopattern"
+  }
+}

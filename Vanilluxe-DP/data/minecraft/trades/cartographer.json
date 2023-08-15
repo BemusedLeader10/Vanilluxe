@@ -111,6 +111,12 @@
                     "destination": "minecraft:on_ocean_explorer_maps",
                     "function": "minecraft:exploration_map",
                     "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.monument"
+                    }
                   }
                 ],
                 "name": "minecraft:map"
@@ -174,6 +180,12 @@
                     "destination": "minecraft:on_woodland_explorer_maps",
                     "function": "minecraft:exploration_map",
                     "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.mansion"
+                    }
                   }
                 ],
                 "name": "minecraft:map"
@@ -711,7 +723,7 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 15.0,
+                    "count": 13.0,
                     "function": "minecraft:set_count"
                   }
                 ],
@@ -724,11 +736,29 @@
               "max_uses": 12.0,
               "price_multiplier": 0.2,
               "result": {
-                "type": "minecraft:loot_table",
-                "name": "minecraft:items/ancient_explorer_map"
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "banner_cyan",
+                    "destination": "minecraft:on_ancient_explorer_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.ancient_city"
+                    }
+                  },
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{MapColor:147536},id:\"ancient_explorer_map\"}"
+                  }
+                ],
+                "name": "minecraft:map"
               },
               "reward_experience": true,
-              "trader_experience": 30.0
+              "trader_experience": 5.0
             }
           ]
         }

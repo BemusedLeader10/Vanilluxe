@@ -49,6 +49,10 @@
       "name": "minecraft:shield"
     },
     {
+      "name": "minecraft:shield",
+      "nbt": "{CustomDamage:376,CustomModelData:540004,FireProof:1b,display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.netherite_shield\"}'},id:\"netherite_shield\"}"
+    },
+    {
       "name": "minecraft:leather_helmet"
     },
     {

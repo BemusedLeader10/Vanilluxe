@@ -1,6 +1,5 @@
 {
   "values": [
-    "minecraft:crystal_bossbar_tick",
-    "minecraft:warden_bossbar_tick"
+    "minecraft:crystal_bossbar_tick"
   ]
 }

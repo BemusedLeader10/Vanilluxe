@@ -5,7 +5,10 @@
   },
   "overrides": [
     {
-      "predicate": {"custom_model_data": 540001}, "model": "item/bat_wing"
+      "predicate": {
+        "custom_model_data": 540001
+      },
+      "model": "minecraft:item/bat_wing"
     }
   ]
 }
