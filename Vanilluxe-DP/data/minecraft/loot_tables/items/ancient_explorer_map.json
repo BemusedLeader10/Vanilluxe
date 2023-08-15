@@ -8,13 +8,11 @@
           "type": "minecraft:item",
           "functions": [
             {
-                "decoration": "banner_cyan",
-                "destination": "minecraft:on_ancient_explorer_maps",
-                "function": "minecraft:exploration_map",
-                "search_radius": 100,
-                "skip_existing_chunks": true,
-                "zoom": 1
-              },
+              "decoration": "banner_cyan",
+              "destination": "minecraft:on_ancient_explorer_maps",
+              "function": "minecraft:exploration_map",
+              "search_radius": 100
+            },
             {
               "function": "minecraft:set_name",
               "name": {
