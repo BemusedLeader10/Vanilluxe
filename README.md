@@ -17,12 +17,17 @@ Vanilluxe is the one-stop shop for the deluxe vanilla gameplay experience. It im
 - Execute /reload in-game, and you’re done!
 
 FAQ:
-- Where's the resource pack?
+<details>
+<summary>Where's the resource pack?</summary>
 
-It's bundled with the rest of the files in the download link. Please, read the download steps.
-- What version should I use?
+- It's bundled with the rest of the files in the download link. Please, read the download steps.
 
-The latest release is whatever the release page says. It is not stated here to save me from updating this line every update.
-- Can you disable certain features?
+<details>
+<summary>What version should I use?</summary>
 
-No.
+- The latest release is whatever the release page says. It is not stated here to save me from updating this line every update.
+
+<details>
+<summary>Can you disable certain features?</summary>
+
+- No.
