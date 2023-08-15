@@ -26,6 +26,3 @@ The latest release is whatever the release page says. It is not stated here to s
 - Can you disable certain features?
 
 No.
-  </p>
-</details>
-<!-- end_hide_on_smithed -->
