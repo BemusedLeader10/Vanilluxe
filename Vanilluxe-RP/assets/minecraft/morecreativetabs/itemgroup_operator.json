@@ -98,6 +98,14 @@
       "nbt": "{BlockStateTag:{level:0}}"
     },
     {
+      "name": "minecraft:item_frame",
+      "nbt": "{EntityTag:{Invisible:1b}}"
+    },
+    {
+      "name": "minecraft:glow_item_frame",
+      "nbt": "{EntityTag:{Invisible:1b}}"
+    },
+    {
       "name": "minecraft:knowledge_book"
     },
     {
