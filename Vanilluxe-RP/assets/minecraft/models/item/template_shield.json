@@ -44,8 +44,8 @@
   "elements": [
     {
       "name": "shield",
-      "from": [ 0, -3, -5 ],
-      "to": [ 2, 3, 1 ],
+      "from": [ -1, -3, -5 ],
+      "to": [ 1, 3, 1 ],
       "rotation": {"angle": 0, "axis": "y", "origin": [ 8, 0, 8 ]},
       "faces": {
         "north": {"uv": [ 8, 1.5, 8.5, 3 ], "texture": "#layer0"},
@@ -58,8 +58,8 @@
     },
     {
       "name": "shield",
-      "from": [ -5, -11, 1 ],
-      "to": [ 7, 11, 2 ],
+      "from": [ -6, -11, 1 ],
+      "to": [ 6, 11, 2 ],
       "rotation": {"angle": 0, "axis": "y", "origin": [ 8, 0, 8 ]},
       "faces": {
         "north": {"uv": [ 0.25, 0.25, 3.25, 5.75 ], "texture": "#layer0"},

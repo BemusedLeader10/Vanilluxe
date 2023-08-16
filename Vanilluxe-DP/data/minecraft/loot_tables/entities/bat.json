@@ -6,28 +6,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:540001}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.minecraft.bat_wing",
-                "italic": false
-              }
-            }
-          ],
           "name": "minecraft:items/bat_wing"
         }
       ],
