@@ -8,7 +8,8 @@ Items
 - Golden Enchanted Books
 
 Blocks
-- Banners
+- Eldritch Banner
+- Mob Heads
 
 Worldgen
 Dimentions
