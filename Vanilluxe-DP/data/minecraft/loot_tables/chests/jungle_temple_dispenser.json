@@ -15,9 +15,13 @@
                 "min": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:poison"
             }
           ],
-          "name": "minecraft:arrow",
+          "name": "minecraft:tipped_arrow",
           "weight": 30
         }
       ],
