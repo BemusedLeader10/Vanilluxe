@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/seagrass",
+        "weight": 98
+      },
+      {
+        "model": "minecraft:block/starfish",
+        "weight": 1
+      },
+      {
+        "model": "minecraft:block/nautilus_shell",
+        "weight": 1
+      }
+    ]
+  }
+}

@@ -50,23 +50,6 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:depth_strider\"}]}"
-            }
-          ],
-          "name": "minecraft:enchanted_book"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:6s,id:\"minecraft:efficiency\"}]}"
             }
           ],

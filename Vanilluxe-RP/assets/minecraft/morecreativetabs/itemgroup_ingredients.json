@@ -596,10 +596,6 @@
     },
     {
       "name": "minecraft:enchanted_book",
-      "nbt": "{CustomModelData:540000,display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.golden_enchanted_book\"}'},id:\"golden_enchanted_book\",StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:4}]}"
-    },
-    {
-      "name": "minecraft:enchanted_book",
       "nbt": "{CustomModelData:540000,display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.golden_enchanted_book\"}'},id:\"golden_enchanted_book\",StoredEnchantments:[{id:\"minecraft:frost_walker\",lvl:3}]}"
     },
     {

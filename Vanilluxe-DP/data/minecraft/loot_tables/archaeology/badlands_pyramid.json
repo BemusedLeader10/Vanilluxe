@@ -30,11 +30,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gunpowder"
+          "name": "minecraft:paper"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "name": "minecraft:gold_ingot"
         }
       ],
       "rolls": 1.0

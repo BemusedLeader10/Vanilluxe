@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "minecraft:block/nautilus_shell",
+    "texture": "minecraft:block/nautilus_shell",
+    "transparent": "minecraft:block/transparent"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 0, 16],
+      "shade": false,
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#transparent"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#transparent"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#transparent"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#transparent"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#transparent"}
+      }
+    }
+  ]
+}

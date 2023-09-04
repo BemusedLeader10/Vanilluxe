@@ -15,6 +15,21 @@
                 "min": 2.0
               },
               "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
             },
             {
               "function": "minecraft:set_potion",
@@ -22,7 +37,7 @@
             }
           ],
           "name": "minecraft:tipped_arrow",
-          "weight": 30
+          "weight": 2
         }
       ],
       "rolls": {

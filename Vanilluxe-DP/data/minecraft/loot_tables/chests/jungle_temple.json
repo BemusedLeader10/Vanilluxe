@@ -81,6 +81,22 @@
               "function": "minecraft:set_count"
             }
           ],
+          "name": "minecraft:vine",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:emerald",
           "weight": 2
         },
@@ -143,6 +159,10 @@
             }
           ],
           "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple"
         }
       ],
       "rolls": {
@@ -168,6 +188,24 @@
             }
           ],
           "name": "minecraft:wild_armor_trim_smithing_template"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_chirp"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_wait"
         }
       ],
       "rolls": 1.0
