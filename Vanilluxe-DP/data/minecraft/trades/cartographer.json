@@ -739,7 +739,7 @@
                 "type": "minecraft:item",
                 "functions": [
                   {
-                    "decoration": "banner_cyan",
+                    "decoration": "target_point",
                     "destination": "minecraft:on_ancient_explorer_maps",
                     "function": "minecraft:exploration_map",
                     "search_radius": 100
