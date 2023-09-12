@@ -273,19 +273,6 @@
           ],
           "name": "minecraft:book",
           "quality": 1
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:mending"
-              ]
-            }
-          ],
-          "name": "minecraft:book",
-          "quality": 1
         }
       ],
       "rolls": 1.0
@@ -442,6 +429,28 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_strad"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 19
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantments": [
+                "minecraft:mending"
+              ],
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
         }
       ],
       "rolls": 1.0

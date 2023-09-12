@@ -51,5 +51,5 @@
       "spyglass_at_bat"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

@@ -57,5 +57,5 @@
       "diamonds_to_you_player"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

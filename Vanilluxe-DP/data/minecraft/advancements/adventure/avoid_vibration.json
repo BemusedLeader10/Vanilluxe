@@ -2,7 +2,6 @@
   "parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
   "criteria": {
     "avoid_vibration": {
-      "conditions": {},
       "trigger": "minecraft:avoid_vibration"
     }
   },
@@ -26,5 +25,5 @@
       "avoid_vibration"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

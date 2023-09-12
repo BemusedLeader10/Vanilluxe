@@ -20,17 +20,6 @@
                 ]
             },
             {
-                "discipline": "Visual Arts",
-                "titles": [
-                    {
-                        "title": "Texture Artists",
-                        "names": [
-                            "William Thomas"
-                        ]
-                    }
-                ]
-            },
-            {
                 "discipline": "Audio",
                 "titles": [
                     {
@@ -39,6 +28,17 @@
                             "Christopher Larkin",
                             "David Peacock",
                             "Augustine Mayuga Gonzales"
+                        ]
+                    }
+                ]
+            },
+            {
+                "discipline": "Communications",
+                "titles": [
+                    {
+                        "title": "Creative Writer",
+                        "names": [
+                            "Surplus Seraph"
                         ]
                     }
                 ]

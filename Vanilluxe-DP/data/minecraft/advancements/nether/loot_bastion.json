@@ -49,5 +49,5 @@
       "loot_bastion_bridge"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

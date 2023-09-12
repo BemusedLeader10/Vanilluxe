@@ -34,5 +34,5 @@
       "obtain_sniffer_egg"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

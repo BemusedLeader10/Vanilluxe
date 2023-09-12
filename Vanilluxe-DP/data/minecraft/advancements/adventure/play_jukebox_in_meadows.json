@@ -46,5 +46,5 @@
       "play_jukebox_in_meadows"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

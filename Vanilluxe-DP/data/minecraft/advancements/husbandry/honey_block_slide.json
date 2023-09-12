@@ -28,5 +28,5 @@
       "honey_block_slide"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

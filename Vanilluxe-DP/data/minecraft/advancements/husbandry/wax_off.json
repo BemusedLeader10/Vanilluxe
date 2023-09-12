@@ -68,5 +68,5 @@
       "wax_off"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

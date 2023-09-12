@@ -2,7 +2,6 @@
   "parent": "minecraft:husbandry/root",
   "criteria": {
     "bred": {
-      "conditions": {},
       "trigger": "minecraft:bred_animals"
     }
   },
@@ -26,5 +25,5 @@
       "bred"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

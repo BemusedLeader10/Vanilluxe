@@ -41,5 +41,5 @@
       "ride_a_boat_with_a_goat"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

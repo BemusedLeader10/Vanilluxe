@@ -2,7 +2,6 @@
   "parent": "minecraft:story/enter_the_nether",
   "criteria": {
     "cured_zombie": {
-      "conditions": {},
       "trigger": "minecraft:cured_zombie_villager"
     }
   },
@@ -26,5 +25,5 @@
       "cured_zombie"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

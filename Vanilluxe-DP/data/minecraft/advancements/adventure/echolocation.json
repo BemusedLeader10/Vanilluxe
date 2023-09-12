@@ -4,7 +4,7 @@
     "echolocation": {
       "conditions": {
         "item": {
-            "tag": "minecraft:raw_fish"
+            "tag": "minecraft:raw_fishes"
         },
         "entity": [
           {
@@ -39,5 +39,5 @@
       "echolocation"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

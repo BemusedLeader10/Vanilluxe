@@ -36,5 +36,5 @@
       "kill_axolotl_target"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

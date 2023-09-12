@@ -36,5 +36,5 @@
       "killed_elder_guardian"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

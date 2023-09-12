@@ -50,5 +50,5 @@
       "walk_on_powder_snow_with_leather_boots"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

@@ -50,5 +50,5 @@
       "charge_respawn_anchor"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

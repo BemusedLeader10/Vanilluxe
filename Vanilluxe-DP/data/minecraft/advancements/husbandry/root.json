@@ -1,7 +1,6 @@
 {
   "criteria": {
     "consumed_item": {
-      "conditions": {},
       "trigger": "minecraft:consume_item"
     }
   },
@@ -26,5 +25,5 @@
       "consumed_item"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }

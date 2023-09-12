@@ -258,7 +258,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 6
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -270,6 +270,19 @@
             }
           ],
           "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantments": [
+                "minecraft:unbreaking"
+              ],
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
         }
       ],
       "rolls": 1.0

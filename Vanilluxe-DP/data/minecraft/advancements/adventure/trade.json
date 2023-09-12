@@ -2,7 +2,6 @@
   "parent": "minecraft:adventure/root",
   "criteria": {
     "traded": {
-      "conditions": {},
       "trigger": "minecraft:villager_trade"
     }
   },
@@ -26,5 +25,5 @@
       "traded"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": true
 }
