@@ -1,0 +1,263 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/zombie/houses/badlands_small_house_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/zombie/houses/badlands_small_house_2",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/zombie/houses/badlands_small_house_3",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/zombie/houses/badlands_small_house_4",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/zombie/houses/badlands_small_house_5",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/zombie/houses/badlands_small_house_6",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/zombie/houses/badlands_small_house_7",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/zombie/houses/badlands_small_house_8",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/zombie/houses/badlands_medium_house_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/zombie/houses/badlands_medium_house_2",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_butcher_shop_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_tool_smith_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_fletcher_house_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_shepherd_house_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_armorer_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_fisher_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_tannery_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_cartographer_house_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_library_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_mason_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_weaponsmith_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_temple_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_temple_2",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_large_farm_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 7
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_farm_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_farm_2",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_animal_pen_1",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:village/badlands/houses/badlands_animal_pen_2",
+        "processors": "minecraft:zombie_badlands",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 5
+    }
+  ],
+  "fallback": "minecraft:village/badlands/zombie/terminators"
+}

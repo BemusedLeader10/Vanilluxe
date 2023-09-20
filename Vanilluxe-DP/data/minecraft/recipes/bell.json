@@ -16,9 +16,9 @@
     }
   },
   "pattern": [
-    "XSX",
-    "XIX",
-    "XNX"
+    "#S#",
+    "#I#",
+    "#N#"
   ],
   "result": {
     "item": "minecraft:bell"

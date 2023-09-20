@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "adventure.loot_buried_treasure"
+      "loot_buried_treasure"
     ]
   ],
   "sends_telemetry_event": true
