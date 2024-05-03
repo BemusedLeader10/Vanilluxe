@@ -22,8 +22,10 @@
               "entity": "this"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.hurt_old\"}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.player.hurt_old"
+              }
             }
           ],
           "name": "minecraft:player_head"

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stone_crafting_materials": {
+    "has_cobblestone": {
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:stone_crafting_materials"
+            "items": "#minecraft:stone_crafting_materials"
           }
         ]
       },
@@ -20,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_stone_crafting_materials",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_cobblestone"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:lever"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

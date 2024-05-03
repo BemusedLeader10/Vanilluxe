@@ -1,0 +1,14 @@
+{
+	"name": "minecraft:fortress/fortress_base",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "minecraft:fortress_base",
+        "projection": "rigid"
+      },
+      "weight": 6
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

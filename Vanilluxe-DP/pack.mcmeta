@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 18,
+    "pack_format": 41,
     "description": [
       {
         "text": "Vanilluxe",
@@ -12,6 +12,22 @@
       {
         "text": "Version 1.0",
         "color": "dark_aqua"
+      }
+    ]
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipes/music_disc_5.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/shield_decoration.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/suspicious_stew.json"
       }
     ]
   }

@@ -4,9 +4,7 @@
     "spyglass_at_bat": {
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:spyglass"
-          ]
+          "items": "minecraft:spyglass"
         },
         "player": [
           {
@@ -14,7 +12,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "player",
+                "type": "minecraft:player",
                 "looking_at": {
                   "distance": {
                     "absolute": {
@@ -32,16 +30,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.spyglass_at_bat.description"
     },
     "frame": "goal",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:spyglass"
+      "count": 1,
+      "id": "minecraft:spyglass"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.spyglass_at_bat.title"
     }

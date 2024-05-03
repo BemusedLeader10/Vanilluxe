@@ -79,7 +79,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:items/spider_head"
+          "value": "minecraft:items/spider_head"
         }
       ],
       "rolls": 1.0

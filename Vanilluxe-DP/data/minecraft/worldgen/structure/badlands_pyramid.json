@@ -7,11 +7,11 @@
   "spawn_overrides": {},
   "start_height": {
     "type": "minecraft:uniform",
-    "min_inclusive": {
-      "absolute": -3
-    },
     "max_inclusive": {
       "absolute": -1
+    },
+    "min_inclusive": {
+      "absolute": -3
     }
   },
   "start_pool": "minecraft:badlands_pyramid/top",

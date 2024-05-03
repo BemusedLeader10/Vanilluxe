@@ -14,7 +14,7 @@
                     "chest",
                     "trapped_chest"
                   ],
-                  "nbt": "{Items:[{Slot:0b,id:\"minecraft:cobblestone\",Count:64b},{Slot:1b,id:\"minecraft:cobblestone\",Count:64b},{Slot:2b,id:\"minecraft:cobblestone\",Count:64b},{Slot:3b,id:\"minecraft:cobblestone\",Count:64b},{Slot:4b,id:\"minecraft:cobblestone\",Count:64b},{Slot:5b,id:\"minecraft:cobblestone\",Count:64b},{Slot:6b,id:\"minecraft:cobblestone\",Count:64b},{Slot:7b,id:\"minecraft:cobblestone\",Count:64b},{Slot:8b,id:\"minecraft:cobblestone\",Count:64b},{Slot:9b,id:\"minecraft:cobblestone\",Count:64b},{Slot:10b,id:\"minecraft:cobblestone\",Count:64b},{Slot:11b,id:\"minecraft:cobblestone\",Count:64b},{Slot:12b,id:\"minecraft:cobblestone\",Count:64b},{Slot:13b,id:\"minecraft:cobblestone\",Count:64b},{Slot:14b,id:\"minecraft:cobblestone\",Count:64b},{Slot:15b,id:\"minecraft:cobblestone\",Count:64b},{Slot:16b,id:\"minecraft:cobblestone\",Count:64b},{Slot:17b,id:\"minecraft:cobblestone\",Count:64b},{Slot:18b,id:\"minecraft:cobblestone\",Count:64b},{Slot:19b,id:\"minecraft:cobblestone\",Count:64b},{Slot:20b,id:\"minecraft:cobblestone\",Count:64b},{Slot:21b,id:\"minecraft:cobblestone\",Count:64b},{Slot:22b,id:\"minecraft:cobblestone\",Count:64b},{Slot:23b,id:\"minecraft:cobblestone\",Count:64b},{Slot:24b,id:\"minecraft:cobblestone\",Count:64b},{Slot:25b,id:\"minecraft:cobblestone\",Count:64b},{Slot:26b,id:\"minecraft:cobblestone\",Count:64b}]}"
+                  "nbt": "{Items:[{Slot:0b,id:\"minecraft:cobblestone\",count:64},{Slot:1b,id:\"minecraft:cobblestone\",count:64},{Slot:2b,id:\"minecraft:cobblestone\",count:64},{Slot:3b,id:\"minecraft:cobblestone\",count:64},{Slot:4b,id:\"minecraft:cobblestone\",count:64},{Slot:5b,id:\"minecraft:cobblestone\",count:64},{Slot:6b,id:\"minecraft:cobblestone\",count:64},{Slot:7b,id:\"minecraft:cobblestone\",count:64},{Slot:8b,id:\"minecraft:cobblestone\",count:64},{Slot:9b,id:\"minecraft:cobblestone\",count:64},{Slot:10b,id:\"minecraft:cobblestone\",count:64},{Slot:11b,id:\"minecraft:cobblestone\",count:64},{Slot:12b,id:\"minecraft:cobblestone\",count:64},{Slot:13b,id:\"minecraft:cobblestone\",count:64},{Slot:14b,id:\"minecraft:cobblestone\",count:64},{Slot:15b,id:\"minecraft:cobblestone\",count:64},{Slot:16b,id:\"minecraft:cobblestone\",count:64},{Slot:17b,id:\"minecraft:cobblestone\",count:64},{Slot:18b,id:\"minecraft:cobblestone\",count:64},{Slot:19b,id:\"minecraft:cobblestone\",count:64},{Slot:20b,id:\"minecraft:cobblestone\",count:64},{Slot:21b,id:\"minecraft:cobblestone\",count:64},{Slot:22b,id:\"minecraft:cobblestone\",count:64},{Slot:23b,id:\"minecraft:cobblestone\",count:64},{Slot:24b,id:\"minecraft:cobblestone\",count:64},{Slot:25b,id:\"minecraft:cobblestone\",count:64},{Slot:26b,id:\"minecraft:cobblestone\",count:64}]}"
                 }
               }
             }
@@ -25,16 +25,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.chestful_of_cobblestone.description"
     },
     "frame": "challenge",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:chest"
+      "count": 1,
+      "id": "minecraft:chest"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.story.chestful_of_cobblestone.title"
     }

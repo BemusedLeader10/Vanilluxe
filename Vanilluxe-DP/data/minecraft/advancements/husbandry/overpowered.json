@@ -4,25 +4,21 @@
     "enchanted_golden_apple": {
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:enchanted_golden_apple"
-          ]
+          "items": "minecraft:enchanted_golden_apple"
         }
       },
       "trigger": "minecraft:consume_item"
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.overpowered.description"
     },
     "frame": "goal",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:enchanted_golden_apple"
+      "count": 1,
+      "id": "minecraft:enchanted_golden_apple"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.overpowered.title"
     }

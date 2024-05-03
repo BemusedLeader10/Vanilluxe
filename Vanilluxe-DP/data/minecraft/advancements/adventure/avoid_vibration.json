@@ -6,16 +6,13 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.avoid_vibration.description"
     },
-    "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:sculk_sensor"
+      "count": 1,
+      "id": "minecraft:sculk_sensor"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.avoid_vibration.title"
     }

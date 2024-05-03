@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:bone_meal"
-            ]
+            "items": "minecraft:bone_meal"
           }
         ]
       },
@@ -22,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_bone_meal",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_bone_meal"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:calcite"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

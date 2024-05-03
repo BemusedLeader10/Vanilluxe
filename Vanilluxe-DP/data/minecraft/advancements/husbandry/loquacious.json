@@ -6,9 +6,7 @@
         "items": [
           {
             "count": 64,
-            "items": [
-              "minecraft:waxed_weathered_cut_copper_stairs"
-            ]
+            "items": "minecraft:waxed_weathered_cut_copper_stairs"
           }
         ]
       },
@@ -16,16 +14,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.loquacious.description"
     },
     "frame": "challenge",
-    "hidden": true,
     "icon": {
-      "item": "minecraft:waxed_weathered_cut_copper_stairs"
+      "count": 1,
+      "id": "minecraft:waxed_weathered_cut_copper_stairs"
     },
-    "show_toast": false,
     "title": {
       "translate": "advancements.husbandry.loquacious.title"
     }

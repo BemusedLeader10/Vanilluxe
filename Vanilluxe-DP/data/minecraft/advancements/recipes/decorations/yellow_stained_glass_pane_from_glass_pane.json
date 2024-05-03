@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:glass_panes"
+            "items": "#minecraft:glass_panes"
           }
         ]
       },
@@ -21,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:yellow_dye"
-            ]
+            "items": "minecraft:yellow_dye"
           }
         ]
       },
@@ -32,15 +30,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_glass_pane",
-      "has_yellow_dye",
-      "has_the_recipe"
+      "has_yellow_dye"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:yellow_stained_glass_pane_from_glass_pane"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

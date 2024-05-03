@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "minecraft:deep_dark"
+                "biomes": "minecraft:deep_dark"
               }
             }
           }
@@ -25,7 +25,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "minecraft:dripstone_caves"
+                "biomes": "minecraft:dripstone_caves"
               }
             }
           }
@@ -41,7 +41,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "minecraft:lush_caves"
+                "biomes": "minecraft:lush_caves"
               }
             }
           }
@@ -51,17 +51,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.spelunker.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:golden_boots",
-      "nbt": "{Damage:0}"
+      "count": 1,
+      "id": "minecraft:golden_boots"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.spelunker.title"
     }

@@ -17,16 +17,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.kill_an_elder_guardian.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:wet_sponge"
+      "count": 1,
+      "id": "minecraft:wet_sponge"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.kill_an_elder_guardian.title"
     }

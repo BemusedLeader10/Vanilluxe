@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecraft:witch_hut/brewingstand_1",
+        "location": "minecraft:witch_hut/brewing_stand_1",
         "processors": {
           "processors": []
         },
@@ -14,7 +14,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecraft:witch_hut/brewingstand_2",
+        "location": "minecraft:witch_hut/brewing_stand_2",
         "processors": {
           "processors": []
         },
@@ -25,7 +25,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecraft:witch_hut/brewingstand_3",
+        "location": "minecraft:witch_hut/brewing_stand_3",
         "processors": {
           "processors": []
         },
@@ -36,7 +36,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecraft:witch_hut/brewingstand_4",
+        "location": "minecraft:witch_hut/brewing_stand_4",
         "processors": {
           "processors": []
         },
@@ -47,7 +47,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecraft:witch_hut/brewingstand_5",
+        "location": "minecraft:witch_hut/brewing_stand_5",
         "processors": {
           "processors": []
         },
@@ -58,7 +58,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "minecraft:witch_hut/brewingstand_6",
+        "location": "minecraft:witch_hut/brewing_stand_6",
         "processors": {
           "processors": []
         },

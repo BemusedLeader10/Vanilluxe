@@ -10,9 +10,7 @@
             "predicate": {
               "equipment": {
                 "feet": {
-                  "items": [
-                    "minecraft:iron_boots"
-                  ]
+                  "items": "minecraft:iron_boots"
                 }
               }
             }
@@ -30,9 +28,7 @@
             "predicate": {
               "equipment": {
                 "chest": {
-                  "items": [
-                    "minecraft:iron_chestplate"
-                  ]
+                  "items": "minecraft:iron_chestplate"
                 }
               }
             }
@@ -50,9 +46,7 @@
             "predicate": {
               "equipment": {
                 "head": {
-                  "items": [
-                    "minecraft:iron_helmet"
-                  ]
+                  "items": "minecraft:iron_helmet"
                 }
               }
             }
@@ -70,9 +64,7 @@
             "predicate": {
               "equipment": {
                 "legs": {
-                  "items": [
-                    "minecraft:iron_leggings"
-                  ]
+                  "items": "minecraft:iron_leggings"
                 }
               }
             }
@@ -83,27 +75,23 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.obtain_armor.description"
     },
-    "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:iron_chestplate",
-      "nbt": "{Damage:0}"
+      "count": 1,
+      "id": "minecraft:iron_helmet"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.story.obtain_armor.title"
     }
   },
   "requirements": [
     [
-      "iron_boots",
-      "iron_chestplate",
       "iron_helmet",
-      "iron_leggings"
+      "iron_chestplate",
+      "iron_leggings",
+      "iron_boots"
     ]
   ],
   "sends_telemetry_event": true

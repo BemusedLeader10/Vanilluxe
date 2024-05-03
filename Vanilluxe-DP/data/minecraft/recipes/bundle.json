@@ -15,7 +15,7 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:bundle"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "minecraft:bundle"
+  }
 }

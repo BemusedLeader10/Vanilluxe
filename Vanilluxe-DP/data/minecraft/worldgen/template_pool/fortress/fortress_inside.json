@@ -1,0 +1,528 @@
+{
+	"name": "minecraft:fortress/fortress_inside",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_long_tall_room1",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_long_tall_room2",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_long_tall_room3",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_long_tall_room4",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_long_tall_room5",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_long_tall_room6",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_room1",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_room2",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_room3",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_room4",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_room5",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_long_room6",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_1",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_2",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_3",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_4",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_5",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_6",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_curve_1",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_curve_2",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_curve_3",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_curve_4",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_curve_5",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_curve_6",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_straight_1",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_straight_2",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_straight_3",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_straight_4",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_straight_5",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_straight_6",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_t-curve_1",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_t-curve_2",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_t-curve_3",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_t-curve_4",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_t-curve_5",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_t-curve_6",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_1",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_2",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_3",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_4",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_5",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_cross_6",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_room_tall1",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_blaze_room1",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_blaze_room2",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_blaze_room3",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_blaze_room4",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_wall1",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_wall2",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_wall3",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_wall4",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_wall5",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_wall6",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_door1",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_door2",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_door3",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_door4",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/inside/fortress_inside_door5",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

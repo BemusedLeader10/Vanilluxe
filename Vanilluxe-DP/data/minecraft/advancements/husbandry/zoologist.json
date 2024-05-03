@@ -17,16 +17,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.zoologist.description"
     },
     "frame": "goal",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:bamboo"
+      "count": 1,
+      "id": "minecraft:bamboo"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.zoologist.title"
     }

@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "minecraft:gravel",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:gravel"
   }
 }

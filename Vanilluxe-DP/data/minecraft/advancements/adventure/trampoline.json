@@ -15,9 +15,7 @@
             "predicate": {
               "stepping_on": {
                 "block": {
-                  "blocks": [
-                    "minecraft:slime_block"
-                  ]
+                  "blocks": "minecraft:slime_block"
                 }
               }
             }
@@ -28,16 +26,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.trampoline.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:slime_block"
+      "count": 1,
+      "id": "minecraft:slime_block"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.trampoline.title"
     }

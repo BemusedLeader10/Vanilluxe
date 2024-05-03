@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:rotten_flesh"
-            ]
+            "items": "minecraft:rotten_flesh"
           }
         ]
       },
@@ -22,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_rotten_flesh",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_rotten_flesh"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:leather_from_rotten_flesh"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

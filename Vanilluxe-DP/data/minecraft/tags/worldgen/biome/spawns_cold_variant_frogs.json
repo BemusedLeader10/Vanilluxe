@@ -12,7 +12,6 @@
     "minecraft:frozen_river",
     "minecraft:snowy_taiga",
     "minecraft:snowy_beach",
-    "#minecraft:is_end",
-    "#minecraft:is_aether"
+    "#minecraft:is_end"
   ]
 }

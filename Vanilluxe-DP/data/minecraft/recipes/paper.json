@@ -13,7 +13,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:paper"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "minecraft:paper"
+  }
 }

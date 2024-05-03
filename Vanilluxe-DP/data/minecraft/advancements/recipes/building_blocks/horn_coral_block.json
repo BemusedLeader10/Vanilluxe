@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:horn_coral"
+            "items": "#minecraft:horn_corals"
           }
         ]
       },
@@ -20,8 +20,8 @@
   },
   "requirements": [
     [
-      "has_horn_coral",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_horn_coral"
     ]
   ],
   "rewards": {

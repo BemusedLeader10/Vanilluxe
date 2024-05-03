@@ -1,10 +1,10 @@
 {
   "criteria": {
-    "wood": {
+    "crafting_table": {
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:logs"
+            "items": "minecraft:crafting_table"
           }
         ]
       },
@@ -17,10 +17,9 @@
     "description": {
       "translate": "advancements.story.root.description"
     },
-    "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:grass_block"
+      "count": 1,
+      "id": "minecraft:grass_block"
     },
     "show_toast": false,
     "title": {
@@ -29,7 +28,7 @@
   },
   "requirements": [
     [
-      "wood"
+      "crafting_table"
     ]
   ],
   "sends_telemetry_event": true

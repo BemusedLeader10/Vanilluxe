@@ -1,0 +1,15 @@
+{
+	"name": "minecraft:fortress/fortress_lock",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:fortress/bridge/fortress_bridge_lock",
+        "processors": "minecraft:fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -5,8 +5,8 @@
     "translate": "trim_material.minecraft.echo"
   },
   "ingredient": "minecraft:echo_shard",
-  "item_model_index": 0.82,
+  "item_model_index": 0.13,
   "override_armor_materials": {
-    "echo": "echo_darker"
+    "minecraft:diamond": "echo_darker"
   }
 }

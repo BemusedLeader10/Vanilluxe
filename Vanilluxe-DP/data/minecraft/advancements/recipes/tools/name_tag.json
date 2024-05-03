@@ -1,13 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_paper": {
+    "has_iron_ingot": {
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:paper"
-            ]
+            "items": "minecraft:iron_ingot"
           }
         ]
       },
@@ -15,21 +13,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:name_tag"
+        "recipe": "minecraft:book"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_paper",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_iron_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:name_tag"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

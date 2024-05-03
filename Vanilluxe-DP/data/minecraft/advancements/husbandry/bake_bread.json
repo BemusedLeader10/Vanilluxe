@@ -9,16 +9,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.bake_bread.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:bread"
+      "count": 1,
+      "id": "minecraft:bread"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.bake_bread.title"
     }

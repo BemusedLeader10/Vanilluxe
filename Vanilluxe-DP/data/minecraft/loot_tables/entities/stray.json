@@ -147,7 +147,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:items/stray_skull"
+          "value": "minecraft:items/stray_skull"
         }
       ],
       "rolls": 1.0

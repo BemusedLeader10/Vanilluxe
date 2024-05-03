@@ -65,7 +65,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:items/drowned_head"
+          "value": "minecraft:items/drowned_head"
         }
       ],
       "rolls": 1.0

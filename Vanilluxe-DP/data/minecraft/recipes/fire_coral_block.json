@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "tag": "minecraft:fire_coral"
+      "tag": "minecraft:fire_corals"
     }
   },
   "result": {
-    "item": "minecraft:fire_coral_block",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:fire_coral_block"
   }
 }

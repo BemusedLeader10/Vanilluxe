@@ -45,7 +45,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:items/enderman_head"
+          "value": "minecraft:items/enderman_head"
         }
       ],
       "rolls": 1.0

@@ -5,20 +5,20 @@
     "I": {
       "item": "minecraft:iron_ingot"
     },
-    "P": {
-      "item": "minecraft:paper"
+    "N": {
+      "item": "minecraft:iron_nugget"
     },
     "S": {
       "item": "minecraft:string"
     }
   },
   "pattern": [
+    " SN",
     " IS",
-    " PI",
-    "P  "
+    "N  "
   ],
   "result": {
-    "item": "minecraft:name_tag"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "minecraft:name_tag"
+  }
 }

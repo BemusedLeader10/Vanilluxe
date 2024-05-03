@@ -17,16 +17,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.repopulation.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:wheat"
+      "count": 1,
+      "id": "minecraft:wheat"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.repopulation.title"
     }

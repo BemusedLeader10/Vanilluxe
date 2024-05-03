@@ -5,7 +5,7 @@
       "conditions": {
         "player": {
           "type_specific": {
-            "type": "player",
+            "type": "minecraft:player",
             "stats": [
               {
                 "type": "minecraft:custom",
@@ -22,16 +22,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.on_a_rail.description"
     },
     "frame": "challenge",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:rail"
+      "count": 1,
+      "id": "minecraft:rail"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.on_a_rail.title"
     }

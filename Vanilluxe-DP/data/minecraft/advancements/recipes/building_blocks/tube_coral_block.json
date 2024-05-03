@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:tube_coral"
+            "items": "#minecraft:tube_corals"
           }
         ]
       },
@@ -20,8 +20,8 @@
   },
   "requirements": [
     [
-      "has_tube_coral",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_tube_coral"
     ]
   ],
   "rewards": {

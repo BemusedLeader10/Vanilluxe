@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:items/blaze_skull"
+          "value": "minecraft:items/blaze_skull"
         }
       ],
       "rolls": 1.0

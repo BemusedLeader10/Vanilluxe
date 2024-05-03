@@ -9,16 +9,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.librarian.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:bookshelf"
+      "count": 1,
+      "id": "minecraft:bookshelf"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.story.librarian.title"
     }

@@ -12,7 +12,7 @@
     "X X"
   ],
   "result": {
-    "item": "minecraft:diamond_horse_armor"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "minecraft:diamond_horse_armor"
+  }
 }

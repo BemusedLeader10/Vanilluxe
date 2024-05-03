@@ -15,7 +15,6 @@
   ],
   "result": {
     "count": 2,
-    "item": "minecraft:calcite"
-  },
-  "show_notification": true
+    "id": "minecraft:calcite"
+  }
 }

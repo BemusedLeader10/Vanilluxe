@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:end/what_now",
   "criteria": {
-    "ender_dragon": {
+    "wear_head": {
       "conditions": {
         "entity": [
           {
@@ -16,9 +16,7 @@
           "source_entity": {
             "equipment": {
               "head": {
-                "items": [
-                  "minecraft:dragon_head"
-                ]
+                "items": "minecraft:dragon_head"
               }
             }
           }
@@ -28,23 +26,21 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.dragon_vs_dragon.description"
     },
     "frame": "challenge",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:dragon_head"
+      "count": 1,
+      "id": "minecraft:dragon_head"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.end.dragon_vs_dragon.title"
     }
   },
   "requirements": [
     [
-      "ender_dragon"
+      "wear_head"
     ]
   ],
   "rewards": {

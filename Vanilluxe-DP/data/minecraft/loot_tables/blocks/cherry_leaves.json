@@ -16,22 +16,22 @@
                     {
                       "condition": "minecraft:match_tool",
                       "predicate": {
-                        "items": [
-                          "minecraft:shears"
-                        ]
+                        "items": "minecraft:shears"
                       }
                     },
                     {
                       "condition": "minecraft:match_tool",
                       "predicate": {
-                        "enchantments": [
-                          {
-                            "enchantment": "minecraft:silk_touch",
-                            "levels": {
-                              "min": 1
+                        "predicates": {
+                          "minecraft:enchantments": [
+                            {
+                              "enchantment": "minecraft:silk_touch",
+                              "levels": {
+                                "min": 1
+                              }
                             }
-                          }
-                        ]
+                          ]
+                        }
                       }
                     }
                   ]
@@ -74,22 +74,22 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "items": [
-                    "minecraft:shears"
-                  ]
+                  "items": "minecraft:shears"
                 }
               },
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:silk_touch",
-                      "levels": {
-                        "min": 1
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
                       }
-                    }
-                  ]
+                    ]
+                  }
                 }
               }
             ]
@@ -142,22 +142,22 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "items": [
-                    "minecraft:shears"
-                  ]
+                  "items": "minecraft:shears"
                 }
               },
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:silk_touch",
-                      "levels": {
-                        "min": 1
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
                       }
-                    }
-                  ]
+                    ]
+                  }
                 }
               }
             ]
@@ -173,17 +173,17 @@
             },
             {
               "chances": [
-                0.01,
-                0.0111111114,
-                0.0125,
-                0.016666668,
-                0.05
+                0.005,
+                0.0055555557,
+                0.00625,
+                0.008333334,
+                0.025
               ],
               "condition": "minecraft:table_bonus",
               "enchantment": "minecraft:fortune"
             }
           ],
-          "name": "minecraft:items/cherries"
+          "value": "minecraft:items/cherries"
         }
       ],
       "rolls": 1.0

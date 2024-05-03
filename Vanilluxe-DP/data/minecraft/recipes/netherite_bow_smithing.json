@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "result": {
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": []
+      },
+      "minecraft:custom_data": {
+          "id": "netherite_bow"
+      },
+      "minecraft:custom_model_data": 540004,
+      "minecraft:damage": 0,
+      "minecraft:enchantments": {},
+      "minecraft:fire_resistant": {},
+      "minecraft:item_name": "{\"translate\":\"item.minecraft.netherite_bow\"}",
+      "minecraft:lore": [],
+      "minecraft:max_damage": 931,
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": "common",
+      "minecraft:repair_cost": 0
+    },
+    "count": 1,
+    "id": "minecraft:bow"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

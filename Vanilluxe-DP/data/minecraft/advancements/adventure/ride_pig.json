@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "ride_pig": {
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:pig"
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.ride_pig.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "advancements.adventure.ride_pig.title"
+    }
+  },
+  "requirements": [
+    [
+      "ride_pig"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  },
+  "sends_telemetry_event": true
+}

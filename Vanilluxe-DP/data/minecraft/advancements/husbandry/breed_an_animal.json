@@ -6,16 +6,13 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.breed_an_animal.description"
     },
-    "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:wheat_seeds"
+      "count": 1,
+      "id": "minecraft:wheat_seeds"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.breed_an_animal.title"
     }

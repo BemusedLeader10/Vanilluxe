@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "minecraft:monument"
+                "structures": "minecraft:monument"
               }
             }
           }
@@ -19,16 +19,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.enter_monument.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:prismarine_bricks"
+      "count": 1,
+      "id": "minecraft:prismarine_bricks"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.enter_monument.title"
     }

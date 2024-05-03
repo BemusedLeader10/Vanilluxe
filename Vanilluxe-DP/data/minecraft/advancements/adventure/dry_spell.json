@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:sponge"
-            ]
+            "items": "minecraft:sponge"
           }
         ]
       },
@@ -15,16 +13,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.dry_spell.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:sponge"
+      "count": 1,
+      "id": "minecraft:sponge"
     },
-    "show_toast": false,
     "title": {
       "translate": "advancements.adventure.dry_spell.title"
     }

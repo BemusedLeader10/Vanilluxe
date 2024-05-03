@@ -11,9 +11,7 @@
           }
         },
         "item": {
-          "items": [
-            "minecraft:diamond"
-          ]
+          "items": "minecraft:diamond"
         }
       },
       "trigger": "minecraft:thrown_item_picked_up_by_entity"
@@ -28,25 +26,21 @@
           }
         },
         "item": {
-          "items": [
-            "minecraft:diamond"
-          ]
+          "items": "minecraft:diamond"
         }
       },
       "trigger": "minecraft:thrown_item_picked_up_by_player"
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.diamonds_to_you.description"
     },
     "frame": "goal",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:diamond"
+      "count": 1,
+      "id": "minecraft:diamond"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.story.diamonds_to_you.title"
     }

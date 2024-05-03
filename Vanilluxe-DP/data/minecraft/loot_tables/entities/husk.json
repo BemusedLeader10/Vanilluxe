@@ -123,7 +123,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:items/husk_head"
+          "value": "minecraft:items/husk_head"
         }
       ],
       "rolls": 1.0

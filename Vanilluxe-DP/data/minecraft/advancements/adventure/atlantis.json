@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:adventure/echolocation",
   "criteria": {
-    "ocean_ruin_cold": {
+    "ocean_ruin": {
       "conditions": {
         "player": [
           {
@@ -9,23 +9,10 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "minecraft:ocean_ruin_cold"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
-    },
-    "ocean_ruin_warm": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structure": "minecraft:ocean_ruin_warm"
+                "structures": [
+                  "minecraft:ocean_ruin_cold",
+                  "minecraft:ocean_ruin_warm"
+                ]
               }
             }
           }
@@ -35,24 +22,21 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.atlantis.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:filled_map"
+      "count": 1,
+      "id": "minecraft:filled_map"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.atlantis.title"
     }
   },
   "requirements": [
     [
-      "ocean_ruin_cold",
-      "ocean_ruin_warm"
+      "ocean_ruin"
     ]
   ],
   "sends_telemetry_event": true

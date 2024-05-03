@@ -1,52 +1,33 @@
 {
   "parent": "minecraft:nether/obtain_blaze_rod",
   "criteria": {
-    "awkward": {
+    "potion": {
       "conditions": {
-        "potion": "awkward"
+        "recipe_id": "minecraft:brewing_stand"
       },
-      "trigger": "minecraft:brewed_potion"
-    },
-    "mundane": {
-      "conditions": {
-        "potion": "mundane"
-      },
-      "trigger": "minecraft:brewed_potion"
-    },
-    "thick": {
-      "conditions": {
-        "potion": "thick"
-      },
-      "trigger": "minecraft:brewed_potion"
-    },
-    "weakness": {
-      "conditions": {
-        "potion": "weakness"
-      },
-      "trigger": "minecraft:brewed_potion"
+      "trigger": "minecraft:recipe_crafted"
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.brew_potion.description"
     },
-    "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:potion"
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:regeneration"
+        }
+      },
+      "count": 1,
+      "id": "minecraft:potion"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.nether.brew_potion.title"
     }
   },
   "requirements": [
     [
-      "awkward",
-      "mundane",
-      "thick",
-      "weakness"
+      "potion"
     ]
   ],
   "sends_telemetry_event": true

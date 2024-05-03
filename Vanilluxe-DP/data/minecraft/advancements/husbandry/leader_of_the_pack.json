@@ -12,16 +12,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.leader_of_the_pack.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:bone"
+      "count": 1,
+      "id": "minecraft:bone"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.leader_of_the_pack.title"
     }

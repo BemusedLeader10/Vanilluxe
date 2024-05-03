@@ -4,9 +4,7 @@
     "shears": {
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:shears"
-          ]
+          "items": "minecraft:shears"
         },
         "entity": [
           {
@@ -22,16 +20,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.have_a_shearful_day.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:shears"
+      "count": 1,
+      "id": "minecraft:white_wool"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.have_a_shearful_day.title"
     }

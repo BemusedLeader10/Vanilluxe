@@ -303,7 +303,12 @@
             }
           ],
           "name": "minecraft:disc_fragment_5",
-          "weight": 4
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_5",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -415,12 +420,12 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:items/random_golden_enchanted_book",
+          "value": "minecraft:items/random_golden_enchanted_book",
           "weight": 15
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:items/eldritch_banner",
+          "value": "minecraft:items/eldritch_banner",
           "weight": 8
         },
         {

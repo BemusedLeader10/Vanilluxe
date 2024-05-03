@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:brain_coral"
+            "items": "#minecraft:brain_corals"
           }
         ]
       },
@@ -20,8 +20,8 @@
   },
   "requirements": [
     [
-      "has_brain_coral",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_brain_coral"
     ]
   ],
   "rewards": {

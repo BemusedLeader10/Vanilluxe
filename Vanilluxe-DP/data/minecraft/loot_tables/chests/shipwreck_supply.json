@@ -324,7 +324,7 @@
         {
           "condition": "minecraft:location_check",
           "predicate": {
-            "structure": "minecraft:shipwreck"
+            "structures": "minecraft:shipwreck"
           }
         }
       ],
@@ -368,7 +368,7 @@
         {
           "condition": "minecraft:location_check",
           "predicate": {
-            "structure": "minecraft:shipwreck_beached"
+            "structures": "minecraft:shipwreck_beached"
           }
         }
       ],

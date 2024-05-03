@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "tag": "minecraft:bubble_coral"
+      "tag": "minecraft:bubble_corals"
     }
   },
   "result": {
-    "item": "minecraft:bubble_coral_block",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:bubble_coral_block"
   }
 }

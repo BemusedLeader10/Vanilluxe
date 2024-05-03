@@ -21,7 +21,7 @@
     "#N#"
   ],
   "result": {
-    "item": "minecraft:bell"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "minecraft:bell"
+  }
 }

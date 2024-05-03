@@ -1,6 +1,20 @@
 {
   "parent": "minecraft:husbandry/zoologist",
   "criteria": {
+    "minecraft:armadillo": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:armadillo"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    },
     "minecraft:axolotl": {
       "conditions": {
         "child": [
@@ -366,16 +380,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.breed_all_animals.description"
     },
     "frame": "challenge",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:golden_carrot"
+      "count": 1,
+      "id": "minecraft:golden_carrot"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.breed_all_animals.title"
     }
@@ -443,6 +455,9 @@
     ],
     [
       "minecraft:camel"
+    ],
+    [
+      "minecraft:armadillo"
     ],
     [
       "minecraft:turtle"

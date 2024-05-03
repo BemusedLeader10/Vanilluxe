@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:diamond"
-            ]
+            "items": "minecraft:diamond"
           }
         ]
       },
@@ -22,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_diamond",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_diamond"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:diamond_horse_armor"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

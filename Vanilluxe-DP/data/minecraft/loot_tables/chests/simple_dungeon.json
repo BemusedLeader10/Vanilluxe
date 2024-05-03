@@ -9,7 +9,7 @@
           "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-              "biome": "minecraft:deep_dark"
+              "biomes": "minecraft:deep_dark"
             }
           }
         }
@@ -75,7 +75,7 @@
           "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-              "biome": "minecraft:deep_dark"
+              "biomes": "minecraft:deep_dark"
             }
           }
         }
@@ -160,7 +160,7 @@
           "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-              "biome": "minecraft:deep_dark"
+              "biomes": "minecraft:deep_dark"
             }
           }
         }
@@ -271,7 +271,7 @@
           "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-              "biome": "minecraft:deep_dark"
+              "biomes": "minecraft:deep_dark"
             }
           }
         }
@@ -352,7 +352,7 @@
           "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-              "biome": "minecraft:deep_dark"
+              "biomes": "minecraft:deep_dark"
             }
           }
         }
@@ -379,7 +379,7 @@
         {
           "condition": "minecraft:location_check",
           "predicate": {
-            "biome": "minecraft:deep_dark"
+            "biomes": "minecraft:deep_dark"
           }
         }
       ],

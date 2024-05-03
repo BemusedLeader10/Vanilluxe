@@ -20,16 +20,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.lion_hunter.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:cod"
+      "count": 1,
+      "id": "minecraft:cod"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.lion_hunter.title"
     }

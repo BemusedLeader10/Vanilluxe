@@ -8,15 +8,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:bane_of_arthropods": 6
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:6s,id:\"minecraft:bane_of_arthropods\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -25,15 +34,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:blast_protection": 5
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:5s,id:\"minecraft:blast_protection\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -42,15 +60,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:breach": 5
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:6s,id:\"minecraft:efficiency\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -59,15 +86,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:density": 6
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:5s,id:\"minecraft:feather_falling\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -76,15 +112,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:efficiency": 6
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:3s,id:\"minecraft:fire_aspect\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -93,15 +138,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:feather_falling": 5
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:5s,id:\"minecraft:fire_protection\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -110,15 +164,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:fire_aspect": 3
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:fortune\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -127,15 +190,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:fire_protection": 5
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:3s,id:\"minecraft:frost_walker\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -144,15 +216,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:fortune": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:6s,id:\"minecraft:impaling\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -161,15 +242,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:frost_walker": 3
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:3s,id:\"minecraft:knockback\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -178,15 +268,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:impaling": 6
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:looting\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -195,15 +294,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:knockback": 3
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:loyalty\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -212,15 +320,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:looting": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:luck_of_the_sea\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -229,15 +346,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:loyalty": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:lure\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -246,15 +372,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:luck_of_the_sea": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:5s,id:\"minecraft:piercing\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -263,15 +398,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:lure": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:6s,id:\"minecraft:power\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -280,15 +424,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:piercing": 5
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:5s,id:\"minecraft:projectile_protection\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -297,15 +450,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:power": 6
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:5s,id:\"minecraft:protection\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -314,15 +476,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:projectile_protection": 5
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:3s,id:\"minecraft:punch\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -331,15 +502,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:protection": 5
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:quick_charge\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -348,15 +528,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:punch": 3
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:respiration\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -365,15 +554,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:quick_charge": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:riptide\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -382,15 +580,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:respiration": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:6s,id:\"minecraft:sharpness\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -399,15 +606,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:riptide": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:6s,id:\"minecraft:smite\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -416,15 +632,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 6
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:soul_speed\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -433,15 +658,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:smite": 6
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:sweeping\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -450,15 +684,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:soul_speed": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:swift_sneak\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -467,15 +710,24 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:sweeping_edge": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:thorns\"}]}"
             }
           ],
           "name": "minecraft:enchanted_book"
@@ -484,15 +736,76 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "italic": false,
-                "translate": "item.minecraft.golden_enchanted_book"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:swift_sneak": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
               }
-            },
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{id:\"golden_enchanted_book\",CustomModelData:540000,StoredEnchantments:[{lvl:4s,id:\"minecraft:unbreaking\"}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:thorns": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
+              }
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 540000,
+                "minecraft:custom_data": {
+                  "id": "golden_enchanted_book"
+                },
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.golden_enchanted_book\"}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [],
+                "minecraft:enchantments": {
+                  "minecraft:unbreaking": 4
+                },
+                "minecraft:repair_cost": 0,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:rarity": "rare"
+              }
             }
           ],
           "name": "minecraft:enchanted_book"

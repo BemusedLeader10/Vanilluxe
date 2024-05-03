@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/tame_an_animal",
+  "parent": "minecraft:husbandry/lion_hunter",
   "criteria": {
     "minecraft:all_black": {
       "conditions": {
@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "cat",
+                "type": "minecraft:cat",
                 "variant": "minecraft:all_black"
               }
             }
@@ -26,7 +26,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "cat",
+                "type": "minecraft:cat",
                 "variant": "minecraft:black"
               }
             }
@@ -43,7 +43,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "cat",
+                "type": "minecraft:cat",
                 "variant": "minecraft:british_shorthair"
               }
             }
@@ -60,7 +60,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "cat",
+                "type": "minecraft:cat",
                 "variant": "minecraft:calico"
               }
             }
@@ -77,7 +77,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "cat",
+                "type": "minecraft:cat",
                 "variant": "minecraft:jellie"
               }
             }
@@ -94,7 +94,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "cat",
+                "type": "minecraft:cat",
                 "variant": "minecraft:persian"
               }
             }
@@ -111,7 +111,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "cat",
+                "type": "minecraft:cat",
                 "variant": "minecraft:ragdoll"
               }
             }
@@ -128,7 +128,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "cat",
+                "type": "minecraft:cat",
                 "variant": "minecraft:red"
               }
             }
@@ -145,7 +145,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "cat",
+                "type": "minecraft:cat",
                 "variant": "minecraft:siamese"
               }
             }
@@ -162,7 +162,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "cat",
+                "type": "minecraft:cat",
                 "variant": "minecraft:tabby"
               }
             }
@@ -179,7 +179,7 @@
             "entity": "this",
             "predicate": {
               "type_specific": {
-                "type": "cat",
+                "type": "minecraft:cat",
                 "variant": "minecraft:white"
               }
             }
@@ -190,16 +190,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.complete_catalogue.description"
     },
     "frame": "challenge",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:salmon"
+      "count": 1,
+      "id": "minecraft:cod"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.complete_catalogue.title"
     }

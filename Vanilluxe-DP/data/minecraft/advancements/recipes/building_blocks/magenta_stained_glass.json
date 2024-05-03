@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:glass_blocks"
+            "items": "#minecraft:glass_blocks"
           }
         ]
       },
@@ -20,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_glass_blocks",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_glass_blocks"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:magenta_stained_glass"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

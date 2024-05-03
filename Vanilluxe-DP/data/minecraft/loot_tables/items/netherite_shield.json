@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.armor_toughness",
+                      "uuid": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "name": "mainhand_armor_toughness",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "type": "minecraft:generic.knockback_resistance",
+                      "uuid": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "name": "mainhand_knockback_resistance",
+                      "amount": 0.1,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "type": "minecraft:generic.armor_toughness",
+                      "uuid": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "name": "offhand_armor_toughness",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "type": "minecraft:generic.knockback_resistance",
+                      "uuid": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "name": "offhand_knockback_resistance",
+                      "amount": 0.1,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:custom_data": {
+                    "id": "netherite_shield"
+                },
+                "minecraft:custom_model_data": 540003,
+                "minecraft:damage": 0,
+                "minecraft:enchantments": {},
+                "minecraft:fire_resistant": {},
+                "minecraft:item_name": "{\"translate\":\"item.minecraft.netherite_shield\"}",
+                "minecraft:lore": ["{\"translate\":\"item.minecraft.netherite_shield.desc1\"}","{\"translate\":\"item.minecraft.netherite_shield.desc2\"}","{\"translate\":\"item.minecraft.netherite_shield.desc3\"}","{\"translate\":\"item.minecraft.netherite_shield.desc4\"}"],
+                "minecraft:max_damage": 815,
+                "minecraft:max_stack_size": 1,
+                "minecraft:rarity": "common",
+                "minecraft:repair_cost": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/netherite_shield"
+}

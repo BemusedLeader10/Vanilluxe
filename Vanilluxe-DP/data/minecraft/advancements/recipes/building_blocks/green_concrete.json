@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_concrete_blocks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:concrete_blocks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:green_concrete"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_concrete_blocks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:green_concrete"
+    ]
+  }
+}

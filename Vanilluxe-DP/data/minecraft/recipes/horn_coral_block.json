@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "tag": "minecraft:horn_coral"
+      "tag": "minecraft:horn_corals"
     }
   },
   "result": {
-    "item": "minecraft:horn_coral_block",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:horn_coral_block"
   }
 }

@@ -13,7 +13,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:shulker_box"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "minecraft:shulker_box"
+  }
 }

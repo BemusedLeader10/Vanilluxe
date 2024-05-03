@@ -15,7 +15,7 @@
     "S S"
   ],
   "result": {
-    "item": "minecraft:saddle"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "minecraft:saddle"
+  }
 }

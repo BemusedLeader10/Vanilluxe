@@ -5,8 +5,8 @@
     "translate": "trim_material.minecraft.glowstone"
   },
   "ingredient": "minecraft:glowstone_dust",
-  "item_model_index": 0.83,
+  "item_model_index": 0.14,
   "override_armor_materials": {
-    "glowstone": "glowstone_darker"
+    "minecraft:gold": "glowstone_darker"
   }
 }

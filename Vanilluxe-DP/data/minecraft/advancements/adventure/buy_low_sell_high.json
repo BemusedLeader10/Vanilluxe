@@ -22,23 +22,21 @@
           }
         ],
         "villager": {
-          "type": "villager"
+          "type": "minecraft:villager"
         }
       },
       "trigger": "minecraft:villager_trade"
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.buy_low_sell_high.description"
     },
     "frame": "goal",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:emerald"
+      "count": 1,
+      "id": "minecraft:emerald"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.buy_low_sell_high.title"
     }

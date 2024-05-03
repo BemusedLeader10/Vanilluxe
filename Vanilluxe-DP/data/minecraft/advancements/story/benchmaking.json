@@ -9,16 +9,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.benchmaking.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:crafting_table"
+      "count": 1,
+      "id": "minecraft:crafting_table"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.story.benchmaking.title"
     }

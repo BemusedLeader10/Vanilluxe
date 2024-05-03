@@ -10,7 +10,7 @@
         },
         "player": {
           "location": {
-            "structure": "end_city"
+            "structures": "end_city"
           }
         }
       },
@@ -18,16 +18,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.levitate.description"
     },
     "frame": "challenge",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:shulker_shell"
+      "count": 1,
+      "id": "minecraft:shulker_shell"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.end.levitate.title"
     }

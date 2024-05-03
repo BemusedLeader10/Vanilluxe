@@ -1,37 +1,21 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:axolotl_bucket",
-      "nbt": "{Variant:4}"
-    },
-    "title": {
-      "translate": "advancements.husbandry.axolotl_of_them.title"
-    },
-    "description": {
-      "translate": "advancements.husbandry.axolotl_of_them.description"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "parent": "minecraft:husbandry/tactical_fishing",
   "criteria": {
-    "leucistic": {
+    "lucy": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:water_bucket"
-          ]
+          "items": "minecraft:water_bucket"
         },
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:axolotl",
-              "nbt": "{Variant:0}"
+              "type_specific": {
+                "type": "minecraft:axolotl",
+                "variant": "lucy"
+              }
             }
           }
         ]
@@ -41,17 +25,17 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:water_bucket"
-          ]
+          "items": "minecraft:water_bucket"
         },
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:axolotl",
-              "nbt": "{Variant:1}"
+              "type_specific": {
+                "type": "minecraft:axolotl",
+                "variant": "wild"
+              }
             }
           }
         ]
@@ -61,17 +45,17 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:water_bucket"
-          ]
+          "items": "minecraft:water_bucket"
         },
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:axolotl",
-              "nbt": "{Variant:2}"
+              "type_specific": {
+                "type": "minecraft:axolotl",
+                "variant": "gold"
+              }
             }
           }
         ]
@@ -81,17 +65,17 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:water_bucket"
-          ]
+          "items": "minecraft:water_bucket"
         },
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:axolotl",
-              "nbt": "{Variant:3}"
+              "type_specific": {
+                "type": "minecraft:axolotl",
+                "variant": "cyan"
+              }
             }
           }
         ]
@@ -101,26 +85,39 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:water_bucket"
-          ]
+          "items": "minecraft:water_bucket"
         },
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:axolotl",
-              "nbt": "{Variant:4}"
+              "type_specific": {
+                "type": "minecraft:axolotl",
+                "variant": "blue"
+              }
             }
           }
         ]
       }
     }
   },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.axolotl_of_them.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "translate": "advancements.husbandry.axolotl_of_them.title"
+    }
+  },
   "requirements": [
     [
-      "leucistic"
+      "lucy"
     ],
     [
       "wild"

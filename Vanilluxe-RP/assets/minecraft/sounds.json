@@ -4,5 +4,29 @@
       "damage/old"
     ],
     "subtitle": "subtitles.entity.player.hurt"
+  },
+  "music.aether": {
+    "sounds": [
+      {
+        "name": "music/game/aether/welcome_to_paradise",
+        "stream": true
+      },
+      {
+        "name": "music/game/aether/wings",
+        "stream": true
+      },
+      {
+        "name": "music/game/aether/meadow",
+        "stream": true
+      },
+      {
+        "name": "music/game/aether/moas_song",
+        "stream": true
+      },
+      {
+        "name": "music/game/aether/clouds",
+        "stream": true
+      }
+    ]
   }
 }

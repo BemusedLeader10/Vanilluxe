@@ -8,15 +8,53 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "color": "gold",
-                "translate": "block.minecraft.eldritch_banner"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "cyan",
+                    "pattern": "minecraft:triangles_top"
+                  },
+                  {
+                    "color": "cyan",
+                    "pattern": "minecraft:triangles_bottom"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "minecraft:bricks"
+                  },
+                  {
+                    "color": "light_blue",
+                    "pattern": "minecraft:rhombus"
+                  },
+                  {
+                    "color": "cyan",
+                    "pattern": "minecraft:border"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "minecraft:curly_border"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "minecraft:cross"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "minecraft:straight_cross"
+                  }
+                ],
+                "minecraft:enchantments": {},
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.eldritch_banner\"}",
+                "minecraft:lore": [],
+                "minecraft:max_stack_size": 16,
+                "minecraft:rarity": "common",
+                "minecraft:repair_cost": 0
               }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{Patterns:[{Color:9,Pattern:tts},{Color:9,Pattern:bts},{Color:15,Pattern:bri},{Color:3,Pattern:mr},{Color:9,Pattern:bo},{Color:15,Pattern:cbo},{Color:15,Pattern:cr},{Color:15,Pattern:sc}],id:\"minecraft:banner\"},HideFlags:32}"
             }
           ],
           "name": "minecraft:cyan_banner"

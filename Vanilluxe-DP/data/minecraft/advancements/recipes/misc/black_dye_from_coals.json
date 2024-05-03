@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_coals": {
+    "has_coal": {
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:coals"
+            "items": "#minecraft:coals"
           }
         ]
       },
@@ -13,21 +13,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:black_dye"
+        "recipe": "minecraft:black_dye_from_coals"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_coals",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_coal"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:black_dye"
+      "minecraft:black_dye_from_coals"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

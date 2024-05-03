@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:flint"
-            ]
+            "items": "minecraft:flint"
           }
         ]
       },
@@ -22,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_flint",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_flint"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:gravel"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

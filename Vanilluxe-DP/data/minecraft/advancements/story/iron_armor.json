@@ -1,27 +1,7 @@
 {
   "parent": "minecraft:story/obtain_armor",
   "criteria": {
-    "iron_boots": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "feet": {
-                  "items": [
-                    "minecraft:iron_boots"
-                  ]
-                }
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
-    },
-    "iron_chestplate": {
+    "iron_armor": {
       "conditions": {
         "player": [
           {
@@ -30,49 +10,16 @@
             "predicate": {
               "equipment": {
                 "chest": {
-                  "items": [
-                    "minecraft:iron_chestplate"
-                  ]
-                }
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
-    },
-    "iron_helmet": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
+                  "items": "minecraft:iron_chestplate"
+                },
+                "feet": {
+                  "items": "minecraft:iron_boots"
+                },
                 "head": {
-                  "items": [
-                    "minecraft:iron_helmet"
-                  ]
-                }
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
-    },
-    "iron_leggings": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
+                  "items": "minecraft:iron_helmet"
+                },
                 "legs": {
-                  "items": [
-                    "minecraft:iron_leggings"
-                  ]
+                  "items": "minecraft:iron_leggings"
                 }
               }
             }
@@ -83,33 +30,21 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.iron_armor.description"
     },
     "frame": "task",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:iron_chestplate",
-      "nbt": "{Damage:0}"
+      "count": 1,
+      "id": "minecraft:iron_chestplate"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.story.iron_armor.title"
     }
   },
   "requirements": [
     [
-      "iron_boots"
-    ],
-    [
-      "iron_chestplate"
-    ],
-    [
-      "iron_helmet"
-    ],
-    [
-      "iron_leggings"
+      "iron_armor"
     ]
   ],
   "sends_telemetry_event": true

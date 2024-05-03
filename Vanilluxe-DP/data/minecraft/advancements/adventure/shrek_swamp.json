@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "witch_hut": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": [
+                  "minecraft:mangrove_hut",
+                  "minecraft:swamp_hut"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.shrek_swamp.description"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:vine"
+    },
+    "title": {
+      "translate": "advancements.adventure.shrek_swamp.title"
+    }
+  },
+  "requirements": [
+    [
+      "witch_hut"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

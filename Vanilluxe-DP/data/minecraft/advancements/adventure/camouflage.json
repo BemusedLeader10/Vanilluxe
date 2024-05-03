@@ -16,9 +16,7 @@
           "source_entity": {
             "equipment": {
               "head": {
-                "items": [
-                  "minecraft:creeper_head"
-                ]
+                "items": "minecraft:creeper_head"
               }
             }
           }
@@ -41,9 +39,7 @@
           "source_entity": {
             "equipment": {
               "head": {
-                "items": [
-                  "minecraft:zombie_head"
-                ]
+                "items": "minecraft:zombie_head"
               }
             }
           }
@@ -66,9 +62,7 @@
           "source_entity": {
             "equipment": {
               "head": {
-                "items": [
-                  "minecraft:skeleton_skull"
-                ]
+                "items": "minecraft:skeleton_skull"
               }
             }
           }
@@ -91,9 +85,7 @@
           "source_entity": {
             "equipment": {
               "head": {
-                "items": [
-                  "minecraft:wither_skeleton_skull"
-                ]
+                "items": "minecraft:wither_skeleton_skull"
               }
             }
           }
@@ -116,9 +108,7 @@
           "source_entity": {
             "equipment": {
               "head": {
-                "items": [
-                  "minecraft:piglin_head"
-                ]
+                "items": "minecraft:piglin_head"
               }
             }
           }
@@ -141,9 +131,7 @@
           "source_entity": {
             "equipment": {
               "head": {
-                "items": [
-                  "minecraft:dragon_head"
-                ]
+                "items": "minecraft:dragon_head"
               }
             }
           }
@@ -153,16 +141,14 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.camouflage.description"
     },
     "frame": "challenge",
-    "hidden": false,
     "icon": {
-      "item": "minecraft:wither_skeleton_skull"
+      "count": 1,
+      "id": "minecraft:wither_skeleton_skull"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.camouflage.title"
     }
