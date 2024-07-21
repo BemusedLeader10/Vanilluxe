@@ -18,10 +18,34 @@
         },
         {
             "type": "bitmap",
+            "file": "minecraft:misc/chestplate.png",
+            "ascent": 8,
+            "chars": [
+                "👕"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/compass.png",
+            "ascent": 8,
+            "chars": [
+                "🧭"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "minecraft:misc/crossbow.png",
             "ascent": 8,
             "chars": [
                 "†"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/elytra.png",
+            "ascent": 8,
+            "chars": [
+                "🪲"
             ]
         },
         {
@@ -48,7 +72,7 @@
                 "🔨"
             ]
         },
-		{
+        {
             "type": "bitmap",
             "file": "minecraft:misc/redstone.png",
             "ascent": 8,

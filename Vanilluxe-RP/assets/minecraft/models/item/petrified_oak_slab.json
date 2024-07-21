@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/petrified_oak_slab",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 540010
+      },
+      "model": "minecraft:item/nether_iron_ore"
+    }
+  ]
+}

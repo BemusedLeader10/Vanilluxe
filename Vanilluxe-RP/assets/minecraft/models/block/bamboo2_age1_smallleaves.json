@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "all": "block/bamboo_stalk",
+    "texture": "block/bamboo_small_leaves",
+    "particle": "block/bamboo_stalk"
+  },
+  "elements": [
+    {
+      "from": [6.5, 0, 6.5],
+      "to": [9.5, 16, 9.5],
+      "faces": {
+        "down":  { "uv": [13, 4, 16, 7], "texture": "#all", "cullface": "down" },
+        "up":  { "uv": [13, 0, 16, 3], "texture": "#all", "cullface": "up" },
+        "north": { "uv": [3, 0, 6, 16], "texture": "#all" },
+        "south": { "uv": [3, 0, 6, 16], "texture": "#all" },
+        "west":  { "uv": [3, 0, 6, 16], "texture": "#all" },
+        "east":  { "uv": [3, 0, 6, 16], "texture": "#all" }
+      }
+    },
+    {
+      "from": [0.8, 0, 8],
+      "to": [15.2, 16, 8],
+      "shade": false,
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0 },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0 }
+      }
+    },
+    {
+      "from": [8, 0, 0.8],
+      "to": [8, 16, 15.2],
+      "shade": false,
+      "faces": {
+        "west": { "uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0 },
+        "east": { "uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0 }
+      }
+    }
+  ]
+}

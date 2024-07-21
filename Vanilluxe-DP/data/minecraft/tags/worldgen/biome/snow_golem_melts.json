@@ -1,8 +1,7 @@
 {
+  "replace": false,
   "values": [
-    "minecraft:desert",
-    "#minecraft:is_badlands",
-    "#minecraft:is_nether",
-    "#minecraft:is_savanna"
+    "minecraft:infernal_basin",
+    "minecraft:deepslate_depths"
   ]
 }

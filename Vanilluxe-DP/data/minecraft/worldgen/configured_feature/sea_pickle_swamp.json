@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:random_selector",
+        "config": {
+          "default": {
+            "feature": {
+              "type": "minecraft:simple_block",
+              "config": {
+                "to_place": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:sea_pickle",
+                    "Properties": {
+                      "pickles": "2",
+                      "waterlogged": "true"
+                    }
+                  }
+                }
+              }
+            },
+            "placement": []
+          },
+          "features": [
+            {
+              "chance": 0.4,
+              "feature": {
+                "feature": {
+                  "type": "minecraft:simple_block",
+                  "config": {
+                    "to_place": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:sea_pickle",
+                        "Properties": {
+                          "pickles": "1",
+                          "waterlogged": "true"
+                        }
+                      }
+                    }
+                  }
+                },
+                "placement": []
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_fluids",
+                "fluids": "minecraft:water"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:mud",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "minecraft:surface_water_depth_filter",
+          "max_water_depth": 2
+        }
+      ]
+    },
+    "tries": 64,
+    "xz_spread": 12,
+    "y_spread": 2
+  }
+}

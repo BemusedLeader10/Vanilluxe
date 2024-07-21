@@ -11,7 +11,7 @@
             },
             "input_predicate": {
               "predicate_type": "minecraft:tag_match",
-              "tag": "minecraft:desert_well_replaceable"
+              "tag": "minecraft:desert_well_replaceables"
             },
             "location_predicate": {
               "predicate_type": "minecraft:always_true"

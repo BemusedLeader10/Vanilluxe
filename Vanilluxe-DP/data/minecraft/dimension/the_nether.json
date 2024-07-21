@@ -2,107 +2,107 @@
   "type": "minecraft:the_nether",
   "generator": {
     "type": "minecraft:noise",
+    "settings": "minecraft:nether",
     "biome_source": {
+      "type": "minecraft:multi_noise",
       "biomes": [
         {
           "biome": "minecraft:nether_wastes",
           "parameters": {
-            "continentalness": 0.0,
-            "depth": 0.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.0,
-            "temperature": 0.0,
-            "weirdness": 0.0
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
           }
         },
         {
           "biome": "minecraft:soul_sand_valley",
           "parameters": {
-            "continentalness": 0.0,
-            "depth": 0.0,
-            "erosion": 0.0,
-            "humidity": -0.5,
-            "offset": 0.0,
-            "temperature": 0.0,
-            "weirdness": 0.0
+            "temperature": 0,
+            "humidity": -0.2,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
           }
         },
         {
           "biome": "minecraft:crimson_forest",
           "parameters": {
-            "continentalness": 0.0,
-            "depth": 0.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.0,
-            "temperature": 0.4,
-            "weirdness": 0.0
+            "temperature": 0.2,
+            "humidity": 0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
           }
         },
         {
           "biome": "minecraft:warped_forest",
           "parameters": {
-            "continentalness": 0.0,
-            "depth": 0.0,
-            "erosion": 0.0,
+            "temperature": -0.2,
             "humidity": 0.5,
-            "offset": 0.375,
-            "temperature": 0.0,
-            "weirdness": 0.0
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.175
           }
         },
         {
           "biome": "minecraft:basalt_deltas",
           "parameters": {
-            "continentalness": 0.0,
-            "depth": 0.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.175,
             "temperature": -0.5,
-            "weirdness": 0.0
+            "humidity": 0.1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
           }
         },
         {
           "biome": "minecraft:infernal_basin",
           "parameters": {
-            "continentalness": 0.0,
-            "depth": 0.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.175,
-            "temperature": -0.5,
-            "weirdness": 0.0
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
           }
         },
         {
           "biome": "minecraft:deepslate_depths",
           "parameters": {
-            "continentalness": 0.0,
-            "depth": 0.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.175,
-            "temperature": -0.5,
-            "weirdness": 0.0
+            "temperature": -0.75,
+            "humidity": -0.4,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
           }
         },
         {
-          "biome": "minecraft:lava_ocean",
+          "biome": "minecraft:last_circle",
           "parameters": {
-            "continentalness": 0.0,
-            "depth": 0.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.175,
-            "temperature": -0.5,
-            "weirdness": 0.0
+            "temperature": 0.5,
+            "humidity": -0.1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
           }
         }
-      ],
-      "type": "minecraft:multi_noise"
-    },
-    "settings": "minecraft:nether"
+      ]
+    }
   }
 }

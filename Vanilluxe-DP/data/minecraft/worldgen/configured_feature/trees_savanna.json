@@ -4,12 +4,8 @@
     "default": "minecraft:oak_checked",
     "features": [
       {
-        "chance": 0.7,
+        "chance": 0.8,
         "feature": "minecraft:acacia_checked"
-      },
-      {
-        "chance": 0.1,
-        "feature": "minecraft:baobab_checked"
       }
     ]
   }

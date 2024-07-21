@@ -1,13 +1,7 @@
 {
+  "replace": false,
   "values": [
-    "minecraft:desert",
-    "minecraft:plains",
     "minecraft:sunflower_plains",
-    "minecraft:savanna",
-    "minecraft:snowy_plains",
-    "minecraft:snowy_taiga",
-    "minecraft:taiga",
-    "#minecraft:is_mountain",
-    "minecraft:grove"
+    "minecraft:snowy_taiga"
   ]
 }

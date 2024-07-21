@@ -1,2 +1,0 @@
-execute at @e[type=frog, nbt={variant:"minecraft:temperate"}] run execute if biome ~ ~ ~ minecraft:swamp run particle minecraft:entity_effect{color: [0.01, 0.36, 0.15, 0.98]} ~ ~5 ~ 12 2 12 0.1 1 normal
-execute at @e[type=frog, nbt={variant:"minecraft:temperate"}] run execute if biome ~ ~ ~ minecraft:swamp run particle minecraft:entity_effect{color: [0.01, 0.36, 0.15, 0.98]} ~ ~5 ~ 4 2 4 0.1 2 normal

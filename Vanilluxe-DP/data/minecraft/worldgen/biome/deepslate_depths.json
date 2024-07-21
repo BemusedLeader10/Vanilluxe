@@ -1,0 +1,93 @@
+{
+  "carvers": {
+    "air": "minecraft:nether_cave"
+  },
+  "downfall": 0.0,
+  "effects": {
+    "additions_sound": {
+      "sound": "minecraft:ambient.nether_wastes.additions",
+      "tick_chance": 0.0111
+    },
+    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "fog_color": 6840176,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.nether_wastes.mood",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.nether.nether_wastes"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:entity_effect",
+        "color": [
+          0.03,
+          0.36,
+          0.15,
+          0.98
+        ]
+      },
+      "probability": 0.01428
+    },
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:basalt_pillar"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:spring_closed",
+      "minecraft:ore_iron_nether",
+      "minecraft:ore_gold_nether"
+    ],
+    [],
+    []
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {
+    "minecraft:wither_skeleton": {
+      "charge": 2.5,
+      "energy_budget": 0.12
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 60
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:wither_skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 1
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2.0
+}

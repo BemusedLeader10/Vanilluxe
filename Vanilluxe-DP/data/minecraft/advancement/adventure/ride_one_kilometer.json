@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "ride_entity_distance": {
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:minecart_one_cm",
+                "value": {
+                  "min": 100000
+                }
+              }
+            ]
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.on_a_rail.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "advancements.adventure.on_a_rail.title"
+    }
+  },
+  "requirements": [
+    [
+      "ride_entity_distance"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

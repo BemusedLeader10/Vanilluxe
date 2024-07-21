@@ -9,6 +9,12 @@
         "custom_model_data": 540008
       },
       "model": "minecraft:item/netherite_horse_armor"
+    },
+    {
+      "predicate":{
+        "custom_model_data": 540011
+      },
+      "model": "minecraft:item/chainmail_horse_armor"
     }
   ]
 }

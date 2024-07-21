@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:cherry_foliage_placer",
+      "corner_hole_chance": 0.7,
+      "hanging_leaves_chance": 1,
+      "hanging_leaves_extension_chance": 1,
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "max_inclusive": 6,
+        "min_inclusive": 5
+      },
+      "offset": 0,
+      "radius": {
+        "type": "minecraft:biased_to_bottom",
+        "max_inclusive": 3,
+        "min_inclusive": 2
+      },
+      "wide_bottom_layer_hole_chance": 0.2
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:magma_block"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:andesite"
+          },
+          "weight": 7
+        }
+      ]
+    },
+    "force_dirt": false,
+    "ignore_vines": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 0,
+      "lower_size": 0,
+      "upper_size": 0
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 0,
+      "height_rand_a": 0,
+      "height_rand_b": 0
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:andesite"
+      }
+    }
+  }
+}

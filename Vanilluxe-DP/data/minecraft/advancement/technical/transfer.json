@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "lead_transfer": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:leash_knot"
+        },
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          }
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "requirements": [
+    [
+      "lead_transfer"
+    ]
+  ],
+  "rewards": {
+    "function": "minecraft:better_leads/on_transfer"
+  }
+}

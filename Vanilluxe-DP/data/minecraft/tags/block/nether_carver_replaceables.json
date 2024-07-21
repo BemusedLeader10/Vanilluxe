@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:red_sand",
+    "minecraft:red_sandstone",
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice"
+  ]
+}

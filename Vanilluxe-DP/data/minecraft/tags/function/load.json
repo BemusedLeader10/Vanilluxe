@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:better_leads/init",
+    "minecraft:crystal_bossbar/load",
+    "minecraft:teleporter_enchantment/load"
+  ]
+}

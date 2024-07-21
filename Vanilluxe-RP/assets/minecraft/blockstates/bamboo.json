@@ -1,0 +1,163 @@
+{
+  "variants": {
+    "age=0,leaves=none,stage=0": [
+      {
+        "model": "minecraft:block/bamboo1_age0"
+      },
+      {
+        "model": "minecraft:block/bamboo2_age0"
+      },
+      {
+        "model": "minecraft:block/bamboo3_age0"
+      },
+      {
+        "model": "minecraft:block/bamboo4_age0"
+      }
+    ],
+    "age=0,leaves=small,stage=0": [
+      {
+        "model": "minecraft:block/bamboo1_age0_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo2_age0_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo3_age0_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo4_age0_smallleaves"
+      }
+    ],
+    "age=0,leaves=large,stage=0": [
+      {
+        "model": "minecraft:block/bamboo1_age0_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo2_age0_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo3_age0_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo4_age0_largeleaves"
+      }
+    ],
+    "age=1,leaves=none,stage=0": [
+      {
+        "model": "minecraft:block/bamboo1_age1"
+      },
+      {
+        "model": "minecraft:block/bamboo2_age1"
+      },
+      {
+        "model": "minecraft:block/bamboo3_age1"
+      },
+      {
+        "model": "minecraft:block/bamboo4_age1"
+      }
+    ],
+    "age=1,leaves=small,stage=0": [
+      {
+        "model": "minecraft:block/bamboo1_age1_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo2_age1_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo3_age1_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo4_age1_smallleaves"
+      }
+    ],
+    "age=1,leaves=large,stage=0": [
+      {
+        "model": "minecraft:block/bamboo1_age1_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo2_age1_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo3_age1_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo4_age1_largeleaves"
+      }
+    ],
+    "age=0,leaves=none,stage=1": [
+      {
+        "model": "minecraft:block/bone_column"
+      }
+    ],
+    "age=0,leaves=small,stage=1": [
+      {
+        "model": "minecraft:block/bamboo1_age0_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo2_age0_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo3_age0_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo4_age0_smallleaves"
+      }
+    ],
+    "age=0,leaves=large,stage=1": [
+      {
+        "model": "minecraft:block/bamboo1_age0_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo2_age0_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo3_age0_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo4_age0_largeleaves"
+      }
+    ],
+    "age=1,leaves=none,stage=1": [
+      {
+        "model": "minecraft:block/bamboo1_age1"
+      },
+      {
+        "model": "minecraft:block/bamboo2_age1"
+      },
+      {
+        "model": "minecraft:block/bamboo3_age1"
+      },
+      {
+        "model": "minecraft:block/bamboo4_age1"
+      }
+    ],
+    "age=1,leaves=small,stage=1": [
+      {
+        "model": "minecraft:block/bamboo1_age1_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo2_age1_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo3_age1_smallleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo4_age1_smallleaves"
+      }
+    ],
+    "age=1,leaves=large,stage=1": [
+      {
+        "model": "minecraft:block/bamboo1_age1_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo2_age1_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo3_age1_largeleaves"
+      },
+      {
+        "model": "minecraft:block/bamboo4_age1_largeleaves"
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 41,
+    "pack_format": 48,
     "description": [
       {
         "text": "Vanilluxe",
@@ -19,15 +19,15 @@
     "block": [
       {
         "namespace": "minecraft",
-        "path": "recipes/music_disc_5.json"
+        "path": "recipe/music_disc_5.json"
       },
       {
         "namespace": "minecraft",
-        "path": "recipes/shield_decoration.json"
+        "path": "recipe/shield_decoration.json"
       },
       {
         "namespace": "minecraft",
-        "path": "recipes/suspicious_stew.json"
+        "path": "recipe/suspicious_stew.json"
       }
     ]
   }

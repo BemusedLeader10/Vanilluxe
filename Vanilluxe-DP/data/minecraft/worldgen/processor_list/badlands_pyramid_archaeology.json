@@ -42,7 +42,7 @@
             },
             "input_predicate": {
               "predicate_type": "minecraft:tag_match",
-              "tag": "minecraft:badlands_pyramid_replaceable"
+              "tag": "minecraft:badlands_pyramid_replaceables"
             },
             "location_predicate": {
               "predicate_type": "minecraft:always_true"

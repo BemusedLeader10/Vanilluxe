@@ -1,0 +1,161 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0,
+    "size": 64,
+    "targets": [
+      {
+        "state": {
+          "Name": "minecraft:cocoa",
+          "Properties": {
+            "age": "2",
+            "facing": "north"
+          }
+        },
+        "target": {
+          "block_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "age": "0",
+              "facing": "north"
+            }
+          },
+          "predicate_type": "minecraft:blockstate_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "minecraft:cocoa",
+          "Properties": {
+            "age": "2",
+            "facing": "south"
+          }
+        },
+        "target": {
+          "block_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "age": "0",
+              "facing": "south"
+            }
+          },
+          "predicate_type": "minecraft:blockstate_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "minecraft:cocoa",
+          "Properties": {
+            "age": "2",
+            "facing": "east"
+          }
+        },
+        "target": {
+          "block_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "age": "0",
+              "facing": "east"
+            }
+          },
+          "predicate_type": "minecraft:blockstate_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "minecraft:cocoa",
+          "Properties": {
+            "age": "2",
+            "facing": "west"
+          }
+        },
+        "target": {
+          "block_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "age": "0",
+              "facing": "west"
+            }
+          },
+          "predicate_type": "minecraft:blockstate_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "minecraft:cocoa",
+          "Properties": {
+            "age": "2",
+            "facing": "north"
+          }
+        },
+        "target": {
+          "block_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "age": "1",
+              "facing": "north"
+            }
+          },
+          "predicate_type": "minecraft:blockstate_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "minecraft:cocoa",
+          "Properties": {
+            "age": "2",
+            "facing": "south"
+          }
+        },
+        "target": {
+          "block_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "age": "1",
+              "facing": "south"
+            }
+          },
+          "predicate_type": "minecraft:blockstate_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "minecraft:cocoa",
+          "Properties": {
+            "age": "2",
+            "facing": "east"
+          }
+        },
+        "target": {
+          "block_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "age": "1",
+              "facing": "east"
+            }
+          },
+          "predicate_type": "minecraft:blockstate_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "minecraft:cocoa",
+          "Properties": {
+            "age": "2",
+            "facing": "west"
+          }
+        },
+        "target": {
+          "block_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "age": "1",
+              "facing": "west"
+            }
+          },
+          "predicate_type": "minecraft:blockstate_match"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "depth": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 4,
+      "min_inclusive": 3
+    },
+    "extra_bottom_block_chance": 0.5,
+    "extra_edge_column_chance": 1,
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:granite"
+      }
+    },
+    "replaceable": "#minecraft:stone_and_andesite",
+    "surface": "ceiling",
+    "vegetation_chance": 0.01,
+    "vegetation_feature": {
+      "feature": "minecraft:ore_granite_small",
+      "placement": []
+    },
+    "vertical_range": 12,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 10,
+      "min_inclusive": 5
+    }
+  }
+}
