@@ -74,10 +74,26 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:misc/redstone.png",
+            "file": "minecraft:misc/redstone_uncommon.png",
             "ascent": 8,
             "chars": [
-                ""
+                "\uEFF0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/redstone_uncommon.png",
+            "ascent": 8,
+            "chars": [
+                "\uEFF0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/redstone_rare.png",
+            "ascent": 8,
+            "chars": [
+                "\uEFF1"
             ]
         },
         {
@@ -86,7 +102,7 @@
             "height": 9,
             "ascent": 8,
             "chars": [
-                ""
+                "\uEFF2"
             ]
         },
         {
@@ -95,7 +111,7 @@
             "height": 9,
             "ascent": 8,
             "chars": [
-                ""
+                "\uEFF3"
             ]
         },
         {
@@ -104,360 +120,7 @@
             "height": 9,
             "ascent": 8,
             "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/hunger_full_epic.png",
-            "height": 9,
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/flower.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/creeper.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/skull.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/mojang.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/piglin.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/globe.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/flow.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/guster.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/bricks.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/curly_border.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/border.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/gradient.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/gradient_up.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/stripe_bottom.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/stripe_top.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/stripe_left.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/stripe_right.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/stripe_center.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/stripe_middle.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/stripe_downright.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/stripe_downleft.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/small_stripes.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/cross.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/straight_cross.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/diagonal_left.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/diagonal_right.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/diagonal_up_left.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/diagonal_up_right.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/half_vertical.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/half_vertical_right.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/half_horizontal.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/half_horizontal_bottom.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/square_bottom_left.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/square_bottom_right.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/square_top_left.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/square_top_right.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/triangle_top.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/triangle_bottom.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/triangles_bottom.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/triangles_top.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/circle.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/rhombus.png",
-            "ascent": 8,
-            "chars": [
-                ""
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/base.png",
-            "ascent": 8,
-            "chars": [
-                ""
+                "\uEFF4"
             ]
         }
     ]

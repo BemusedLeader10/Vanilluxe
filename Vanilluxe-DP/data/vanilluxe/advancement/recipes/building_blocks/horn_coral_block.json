@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_horn_coral": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#vanilluxe:horn_corals"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanilluxe:horn_coral_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_horn_coral"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanilluxe:horn_coral_block"
+    ]
+  }
+}

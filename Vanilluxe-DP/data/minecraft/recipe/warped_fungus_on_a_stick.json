@@ -2,20 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:string"
-    },
-    "W": {
-      "item": "minecraft:warped_fungus"
-    }
+    "#": "minecraft:stick",
+    "X": "minecraft:string",
+    "C": "minecraft:warped_fungus"
   },
   "pattern": [
     "  #",
     " #X",
-    "#WX"
+    "#CX"
   ],
   "result": {
     "count": 1,

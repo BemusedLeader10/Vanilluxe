@@ -4,7 +4,7 @@
       "model": "minecraft:block/petrified_oak_slab"
     },
     "type=double": {
-      "model": "minecraft:block/nether_iron_ore"
+      "model": "vanilluxe:block/nether_iron_ore"
     },
     "type=top": {
       "model": "minecraft:block/petrified_oak_slab_top"

@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "name": "Vanilluxe",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.iconTheme": "mc-dp-icons"
+  }
+}

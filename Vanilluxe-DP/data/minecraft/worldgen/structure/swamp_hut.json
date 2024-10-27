@@ -31,7 +31,7 @@
   "start_height": {
     "absolute": 1
   },
-  "start_pool": "minecraft:witch_hut/swamp/witch_hut",
+  "start_pool": "vanilluxe:witch_hut/swamp/witch_hut",
   "step": "surface_structures",
   "use_expansion_hack": false
 }

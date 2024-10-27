@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/leader_of_the_pack",
+  "parent": "vanilluxe:husbandry/leader_of_the_pack",
   "criteria": {
     "repair_wolf_armor": {
       "conditions": {

@@ -1,0 +1,30 @@
+{
+  "parent": "vanilluxe:husbandry/bake_bread",
+  "criteria": {
+    "bake_cake": {
+      "conditions": {
+        "recipe_id": "minecraft:cake"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.the_lie.description"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "advancements.husbandry.the_lie.title"
+    }
+  },
+  "requirements": [
+    [
+      "bake_cake"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

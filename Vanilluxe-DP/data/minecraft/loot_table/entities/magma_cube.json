@@ -146,7 +146,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:items/magma_cube_head"
+          "value": "vanilluxe:items/magma_cube_head"
         }
       ],
       "rolls": 1.0

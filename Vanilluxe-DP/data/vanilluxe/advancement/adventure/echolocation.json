@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "location": {
+      "conditions": {
+        "item": {
+          "items": "#vanilluxe:raw_fishes"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:dolphin"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.location.description"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cod"
+    },
+    "title": {
+      "translate": "advancements.adventure.location.title"
+    }
+  },
+  "requirements": [
+    [
+      "location"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

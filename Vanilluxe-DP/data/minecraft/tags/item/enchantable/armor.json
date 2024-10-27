@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:enchantable/horse_armor"
+    "#vanilluxe:enchantable/horse_armor"
   ]
 }

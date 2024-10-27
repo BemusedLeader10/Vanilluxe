@@ -130,7 +130,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:items/husk_head"
+          "value": "vanilluxe:items/husk_head"
         }
       ],
       "rolls": 1.0

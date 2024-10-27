@@ -1,1 +1,0 @@
-execute as @a[tag=rush_tag] at @s run function minecraft:rush_enchantment/remove_rush

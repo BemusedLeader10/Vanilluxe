@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/overpowered",
+  "parent": "vanilluxe:husbandry/overpowered",
   "criteria": {
     "apple": {
       "conditions": {
@@ -62,9 +62,7 @@
         "item": {
           "items": "minecraft:disc_fragment_5",
           "components": {
-            "minecraft:custom_data": {
-              "id": "cherries"
-            }
+            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.cherries\"}"
           }
         }
       },

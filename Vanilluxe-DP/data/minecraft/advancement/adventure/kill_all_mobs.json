@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/camouflage",
+  "parent": "vanilluxe:adventure/camouflage",
   "criteria": {
     "minecraft:blaze": {
       "conditions": {

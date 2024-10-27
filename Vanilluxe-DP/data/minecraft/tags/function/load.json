@@ -1,7 +1,9 @@
 {
+  "replace": false,
   "values": [
-    "minecraft:better_leads/init",
-    "minecraft:crystal_bossbar/load",
-    "minecraft:teleporter_enchantment/load"
+    "vanilluxe:better_leads/init",
+    "vanilluxe:crystal_bossbar/load",
+    "vanilluxe:teleporter_enchantment/load",
+    "vanilluxe:netherite_fishing_rod/install"
   ]
 }

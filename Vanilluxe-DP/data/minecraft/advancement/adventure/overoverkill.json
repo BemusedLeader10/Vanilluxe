@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/overkill",
+  "parent": "vanilluxe:story/overkill",
   "criteria": {
     "overoverkill": {
       "conditions": {
@@ -12,7 +12,13 @@
                   "items": "minecraft:mace"
                 }
               }
-            }
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:mace_smash"
+              }
+            ]
           },
           "dealt": {
             "min": 100.0

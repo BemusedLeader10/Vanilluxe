@@ -2,6 +2,11 @@
   "replace": false,
   "values": [
     "minecraft:sunflower_plains",
-    "minecraft:snowy_taiga"
+    "minecraft:snowy_taiga",
+    "minecraft:savanna_plateau",
+    "minecraft:badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_gravelly_hills"
   ]
 }

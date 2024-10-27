@@ -67,7 +67,7 @@
           }
         },
         {
-          "biome": "minecraft:infernal_basin",
+          "biome": "vanilluxe:infernal_basin",
           "parameters": {
             "temperature": 0.5,
             "humidity": -0.5,
@@ -79,7 +79,7 @@
           }
         },
         {
-          "biome": "minecraft:deepslate_depths",
+          "biome": "vanilluxe:deepslate_depths",
           "parameters": {
             "temperature": -0.75,
             "humidity": -0.4,
@@ -91,7 +91,7 @@
           }
         },
         {
-          "biome": "minecraft:last_circle",
+          "biome": "vanilluxe:last_circle",
           "parameters": {
             "temperature": 0.5,
             "humidity": -0.1,

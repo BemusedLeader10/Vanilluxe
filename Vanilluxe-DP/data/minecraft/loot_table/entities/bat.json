@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:items/bat_wing"
+          "value": "vanilluxe:items/bat_wing"
         }
       ],
       "rolls": 1.0

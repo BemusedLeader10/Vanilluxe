@@ -11,13 +11,13 @@
           "base": 0.15,
           "per_level_above_first": 0.15
         },
-        "attribute": "minecraft:player.sneaking_speed",
+        "attribute": "minecraft:sneaking_speed",
         "id": "minecraft:enchantment.swift_sneak",
         "operation": "add_value"
       }
     ]
   },
-  "exclusive_set": "#minecraft:exclusive_set/legs",
+  "exclusive_set": "#vanilluxe:exclusive_set/swift_sneak",
   "max_cost": {
     "base": 75,
     "per_level_above_first": 25

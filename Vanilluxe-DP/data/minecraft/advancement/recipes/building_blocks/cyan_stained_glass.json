@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:glass_blocks"
+            "items": "#vanilluxe:glass_blocks"
           }
         ]
       },

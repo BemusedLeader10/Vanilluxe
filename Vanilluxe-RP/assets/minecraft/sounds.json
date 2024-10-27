@@ -1,42 +1,16 @@
 {
-  "entity.goat.screaming.horn_break": {
-    "sounds": [
-      {
-        "name": "mob/goat/horn_break1",
-        "volume": 0.9
-      },
-      {
-        "name": "mob/goat/horn_break2",
-        "volume": 0.9
-      },
-      {
-        "name": "mob/goat/horn_break3",
-        "volume": 0.9
-      },
-      {
-        "name": "mob/goat/horn_break4",
-        "volume": 0.9
-      }
-    ],
-    "subtitle": "subtitles.entity.goat.horn_break"
-  },
   "entity.player.hurt_old": {
     "sounds": [
       "damage/old"
     ],
     "subtitle": "subtitles.entity.player.hurt"
   },
-  "item.goat_horn.play": {
+  "music_disc.tall": {
     "sounds": [
-      "item/goat_horn/call0",
-      "item/goat_horn/call1",
-      "item/goat_horn/call2",
-      "item/goat_horn/call3",
-      "item/goat_horn/call4",
-      "item/goat_horn/call5",
-      "item/goat_horn/call6",
-      "item/goat_horn/call7"
-    ],
-    "subtitle": "subtitles.item.goat_horn.play"
+      {
+        "name": "records/tall",
+        "stream": true
+      }
+    ]
   }
 }

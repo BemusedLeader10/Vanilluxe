@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "redstone",
   "ingredients": [
-    {
-      "tag": "minecraft:stone_crafting_materials"
-    },
-    {
-      "item": "minecraft:stick"
-    }
+    "#minecraft:stone_crafting_materials",
+    "minecraft:stick"
   ],
   "result": {
     "count": 1,

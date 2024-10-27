@@ -183,7 +183,7 @@
               "enchantment": "minecraft:fortune"
             }
           ],
-          "value": "minecraft:items/cherries"
+          "value": "vanilluxe:items/cherries"
         }
       ],
       "rolls": 1.0

@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:string"
-    },
-    "C": {
-      "item": "minecraft:carrot"
-    }
+    "#": "minecraft:stick",
+    "X": "minecraft:string",
+    "C": "minecraft:carrot"
   },
   "pattern": [
     "  #",

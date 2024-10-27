@@ -3,14 +3,14 @@
     "": [
       {
         "model": "minecraft:block/seagrass",
-        "weight": 98
+        "weight": 198
       },
       {
-        "model": "minecraft:block/starfish",
+        "model": "vanilluxe:block/starfish",
         "weight": 1
       },
       {
-        "model": "minecraft:block/nautilus_shell",
+        "model": "vanilluxe:block/nautilus_shell",
         "weight": 1
       }
     ]

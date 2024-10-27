@@ -151,7 +151,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:items/stray_skull"
+          "value": "vanilluxe:items/stray_skull"
         }
       ],
       "rolls": 1.0

@@ -9,7 +9,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:texturegui/advancementbackgroundnether.png",
+    "background": "minecraft:textures/block/netherrack.png",
     "description": {
       "translate": "advancements.nether.root.description"
     },

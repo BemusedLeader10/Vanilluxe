@@ -92,7 +92,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:items/slime_head"
+          "value": "vanilluxe:items/slime_head"
         }
       ],
       "rolls": 1.0

@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "vanilluxe:chainmail"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "minecraft:chainmail"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:chainmail"
+      }
+    ]
+  }
+}

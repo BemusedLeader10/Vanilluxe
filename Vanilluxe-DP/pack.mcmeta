@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 48,
+    "pack_format": 57,
     "description": [
       {
         "text": "Vanilluxe",
@@ -10,7 +10,7 @@
         "text": "\n"
       },
       {
-        "text": "Version 1.0",
+        "text": "Version 1.3",
         "color": "dark_aqua"
       }
     ]
@@ -24,10 +24,6 @@
       {
         "namespace": "minecraft",
         "path": "recipe/shield_decoration.json"
-      },
-      {
-        "namespace": "minecraft",
-        "path": "recipe/suspicious_stew.json"
       }
     ]
   }

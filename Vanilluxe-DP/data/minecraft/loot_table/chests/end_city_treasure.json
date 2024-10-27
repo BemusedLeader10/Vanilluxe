@@ -348,7 +348,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:teleporter"
+              "options": "vanilluxe:teleporter"
             }
           ],
           "name": "minecraft:book",

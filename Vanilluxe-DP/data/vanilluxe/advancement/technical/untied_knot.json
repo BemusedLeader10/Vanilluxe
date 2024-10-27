@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "untied_knot": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:leash_knot"
+        },
+        "player": {
+          "flags": {
+            "is_sneaking": false
+          }
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "requirements": [
+    [
+      "untied_knot"
+    ]
+  ],
+  "rewards": {
+    "function": "vanilluxe:better_leads/on_untied_knot"
+  }
+}

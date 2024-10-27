@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:swamp_vegetation",
+  "feature": "vanilluxe:swamp_vegetation",
   "placement": [
     {
       "type": "minecraft:count",

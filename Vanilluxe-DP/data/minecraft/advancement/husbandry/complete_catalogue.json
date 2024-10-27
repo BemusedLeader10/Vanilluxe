@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/lion_hunter",
+  "parent": "vanilluxe:husbandry/lion_hunter",
   "criteria": {
     "minecraft:all_black": {
       "conditions": {

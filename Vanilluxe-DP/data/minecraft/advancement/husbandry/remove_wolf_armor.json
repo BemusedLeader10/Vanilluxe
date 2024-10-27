@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/have_a_shearful_day",
+  "parent": "vanilluxe:husbandry/have_a_shearful_day",
   "criteria": {
     "remove_wolf_armor": {
       "conditions": {

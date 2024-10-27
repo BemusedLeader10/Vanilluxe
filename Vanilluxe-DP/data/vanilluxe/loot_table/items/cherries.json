@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:consumable": {},
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 1.2
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:item_model": "vanilluxe:cherries",
+                "minecraft:item_name": "{\"translate\":\"item.vanilluxe.cherries\"}",
+                "minecraft:lore": [],
+                "minecraft:max_stack_size": 64,
+                "minecraft:rarity": "common",
+                "minecraft:repair_cost": 0
+              }
+            }
+          ],
+          "name": "minecraft:disc_fragment_5"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "vanilluxe:items/cherries"
+}

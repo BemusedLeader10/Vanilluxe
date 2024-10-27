@@ -86,7 +86,7 @@
     ],
     "age=0,leaves=none,stage=1": [
       {
-        "model": "minecraft:block/bone_column"
+        "model": "vanilluxe:block/bone_column"
       }
     ],
     "age=0,leaves=small,stage=1": [

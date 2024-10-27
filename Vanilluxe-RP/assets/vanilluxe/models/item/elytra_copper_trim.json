@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytra",
+    "layer1": "vanilluxe:trims/items/elytra_trim_copper"
+  }
+}

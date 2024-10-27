@@ -1,6 +1,7 @@
 #version 150
 
 vec4 linear_fog(vec4 inColor, float vertexDistance, float fogStart, float fogEnd, vec4 fogColor) {
+    //Custom
     float fogRColor = ceil(fogColor.r * 255);
     float fogGColor = ceil(fogColor.g * 255);
     float fogBColor = ceil(fogColor.b * 255);
@@ -19,7 +20,7 @@ vec4 linear_fog(vec4 inColor, float vertexDistance, float fogStart, float fogEnd
     if (!fogLava && !fogPowderedSnow && !fogBlindness) {
         fogEnd += 64.0;
     }
-
+    ////////
     if (vertexDistance <= fogStart) {
         return inColor;
     }

@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "feed_ocelot": {
+      "conditions": {
+        "item": {
+          "items": "#vanilluxe:raw_fishes"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ocelot"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.lion_hunter.description"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cod"
+    },
+    "title": {
+      "translate": "advancements.husbandry.lion_hunter.title"
+    }
+  },
+  "requirements": [
+    [
+      "feed_ocelot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

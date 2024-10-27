@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "is_riding": {
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#vanilluxe:ridable"
+          }
+        }
+      },
+      "trigger": "minecraft:started_riding"
+    }
+  },
+  "requirements": [
+    [
+      "is_riding"
+    ]
+  ],
+  "rewards": {
+    "function": "vanilluxe:better_leads/on_ride"
+  }
+}

@@ -32,7 +32,7 @@
               }
             }
           ],
-          "value": "minecraft:items/bone_column"
+          "value": "vanilluxe:items/bone_column"
         }
       ],
       "rolls": 1.0

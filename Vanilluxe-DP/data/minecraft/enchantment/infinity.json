@@ -1,0 +1,50 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.minecraft.infinity"
+  },
+  "effects": {
+    "minecraft:ammo_use": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:remove_binomial",
+              "chance": {
+                "type": "minecraft:fraction",
+                "denominator": 100,
+                "numerator": {
+                  "type": "minecraft:linear",
+                  "base": 16,
+                  "per_level_above_first": 16
+                }
+              }
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:arrow"
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#vanilluxe:exclusive_set/infinity",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 1
+}

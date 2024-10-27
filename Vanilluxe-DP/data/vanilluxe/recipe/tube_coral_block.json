@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "coral_blocks",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "#vanilluxe:tube_corals"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:tube_coral_block"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/trampoline",
+  "parent": "vanilluxe:adventure/trampoline",
   "criteria": {
     "fall_from_world_height": {
       "conditions": {

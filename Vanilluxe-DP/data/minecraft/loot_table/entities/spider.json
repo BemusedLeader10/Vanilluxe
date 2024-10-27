@@ -81,7 +81,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:items/spider_head"
+          "value": "vanilluxe:items/spider_head"
         }
       ],
       "rolls": 1.0

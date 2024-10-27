@@ -17,46 +17,43 @@
     },
     {
       "type": "single",
-      "resource": "entity/bell/bell_body"
+      "resource": "minecraft:entity/bell/bell_body"
     },
     {
       "type": "single",
-      "resource": "entity/decorated_pot/decorated_pot_side"
+      "resource": "minecraft:entity/decorated_pot/decorated_pot_side"
     },
     {
       "type": "single",
-      "resource": "entity/enchanting_table_book"
+      "resource": "minecraft:entity/enchanting_table_book"
     },
     {
       "type": "paletted_permutations",
       "textures": [
-        "trims/items/leggings_trim",
-        "trims/items/chestplate_trim",
-        "trims/items/helmet_trim",
-        "trims/items/boots_trim"
+        "minecraft:trims/items/leggings_trim",
+        "minecraft:trims/items/chestplate_trim",
+        "minecraft:trims/items/helmet_trim",
+        "minecraft:trims/items/boots_trim",
+        "vanilluxe:trims/items/elytra_trim",
+        "vanilluxe:trims/items/horse_armor_trim",
+        "vanilluxe:trims/items/wolf_armor_trim"
       ],
-      "palette_key": "trims/color_palettes/trim_palette",
+      "palette_key": "minecraft:trims/color_palettes/trim_palette",
       "permutations": {
-        "quartz": "trims/color_palettes/quartz",
-        "iron": "trims/color_palettes/iron",
-        "gold": "trims/color_palettes/gold",
-        "diamond": "trims/color_palettes/diamond",
-        "netherite": "trims/color_palettes/netherite",
-        "redstone": "trims/color_palettes/redstone",
-        "copper": "trims/color_palettes/copper",
-        "emerald": "trims/color_palettes/emerald",
-        "lapis": "trims/color_palettes/lapis",
-        "amethyst": "trims/color_palettes/amethyst",
-        "coal": "trims/color_palettes/coal",
-        "echo": "trims/color_palettes/echo",
-        "glowstone": "trims/color_palettes/glowstone",
-        "prismarine": "trims/color_palettes/prismarine",
-        "iron_darker": "trims/color_palettes/iron_darker",
-        "gold_darker": "trims/color_palettes/gold_darker",
-        "diamond_darker": "trims/color_palettes/diamond_darker",
-        "netherite_darker": "trims/color_palettes/netherite_darker",
-        "echo_darker": "trims/color_palettes/echo_darker",
-        "glowstone_darker": "trims/color_palettes/glowstone_darker"
+        "quartz": "minecraft:trims/color_palettes/quartz",
+        "iron": "minecraft:trims/color_palettes/iron",
+        "gold": "minecraft:trims/color_palettes/gold",
+        "diamond": "minecraft:trims/color_palettes/diamond",
+        "netherite": "minecraft:trims/color_palettes/netherite",
+        "redstone": "minecraft:trims/color_palettes/redstone",
+        "copper": "minecraft:trims/color_palettes/copper",
+        "emerald": "minecraft:trims/color_palettes/emerald",
+        "lapis": "minecraft:trims/color_palettes/lapis",
+        "amethyst": "minecraft:trims/color_palettes/amethyst",
+        "iron_darker": "minecraft:trims/color_palettes/iron_darker",
+        "gold_darker": "minecraft:trims/color_palettes/gold_darker",
+        "diamond_darker": "minecraft:trims/color_palettes/diamond_darker",
+        "netherite_darker": "minecraft:trims/color_palettes/netherite_darker"
       }
     }
   ]

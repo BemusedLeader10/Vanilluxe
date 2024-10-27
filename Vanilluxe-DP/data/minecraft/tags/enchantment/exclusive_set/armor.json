@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vanilluxe:golden_protection",
+    "vanilluxe:golden_blast_protection",
+    "vanilluxe:golden_fire_protection",
+    "vanilluxe:golden_projectile_protection"
+  ]
+}

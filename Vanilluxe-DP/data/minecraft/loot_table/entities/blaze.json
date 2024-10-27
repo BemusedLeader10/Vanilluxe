@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:items/blaze_skull"
+          "value": "vanilluxe:items/blaze_skull"
         }
       ],
       "rolls": 1.0

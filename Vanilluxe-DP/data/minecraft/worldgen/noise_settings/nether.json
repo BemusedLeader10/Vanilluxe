@@ -168,25 +168,25 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "minecraft:last_circle"
+            "vanilluxe:last_circle"
           ]
         },
         "then_run": {
           "type": "minecraft:sequence",
           "sequence": [
             {
-							"type": "minecraft:condition",
-							"if_true": {
-								"type": "minecraft:stone_depth",
-								"offset": 0,
-								"surface_type": "ceiling",
-								"add_surface_depth": true,
-								"secondary_depth_range": 0
-							},
-							"then_run": {
-								"type": "minecraft:sequence",
-								"sequence": [
-									{
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "ceiling",
+                "add_surface_depth": true,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:y_above",
@@ -203,21 +203,21 @@
                       }
                     }
                   }
-								]
-							}
-						},
-						{
-							"type": "minecraft:condition",
-							"if_true": {
-								"type": "minecraft:stone_depth",
-								"offset": 0,
-								"surface_type": "floor",
-								"add_surface_depth": true,
-								"secondary_depth_range": 0
-							},
-							"then_run": {
-								"type": "minecraft:sequence",
-								"sequence": [
+                ]
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": true,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
                   {
                     "type": "minecraft:condition",
                     "if_true": {
@@ -246,47 +246,47 @@
                       }
                     }
                   },
-									{
-										"type": "minecraft:condition",
-										"if_true": {
-											"type": "minecraft:noise_threshold",
-											"noise": "minecraft:patch",
-											"min_threshold": -0.012,
-											"max_threshold": 1.7976931348623157e+308
-										},
-										"then_run": {
-											"type": "minecraft:condition",
-											"if_true": {
-												"type": "minecraft:y_above",
-												"anchor": {
-													"absolute": 30
-												},
-												"surface_depth_multiplier": 0,
-												"add_stone_depth": true
-											},
-											"then_run": {
-												"type": "minecraft:condition",
-												"if_true": {
-													"type": "minecraft:not",
-													"invert": {
-														"type": "minecraft:y_above",
-														"anchor": {
-															"absolute": 35
-														},
-														"surface_depth_multiplier": 0,
-														"add_stone_depth": true
-													}
-												},
-												"then_run": {
-													"type": "minecraft:block",
-													"result_state": {
-														"Name": "minecraft:gravel"
-													}
-												}
-											}
-										}
-									},
-									{
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:noise_threshold",
+                      "noise": "minecraft:patch",
+                      "min_threshold": -0.012,
+                      "max_threshold": 1.7976931348623157e+308
+                    },
+                    "then_run": {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:y_above",
+                        "anchor": {
+                          "absolute": 30
+                        },
+                        "surface_depth_multiplier": 0,
+                        "add_stone_depth": true
+                      },
+                      "then_run": {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:not",
+                          "invert": {
+                            "type": "minecraft:y_above",
+                            "anchor": {
+                              "absolute": 35
+                            },
+                            "surface_depth_multiplier": 0,
+                            "add_stone_depth": true
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:gravel"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:y_above",
@@ -303,9 +303,9 @@
                       }
                     }
                   }
-								]
-							}
-						},
+                ]
+              }
+            },
             {
               "type": "minecraft:condition",
               "if_true": {
@@ -427,7 +427,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "minecraft:deepslate_depths"
+            "vanilluxe:deepslate_depths"
           ]
         },
         "then_run": {
@@ -540,7 +540,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "minecraft:infernal_basin"
+            "vanilluxe:infernal_basin"
           ]
         },
         "then_run": {
@@ -687,7 +687,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e+308,
                       "min_threshold": -0.012,
                       "noise": "minecraft:patch"
                     },
@@ -727,7 +727,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e+308,
                       "min_threshold": 0.0,
                       "noise": "minecraft:nether_state_selector"
                     },
@@ -780,7 +780,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e+308,
                       "min_threshold": 0.0,
                       "noise": "minecraft:nether_state_selector"
                     },
@@ -816,7 +816,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e+308,
                       "min_threshold": -0.012,
                       "noise": "minecraft:patch"
                     },
@@ -856,7 +856,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e+308,
                       "min_threshold": 0.0,
                       "noise": "minecraft:nether_state_selector"
                     },
@@ -934,7 +934,7 @@
                   "type": "minecraft:not",
                   "invert": {
                     "type": "minecraft:noise_threshold",
-                    "max_threshold": 1.7976931348623157E308,
+                    "max_threshold": 1.7976931348623157e+308,
                     "min_threshold": 0.54,
                     "noise": "minecraft:netherrack"
                   }
@@ -956,7 +956,7 @@
                         "type": "minecraft:condition",
                         "if_true": {
                           "type": "minecraft:noise_threshold",
-                          "max_threshold": 1.7976931348623157E308,
+                          "max_threshold": 1.7976931348623157e+308,
                           "min_threshold": 1.17,
                           "noise": "minecraft:nether_wart"
                         },
@@ -992,7 +992,7 @@
                   "type": "minecraft:not",
                   "invert": {
                     "type": "minecraft:noise_threshold",
-                    "max_threshold": 1.7976931348623157E308,
+                    "max_threshold": 1.7976931348623157e+308,
                     "min_threshold": 0.54,
                     "noise": "minecraft:netherrack"
                   }
@@ -1014,7 +1014,7 @@
                         "type": "minecraft:condition",
                         "if_true": {
                           "type": "minecraft:noise_threshold",
-                          "max_threshold": 1.7976931348623157E308,
+                          "max_threshold": 1.7976931348623157e+308,
                           "min_threshold": 1.17,
                           "noise": "minecraft:nether_wart"
                         },
@@ -1063,7 +1063,7 @@
                 "type": "minecraft:condition",
                 "if_true": {
                   "type": "minecraft:noise_threshold",
-                  "max_threshold": 1.7976931348623157E308,
+                  "max_threshold": 1.7976931348623157e+308,
                   "min_threshold": -0.012,
                   "noise": "minecraft:soul_sand_layer"
                 },
@@ -1156,7 +1156,7 @@
                     "type": "minecraft:condition",
                     "if_true": {
                       "type": "minecraft:noise_threshold",
-                      "max_threshold": 1.7976931348623157E308,
+                      "max_threshold": 1.7976931348623157e+308,
                       "min_threshold": -0.012,
                       "noise": "minecraft:gravel_layer"
                     },
@@ -1205,11 +1205,11 @@
         }
       },
       {
-				"type": "minecraft:block",
+        "type": "minecraft:block",
         "result_state": {
           "Name": "minecraft:netherrack"
         }
-			}
+      }
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:infernal_basin",
-    "minecraft:deepslate_depths"
+    "vanilluxe:infernal_basin",
+    "vanilluxe:deepslate_depths"
   ]
 }

@@ -1,0 +1,321 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 12,
+    "xz_spread": 0,
+    "y_spread": 0,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_random_selector",
+        "config": {
+          "features": [
+            {
+              "feature": {
+                "type": "minecraft:disk",
+                "config": {
+                  "state_provider": {
+                    "fallback": {
+                      "type": "minecraft:weighted_state_provider",
+                      "entries": [
+                        {
+                          "weight": 9,
+                          "data": {
+                            "Name": "minecraft:amethyst_block"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:budding_amethyst"
+                          }
+                        },
+                        {
+                          "weight": 10,
+                          "data": {
+                            "Name": "minecraft:calcite"
+                          }
+                        }
+                      ]
+                    },
+                    "rules": []
+                  },
+                  "target": {
+                    "type": "minecraft:all_of",
+                    "predicates": [
+                      {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:packed_ice",
+                          "minecraft:blue_ice"
+                        ]
+                      }
+                    ]
+                  },
+                  "radius": {
+                    "type": "minecraft:weighted_list",
+                    "distribution": [
+                      {
+                        "weight": 8,
+                        "data": 4
+                      },
+                      {
+                        "weight": 3,
+                        "data": 5
+                      }
+                    ]
+                  },
+                  "half_height": 4
+                }
+              },
+              "placement": []
+            },
+            {
+              "feature": {
+                "type": "minecraft:random_patch",
+                "config": {
+                  "tries": 96,
+                  "xz_spread": 7,
+                  "y_spread": 3,
+                  "feature": {
+                    "feature": {
+                      "type": "minecraft:random_selector",
+                      "config": {
+                        "features": [
+                          {
+                            "chance": 0.25,
+                            "feature": {
+                              "feature": {
+                                "type": "minecraft:block_column",
+                                "config": {
+                                  "direction": "up",
+                                  "allowed_placement": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:air"
+                                  },
+                                  "prioritize_tip": true,
+                                  "layers": [
+                                    {
+                                      "height": 1,
+                                      "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                          "Name": "minecraft:small_amethyst_bud"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "placement": [
+                                {
+                                  "type": "minecraft:block_predicate_filter",
+                                  "predicate": {
+                                    "type": "minecraft:all_of",
+                                    "predicates": [
+                                      {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": "minecraft:air"
+                                      },
+                                      {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                          0,
+                                          -1,
+                                          0
+                                        ],
+                                        "blocks": "minecraft:amethyst_block"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "chance": 0.25,
+                            "feature": {
+                              "feature": {
+                                "type": "minecraft:block_column",
+                                "config": {
+                                  "direction": "up",
+                                  "allowed_placement": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:air"
+                                  },
+                                  "prioritize_tip": true,
+                                  "layers": [
+                                    {
+                                      "height": 1,
+                                      "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                          "Name": "minecraft:medium_amethyst_bud"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "placement": [
+                                {
+                                  "type": "minecraft:block_predicate_filter",
+                                  "predicate": {
+                                    "type": "minecraft:all_of",
+                                    "predicates": [
+                                      {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": "minecraft:air"
+                                      },
+                                      {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                          0,
+                                          -1,
+                                          0
+                                        ],
+                                        "blocks": "minecraft:amethyst_block"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "chance": 0.25,
+                            "feature": {
+                              "feature": {
+                                "type": "minecraft:block_column",
+                                "config": {
+                                  "direction": "up",
+                                  "allowed_placement": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:air"
+                                  },
+                                  "prioritize_tip": true,
+                                  "layers": [
+                                    {
+                                      "height": 1,
+                                      "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                          "Name": "minecraft:large_amethyst_bud"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "placement": [
+                                {
+                                  "type": "minecraft:block_predicate_filter",
+                                  "predicate": {
+                                    "type": "minecraft:all_of",
+                                    "predicates": [
+                                      {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": "minecraft:air"
+                                      },
+                                      {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                          0,
+                                          -1,
+                                          0
+                                        ],
+                                        "blocks": "minecraft:amethyst_block"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "chance": 0.25,
+                            "feature": {
+                              "feature": {
+                                "type": "minecraft:block_column",
+                                "config": {
+                                  "direction": "up",
+                                  "allowed_placement": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:air"
+                                  },
+                                  "prioritize_tip": true,
+                                  "layers": [
+                                    {
+                                      "height": 1,
+                                      "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                          "Name": "minecraft:amethyst_cluster"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "placement": [
+                                {
+                                  "type": "minecraft:block_predicate_filter",
+                                  "predicate": {
+                                    "type": "minecraft:all_of",
+                                    "predicates": [
+                                      {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": "minecraft:air"
+                                      },
+                                      {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                          0,
+                                          -1,
+                                          0
+                                        ],
+                                        "blocks": "minecraft:amethyst_block"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "default": {
+                          "feature": "minecraft:bonus_chest",
+                          "placement": [
+                            {
+                              "type": "minecraft:block_predicate_filter",
+                              "predicate": {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                  "type": "minecraft:true"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "placement": [
+                      {
+                        "type": "minecraft:block_predicate_filter",
+                        "predicate": {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": "minecraft:air"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "placement": []
+            }
+          ]
+        }
+      },
+      "placement": []
+    }
+  }
+}

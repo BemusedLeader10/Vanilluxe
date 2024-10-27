@@ -1,7 +1,9 @@
 {
+  "replace": false,
   "values": [
-    "minecraft:bone_column/tick",
-    "minecraft:crystal_bossbar/tick",
-    "minecraft:fireflies/tick"
+    "vanilluxe:bone_column/tick",
+    "vanilluxe:crystal_bossbar/tick",
+    "vanilluxe:fireflies/tick",
+    "vanilluxe:netherite_fishing_rod/tick"
   ]
 }

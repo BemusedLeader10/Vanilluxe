@@ -1,0 +1,3 @@
+scoreboard objectives add teleporter_is_sneaking minecraft.custom:minecraft.sneak_time
+scoreboard objectives add teleporter_warp_tick dummy
+scoreboard objectives add teleporter_target.y dummy

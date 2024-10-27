@@ -40,6 +40,6 @@
     "mainhand",
     "offhand"
   ],
-  "supported_items": "#minecraft:enchantable/quick_charge",
+  "supported_items": "#vanilluxe:enchantable/quick_charge",
   "weight": 5
 }

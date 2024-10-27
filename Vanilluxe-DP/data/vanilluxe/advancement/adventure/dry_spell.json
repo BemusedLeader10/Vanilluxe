@@ -1,0 +1,34 @@
+{
+  "parent": "vanilluxe:adventure/kill_an_elder_guardian",
+  "criteria": {
+    "dry_sponge": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sponge"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.dry_spell.description"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sponge"
+    },
+    "title": {
+      "translate": "advancements.adventure.dry_spell.title"
+    }
+  },
+  "requirements": [
+    [
+      "dry_sponge"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

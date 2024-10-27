@@ -1,0 +1,37 @@
+{
+  "parent": "vanilluxe:story/librarian",
+  "criteria": {
+    "overkill": {
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 18
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.overkill.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      },
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "advancements.story.overkill.title"
+    }
+  },
+  "requirements": [
+    [
+      "overkill"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

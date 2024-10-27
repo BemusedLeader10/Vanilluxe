@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/fishing_rod",
+  "textures": {
+    "layer0": "vanilluxe:item/netherite_fishing_rod_cast"
+  }
+}

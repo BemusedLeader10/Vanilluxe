@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/lily_pad",
+        "weight": 3
+      },
+      {
+        "model": "vanilluxe:block/lily_pad1",
+        "weight": 1
+      },
+      {
+        "model": "vanilluxe:block/lily_pad2",
+        "weight": 1
+      },
+      {
+        "model": "vanilluxe:block/lily_pad3",
+        "weight": 1
+      }
+    ]
+  }
+}

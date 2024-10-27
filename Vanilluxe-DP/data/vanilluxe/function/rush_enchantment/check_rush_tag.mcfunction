@@ -1,0 +1,1 @@
+execute as @a[tag=rush_tag] at @s run function vanilluxe:rush_enchantment/remove_rush

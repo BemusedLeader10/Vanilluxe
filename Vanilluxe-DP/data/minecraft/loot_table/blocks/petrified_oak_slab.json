@@ -31,7 +31,7 @@
               }
             }
           ],
-          "value": "minecraft:items/nether_iron_ore"
+          "value": "vanilluxe:items/nether_iron_ore"
         }
       ],
       "rolls": 1.0

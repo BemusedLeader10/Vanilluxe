@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "tag": "minecraft:stone_crafting_materials"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    }
+    "#": "#minecraft:stone_crafting_materials",
+    "R": "minecraft:redstone"
   },
   "pattern": [
     "###",

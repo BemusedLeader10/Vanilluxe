@@ -1,0 +1,430 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "creeper": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:creeper"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:creeper_head"
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "zombie": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:zombie_head"
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "skeleton": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:skeleton"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:skeleton_skull"
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "wither_skeleton": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither_skeleton"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:wither_skeleton_skull"
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "piglin": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:piglin"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:piglin_head"
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "ender_dragon": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:dragon_head"
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "spider": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:spider"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.spider_head\"}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "slime": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:slime"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.slime_head\"}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "husk": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:husk"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.husk_head\"}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "drowned": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:drowned"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.drowned_head\"}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "stray": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:stray"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.stray_skull\"}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "bogged": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:bogged"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.bogged_skull\"}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "breeze": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:breeze"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.breeze_skull\"}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "magma_cube": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:magma_cube"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.magma_cube_head\"}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "blaze": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:blaze"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.blaze_skull\"}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "enderman": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:enderman"
+            }
+          }
+        ],
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.enderman_head\"}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.camouflage.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.adventure.camouflage.title"
+    }
+  },
+  "requirements": [
+    [
+      "creeper",
+      "zombie",
+      "skeleton",
+      "wither_skeleton",
+      "piglin",
+      "ender_dragon",
+      "spider",
+      "slime",
+      "husk",
+      "drowned",
+      "stray",
+      "bogged",
+      "breeze",
+      "magma_cube",
+      "blaze",
+      "enderman"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

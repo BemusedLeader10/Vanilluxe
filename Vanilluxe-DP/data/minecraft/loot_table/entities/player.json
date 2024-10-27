@@ -24,7 +24,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:note_block_sound": "minecraft:entity.player.hurt_old"
+                "minecraft:note_block_sound": "entity.player.hurt_old"
               }
             }
           ],

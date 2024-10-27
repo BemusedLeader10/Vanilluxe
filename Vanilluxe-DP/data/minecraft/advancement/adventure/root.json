@@ -9,7 +9,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "background": "minecraft:textures/block/sandstone_top.png",
     "description": {
       "translate": "advancements.adventure.root.description"
     },

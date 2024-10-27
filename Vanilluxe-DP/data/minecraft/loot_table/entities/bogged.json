@@ -116,7 +116,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:items/bogged_skull"
+          "value": "vanilluxe:items/bogged_skull"
         }
       ],
       "rolls": 1.0

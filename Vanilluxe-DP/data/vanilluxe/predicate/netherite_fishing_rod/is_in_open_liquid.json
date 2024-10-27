@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type_specific": {
+            "type": "minecraft:fishing_hook",
+            "in_open_water": true
+          }
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:storage",
+          "storage": "vanilluxe:netherite_fishing_rod/data",
+          "path": "is_in_open_lava"
+        },
+        "range": 1
+      }
+    ]
+  }
+  
