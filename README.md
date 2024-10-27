@@ -15,21 +15,23 @@ Vanilluxe is the one-stop shop for the deluxe vanilla gameplay experience. It im
 - Place “Vanilluxe-RP.zip” in minecraft/resourcepacks/…
 - Use the resource pack you just installed.
 - Execute /reload in-game, and you’re done!
+</details>
 
 FAQ:
 <details>
   <summary>Where's the resource pack?</summary>
 
 - It's bundled with the rest of the files in the download link. Please, read the download steps.
-
+</details>
 
 <details>
   <summary>What version should I use?</summary>
 
 - The latest release is whatever the release page says. It is not stated here to save me from updating this line every update.
-
+</details>
 
 <details>
   <summary>Can you disable certain features?</summary>
 
 - No.
+</details>
