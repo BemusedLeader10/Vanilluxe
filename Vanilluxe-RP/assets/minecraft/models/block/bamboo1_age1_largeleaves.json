@@ -1,9 +1,9 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "all": "block/bamboo_stalk",
-    "texture": "block/bamboo_large_leaves",
-    "particle": "block/bamboo_stalk"
+    "all": "minecraft:block/bamboo_stalk",
+    "texture": "minecraft:block/bamboo_large_leaves",
+    "particle": "minecraft:block/bamboo_stalk"
   },
   "elements": [
     {

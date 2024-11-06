@@ -27,11 +27,17 @@ FAQ:
 <details>
   <summary>What version should I use?</summary>
 
-- The latest release is whatever the release page says. It is not stated here to save me from updating this line every update.
+- The latest release of Minecraft (1.21.3)
 </details>
 
 <details>
-  <summary>Can you disable certain features?</summary>
+  <summary>Can I disable certain features?</summary>
 
-- No.
+- There is no config, but you can edit the pack yourself.
+</details>
+
+<details>
+  <summary>Can I disable certain features?</summary>
+
+- There is no config, but you can edit the pack yourself.
 </details>
