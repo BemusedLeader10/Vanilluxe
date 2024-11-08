@@ -172,6 +172,17 @@
       },
       "trigger": "minecraft:consume_item"
     },
+    "fungus_stew": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:disc_fragment_5",
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.fungus_stew\"}"
+          }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
     "glow_berries": {
       "conditions": {
         "item": {

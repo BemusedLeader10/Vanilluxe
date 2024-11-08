@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "carrot_on_a_stick",
   "key": {
     "#": "minecraft:stick",
     "X": "minecraft:string",

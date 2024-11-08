@@ -32,6 +32,10 @@
       "minecraft:damage_resistant": {
         "types": "#minecraft:is_fire"
       },
+      "minecraft:dyed_color": {
+        "rgb": 16777215,
+        "show_in_tooltip": false
+      },
       "minecraft:enchantments": {
         "levels": {}
       },
@@ -42,6 +46,7 @@
         "model": "minecraft:netherite",
         "slot": "body"
       },
+      "minecraft:hide_additional_tooltip": {},
       "minecraft:item_model": "vanilluxe:netherite_horse_armor",
       "minecraft:item_name": "{\"translate\":\"item.vanilluxe.netherite_horse_armor\"}",
       "minecraft:lore": [],

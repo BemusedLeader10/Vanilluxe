@@ -1,0 +1,593 @@
+{
+  "targets": [
+    "tools_and_utilities"
+  ],
+  "additions": [
+    {
+      "items": [
+        {
+          "id": "minecraft:fishing_rod",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:damage": 0,
+            "minecraft:damage_resistant": {
+              "types": "#minecraft:is_fire"
+            },
+            "minecraft:enchantable": {
+              "value": 15
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:item_model": "vanilluxe:netherite_fishing_rod",
+            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.netherite_fishing_rod\"}",
+            "minecraft:lore": [],
+            "minecraft:max_damage": 155,
+            "minecraft:max_stack_size": 1,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0,
+            "minecraft:repairable": {
+              "items": "#minecraft:netherite_tool_materials"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:fishing_rod"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:shears",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:damage": 0,
+            "minecraft:damage_resistant": {
+              "types": "#minecraft:is_fire"
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:item_model": "vanilluxe:netherite_shears",
+            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.netherite_shears\"}",
+            "minecraft:lore": [],
+            "minecraft:max_damage": 577,
+            "minecraft:max_stack_size": 1,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0,
+            "minecraft:tool": {
+              "rules": [
+                {
+                  "blocks": "minecraft:cobweb",
+                  "correct_for_drops": true,
+                  "speed": 15.0
+                },
+                {
+                  "blocks": "#minecraft:leaves",
+                  "speed": 15.0
+                },
+                {
+                  "blocks": "#minecraft:wool",
+                  "speed": 5.0
+                },
+                {
+                  "blocks": [
+                    "minecraft:vine",
+                    "minecraft:glow_lichen"
+                  ],
+                  "speed": 2.0
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:shears"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    15790320
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    11250603
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    4408131
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    1973019
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    5320730
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    11743532
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    15435844
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    14602026
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    4312372
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    3887386
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    2651799
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    6719955
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    2437522
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    8073150
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    12801229
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:firework_rocket",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:fireworks": {
+              "explosions": [
+                {
+                  "colors": [
+                    14188952
+                  ],
+                  "shape": "small_ball"
+                }
+              ],
+              "flight_duration": 1
+            },
+            "minecraft:item_model": "minecraft:firework_rocket",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.firework_rocket\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:saddle"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:music_disc_11",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:item_model": "vanilluxe:music_disc_tall",
+            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.music_disc_tall\"}",
+            "minecraft:jukebox_playable": {
+              "song": "vanilluxe:tall"
+            },
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 1,
+            "minecraft:rarity": "rare",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:music_disc_pigstep"
+        ]
+      }
+    }
+  ]
+}
