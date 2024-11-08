@@ -7,6 +7,9 @@
       "minecraft:attribute_modifiers": {
         "modifiers": []
       },
+      "minecraft:custom_data": {
+        "id": "netherite_fishing_rod"
+      },
       "minecraft:damage": 0,
       "minecraft:damage_resistant": {
         "types": "#minecraft:is_fire"
