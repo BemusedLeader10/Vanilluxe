@@ -3,7 +3,6 @@
   "values": [
     "vanilluxe:bone_column/tick",
     "vanilluxe:crystal_bossbar/tick",
-    "vanilluxe:fireflies/tick",
-    "vanilluxe:netherite_fishing_rod/tick"
+    "vanilluxe:fireflies/tick"
   ]
 }

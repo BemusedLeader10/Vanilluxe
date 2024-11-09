@@ -1,2 +1,0 @@
-execute store result storage vanilluxe:netherite_fishing_rod/data tempfloat.value float 0.1 run random value 0..3600
-function vanilluxe:netherite_fishing_rod/util/rotate_macro with storage vanilluxe:netherite_fishing_rod/data tempfloat

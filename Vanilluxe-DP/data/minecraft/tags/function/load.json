@@ -3,7 +3,6 @@
   "values": [
     "vanilluxe:better_leads/init",
     "vanilluxe:crystal_bossbar/load",
-    "vanilluxe:teleporter_enchantment/load",
-    "vanilluxe:netherite_fishing_rod/install"
+    "vanilluxe:teleporter_enchantment/load"
   ]
 }

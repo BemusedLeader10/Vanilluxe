@@ -34,6 +34,20 @@
     {
       "items": [
         {
+          "id": "minecraft:sculk_vein"
+        }
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:echo_shard"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
           "id": "minecraft:firework_star",
           "components": {
             "minecraft:attribute_modifiers": {

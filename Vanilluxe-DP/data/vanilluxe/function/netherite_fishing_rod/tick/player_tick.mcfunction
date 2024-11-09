@@ -1,2 +1,0 @@
-execute if score @s netherite_fishing_rod_data matches 1.. at @s run function vanilluxe:netherite_fishing_rod/used_rod
-execute unless score @s netherite_fishing_rod_fisherman_id matches -2147483648.. store result score @s netherite_fishing_rod_fisherman_id run scoreboard players add $fishers netherite_fishing_rod_fisherman_id 1
