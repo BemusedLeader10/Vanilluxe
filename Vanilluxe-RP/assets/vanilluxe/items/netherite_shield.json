@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "vanilluxe:item/netherite_shield"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "vanilluxe:item/netherite_shield_blocking"
+    },
+    "property": "minecraft:using_item"
+  }
+}

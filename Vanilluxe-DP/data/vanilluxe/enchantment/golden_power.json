@@ -8,7 +8,7 @@
       {
         "effect": {
           "type": "minecraft:add",
-          "value": 3.0
+          "value": 3.5
         },
         "requirements": {
           "condition": "minecraft:entity_properties",

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/fencier_fence_side",
+  "parent": "minecraft:block/template_fence_side",
   "textures": {
     "texture": "minecraft:block/warped_planks"
   }

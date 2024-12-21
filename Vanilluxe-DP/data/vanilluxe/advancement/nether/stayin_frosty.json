@@ -30,7 +30,7 @@
                 }
               }
             }
-          }        
+          }
         ]
       },
       "trigger": "minecraft:location"

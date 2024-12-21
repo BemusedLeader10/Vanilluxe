@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "clifftree:bog",
+    "clifftree:cold_river",
+    "clifftree:tropical_river",
+    "clifftree:warm_river"
+  ]
+}

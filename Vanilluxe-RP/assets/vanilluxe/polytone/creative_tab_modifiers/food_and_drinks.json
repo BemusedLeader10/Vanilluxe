@@ -1,0 +1,292 @@
+{
+  "targets": [
+    "minecraft:food_and_drinks"
+  ],
+  "additions": [
+    {
+      "items": [
+        {
+          "id": "minecraft:disc_fragment_5",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:consumable": {},
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:food": {
+              "nutrition": 3,
+              "saturation": 1.2
+            },
+            "minecraft:hide_additional_tooltip": {},
+            "minecraft:item_model": "vanilluxe:cherries",
+            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.cherries\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:melon_slice"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:disc_fragment_5",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:consumable": {},
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:food": {
+              "nutrition": 3,
+              "saturation": 1.2
+            },
+            "minecraft:hide_additional_tooltip": {},
+            "minecraft:item_model": "vanilluxe:warped_berry",
+            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.warped_berry\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:glow_berries"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:disc_fragment_5",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:consumable": {},
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:food": {
+              "nutrition": 6,
+              "saturation": 7.2000003
+            },
+            "minecraft:hide_additional_tooltip": {},
+            "minecraft:item_model": "vanilluxe:fungus_stew",
+            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.fungus_stew\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 1,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0,
+            "minecraft:use_remainder": {
+              "count": 1,
+              "id": "minecraft:bowl"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:mushroom_stew"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:disc_fragment_5",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:consumable": {
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:remove_effects",
+                  "effects": "minecraft:poison"
+                }
+              ]
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:food": {
+              "nutrition": 11,
+              "saturation": 7.2000003
+            },
+            "minecraft:hide_additional_tooltip": {},
+            "minecraft:item_model": "vanilluxe:honey_bread",
+            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.honey_bread\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 1,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:bread"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:potion",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:consumable": {
+              "animation": "drink",
+              "has_consume_particles": false,
+              "sound": "minecraft:entity.generic.drink"
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:item_model": "minecraft:potion",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.potion\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 1,
+            "minecraft:potion_contents": {
+              "custom_effects": [
+                {
+                  "amplifier": 0,
+                  "duration": 800,
+                  "id": "minecraft:wither"
+                }
+              ],
+              "custom_name": "decay"
+            },
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0,
+            "minecraft:use_remainder": {
+              "count": 1,
+              "id": "minecraft:glass_bottle"
+            }
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "itemstack_match",
+        "itemstack": {
+          "id": "minecraft:potion",
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:luck"
+            }
+          }
+        }
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:splash_potion",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:item_model": "minecraft:splash_potion",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.splash_potion\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 1,
+            "minecraft:potion_contents": {
+              "custom_effects": [
+                {
+                  "amplifier": 0,
+                  "duration": 800,
+                  "id": "minecraft:wither"
+                }
+              ],
+              "custom_name": "decay"
+            },
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "itemstack_match",
+        "itemstack": {
+          "id": "minecraft:splash_potion",
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:luck"
+            }
+          }
+        }
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:lingering_potion",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:item_model": "minecraft:lingering_potion",
+            "minecraft:item_name": "{\"translate\":\"item.minecraft.lingering_potion\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 1,
+            "minecraft:potion_contents": {
+              "custom_effects": [
+                {
+                  "amplifier": 0,
+                  "duration": 800,
+                  "id": "minecraft:wither"
+                }
+              ],
+              "custom_name": "decay"
+            },
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "itemstack_match",
+        "itemstack": {
+          "id": "minecraft:lingering_potion",
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:luck"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

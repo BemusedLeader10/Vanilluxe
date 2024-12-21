@@ -1,0 +1,68 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "vanilluxe:nether_fortress/castle_small_corridor",
+        "processors": "vanilluxe:nether_fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 25
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "vanilluxe:nether_fortress/castle_small_corridor_crossing",
+        "processors": "vanilluxe:nether_fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 15
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "vanilluxe:nether_fortress/castle_small_corridor_right_turn",
+        "processors": "vanilluxe:nether_fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "vanilluxe:nether_fortress/castle_small_corridor_left_turn",
+        "processors": "vanilluxe:nether_fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "vanilluxe:nether_fortress/castle_corridor_stairs",
+        "processors": "vanilluxe:nether_fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "vanilluxe:nether_fortress/castle_corridor_t_balcony",
+        "processors": "vanilluxe:nether_fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 7
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "vanilluxe:nether_fortress/castle_stalk_room",
+        "processors": "vanilluxe:nether_fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

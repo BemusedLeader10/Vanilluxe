@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:remove_effects",
+                      "effects": "minecraft:poison"
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:food": {
+                  "nutrition": 11,
+                  "saturation": 7.2000003
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:item_model": "vanilluxe:honey_bread",
+                "minecraft:item_name": "{\"translate\":\"item.vanilluxe.honey_bread\"}",
+                "minecraft:lore": [],
+                "minecraft:max_stack_size": 1,
+                "minecraft:rarity": "common",
+                "minecraft:repair_cost": 0
+              }
+            }
+          ],
+          "name": "minecraft:disc_fragment_5"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "vanilluxe:items/honey_bread"
+}

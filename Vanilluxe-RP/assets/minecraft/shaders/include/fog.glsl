@@ -20,7 +20,7 @@ vec4 linear_fog(vec4 inColor, float vertexDistance, float fogStart, float fogEnd
     if (!fogLava && !fogPowderedSnow && !fogBlindness) {
         fogEnd += 64.0;
     }
-    ////////
+    //////// Custom End
     if (vertexDistance <= fogStart) {
         return inColor;
     }

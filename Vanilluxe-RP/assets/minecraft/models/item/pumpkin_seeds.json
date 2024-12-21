@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_seeds",
+  "textures": {
+    "layer0": "minecraft:item/pumpkin_seeds"
+  }
+}

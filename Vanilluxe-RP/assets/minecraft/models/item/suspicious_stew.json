@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_bowl",
+  "textures": {
+    "layer0": "minecraft:item/suspicious_stew",
+    "particle": "minecraft:particle/item_interact/transparent"
+  }
+}

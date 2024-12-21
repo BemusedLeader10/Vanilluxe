@@ -47,9 +47,9 @@
                 },
                 "minecraft:equippable": {
                   "allowed_entities": "minecraft:horse",
+                  "asset_id": "minecraft:netherite",
                   "damage_on_hurt": false,
                   "equip_sound": "minecraft:entity.horse.armor",
-                  "model": "minecraft:netherite",
                   "slot": "body"
                 },
                 "minecraft:hide_additional_tooltip": {},

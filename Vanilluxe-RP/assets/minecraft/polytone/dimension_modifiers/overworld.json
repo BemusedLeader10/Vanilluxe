@@ -1,6 +1,0 @@
-{
-  "fog_colormap": "minecraft:fog",
-  "no_weather_fog_darken": true,
-  "no_weather_sky_darken": true,
-  "sky_colormap": "minecraft:sky"
-}

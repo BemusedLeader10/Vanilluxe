@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/bow",
+  "parent": "vanilluxe:item/netherite_bow",
   "textures": {
     "layer0": "vanilluxe:item/netherite_bow_pulling_0"
   }

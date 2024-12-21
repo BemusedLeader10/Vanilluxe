@@ -6,9 +6,10 @@
   "size": 2,
   "spawn_overrides": {},
   "start_height": {
-    "absolute": -2
+    "absolute": 0
   },
-  "start_pool": "vanilluxe:well/desert/well",
+  "start_pool": "vanilluxe:well/desert/ground",
   "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
   "use_expansion_hack": false
 }

@@ -60,10 +60,10 @@
     "cherries": {
       "conditions": {
         "item": {
-          "items": "minecraft:disc_fragment_5",
           "components": {
             "minecraft:item_name": "{\"translate\":\"item.vanilluxe.cherries\"}"
-          }
+          },
+          "items": "minecraft:disc_fragment_5"
         }
       },
       "trigger": "minecraft:consume_item"
@@ -175,10 +175,10 @@
     "fungus_stew": {
       "conditions": {
         "item": {
-          "items": "minecraft:disc_fragment_5",
           "components": {
             "minecraft:item_name": "{\"translate\":\"item.vanilluxe.fungus_stew\"}"
-          }
+          },
+          "items": "minecraft:disc_fragment_5"
         }
       },
       "trigger": "minecraft:consume_item"
@@ -203,6 +203,17 @@
       "conditions": {
         "item": {
           "items": "minecraft:golden_carrot"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "honey_bread": {
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.honey_bread\"}"
+          },
+          "items": "minecraft:disc_fragment_5"
         }
       },
       "trigger": "minecraft:consume_item"
@@ -339,6 +350,17 @@
       "conditions": {
         "item": {
           "items": "minecraft:tropical_fish"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "warped_berry": {
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.warped_berry\"}"
+          },
+          "items": "minecraft:disc_fragment_5"
         }
       },
       "trigger": "minecraft:consume_item"
@@ -480,6 +502,15 @@
     ],
     [
       "cherries"
+    ],
+    [
+      "fungus_stew"
+    ],
+    [
+      "honey_bread"
+    ],
+    [
+      "warped_berry"
     ]
   ],
   "rewards": {

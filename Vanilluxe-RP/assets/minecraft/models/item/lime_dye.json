@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_bowl",
+  "textures": {
+    "layer0": "minecraft:item/lime_dye"
+  }
+}

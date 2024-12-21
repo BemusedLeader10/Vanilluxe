@@ -1,0 +1,57 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bread"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_honey_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honey_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_honey_bread": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_model": "vanilluxe:honey_bread"
+            },
+            "items": "minecraft:disc_fragment_5"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanilluxe:honey_bread"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_honey_bread",
+      "has_bread",
+      "has_honey_bottle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanilluxe:honey_bread"
+    ]
+  }
+}

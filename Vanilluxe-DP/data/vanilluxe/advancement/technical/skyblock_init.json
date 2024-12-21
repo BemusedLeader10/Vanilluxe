@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "void": {
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "x": 8.5,
+              "y": {
+                "max": -62
+              },
+              "z": 8.5
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "requirements": [
+    [
+      "void"
+    ]
+  ],
+  "rewards": {
+    "function": "vanilluxe:skyblock/target"
+  },
+  "sends_telemetry_event": true
+}

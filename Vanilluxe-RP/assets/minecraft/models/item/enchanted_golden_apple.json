@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/notch_apple"
+    "layer0": "vanilluxe:item/notch_apple"
   }
 }

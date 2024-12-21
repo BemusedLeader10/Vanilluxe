@@ -6,11 +6,11 @@
         "weight": 198
       },
       {
-        "model": "vanilluxe:block/starfish",
+        "model": "minecraft:block/starfish",
         "weight": 1
       },
       {
-        "model": "vanilluxe:block/nautilus_shell",
+        "model": "minecraft:block/nautilus_shell",
         "weight": 1
       }
     ]

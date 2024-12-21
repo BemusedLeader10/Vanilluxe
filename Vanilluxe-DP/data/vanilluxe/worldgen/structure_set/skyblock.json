@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 1,
+    "distance": 0,
+    "locate_offset": [
+      2,
+      0,
+      2
+    ],
+    "preferred_biomes": "#vanilluxe:has_structure/skyblock",
+    "salt": 0,
+    "spread": 0
+  },
+  "structures": [
+    {
+      "structure": "vanilluxe:skyblock",
+      "weight": 1
+    }
+  ]
+}

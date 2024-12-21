@@ -20,58 +20,12 @@
         ]
       },
       {
-        "discipline": "Audio",
-        "titles": [
-          {
-            "title": "Music composed by",
-            "names": [
-              "Christopher Larkin",
-              "David Peacock",
-              "Augustine Mayuga Gonzales"
-            ]
-          }
-        ]
-      },
-      {
         "discipline": "Communications",
         "titles": [
           {
             "title": "Creative Writer",
             "names": [
               "Surplus Seraph"
-            ]
-          }
-        ]
-      },
-      {
-        "discipline": "Banner Tooltips",
-        "titles": [
-          {
-            "title": "Creator",
-            "names": [
-              "Amaro_Lunático"
-            ]
-          }
-        ]
-      },
-      {
-        "discipline": "Netherite Plus Mod",
-        "titles": [
-          {
-            "title": "Creator",
-            "names": [
-              "OroArmor (Eli Orona)"
-            ]
-          }
-        ]
-      },
-      {
-        "discipline": "Infernal Basin Datapack",
-        "titles": [
-          {
-            "title": "Creator",
-            "names": [
-              "Athesiel"
             ]
           }
         ]
@@ -1255,7 +1209,7 @@
               "Jakub Obstawski (Lionbridge)",
               "Jakub Owczarzak (Lionbridge)",
               "Jakub Więch (Lionbridge)",
-              "Jakub Wojciwski (Lionbridge)",
+              "Jakub Wojciechowski (Lionbridge)",
               "Jan Kamiński (Lionbridge)",
               "Jan Owczarczyk (Lionbridge)",
               "Jan Tomaszewski (Lionbridge)",
@@ -3865,7 +3819,7 @@
               "Alaric Trevers (Experis)",
               "Aleksander Skiba (Lionbridge)",
               "Alex Richardson (Lionbridge)",
-              "Andrzej Wojciwski (Lionbridge)",
+              "Andrzej Wojciechowski (Lionbridge)",
               "Austin Keeling (Experis)",
               "Bartłomiej Dziurżyński (Lionbridge)",
               "Bartłomiej Figiel (Lionbridge)",

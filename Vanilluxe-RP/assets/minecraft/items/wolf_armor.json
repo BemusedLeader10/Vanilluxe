@@ -1,0 +1,397 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "component": "minecraft:dyed_color",
+    "on_false": {
+      "type": "minecraft:select",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_quartz_trim"
+          },
+          "when": "minecraft:quartz"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_iron_trim"
+          },
+          "when": "minecraft:iron"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_netherite_trim"
+          },
+          "when": "minecraft:netherite"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_redstone_trim"
+          },
+          "when": "minecraft:redstone"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_copper_trim"
+          },
+          "when": "minecraft:copper"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_gold_trim"
+          },
+          "when": "minecraft:gold"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_emerald_trim"
+          },
+          "when": "minecraft:emerald"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_diamond_trim"
+          },
+          "when": "minecraft:diamond"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_lapis_trim"
+          },
+          "when": "minecraft:lapis"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_amethyst_trim"
+          },
+          "when": "minecraft:amethyst"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_resin_trim"
+          },
+          "when": "minecraft:resin"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_echo_trim"
+          },
+          "when": "vanilluxe:echo"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_coal_trim"
+          },
+          "when": "vanilluxe:coal"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_glowstone_trim"
+          },
+          "when": "vanilluxe:glowstone"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_prismarine_trim"
+          },
+          "when": "vanilluxe:prismarine"
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wolf_armor"
+      },
+      "property": "minecraft:trim_material"
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_quartz_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "minecraft:quartz"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_iron_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "minecraft:iron"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_netherite_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "minecraft:netherite"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_redstone_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "minecraft:redstone"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_copper_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "minecraft:copper"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_gold_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "minecraft:gold"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_emerald_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "minecraft:emerald"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_diamond_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "minecraft:diamond"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_lapis_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "minecraft:lapis"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_amethyst_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "minecraft:amethyst"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_resin_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "minecraft:resin"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_echo_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "vanilluxe:echo"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_coal_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "vanilluxe:coal"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_glowstone_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "vanilluxe:glowstone"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "vanilluxe:item/wolf_armor_dyed_prismarine_trim",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:dye",
+                "default": 0
+              }
+            ]
+          },
+          "when": "vanilluxe:prismarine"
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wolf_armor_dyed",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": -1
+          },
+          {
+            "type": "minecraft:dye",
+            "default": 0
+          }
+        ]
+      },
+      "property": "minecraft:trim_material"
+    },
+    "property": "minecraft:has_component"
+  }
+}

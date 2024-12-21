@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "clifftree:snowy_diorite_shore",
+    "clifftree:bog",
+    "clifftree:tundra",
+    "clifftree:cold_caves",
+    "clifftree:glacier_cliff",
+    "clifftree:glacier_valley",
+    "clifftree:diorite_shore",
+    "clifftree:frozen_caves",
+    "clifftree:snowy_old_growth_taiga"
+  ]
+}

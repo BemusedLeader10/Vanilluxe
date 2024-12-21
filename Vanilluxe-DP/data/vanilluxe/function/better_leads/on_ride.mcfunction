@@ -1,4 +1,4 @@
-advancement revoke @s only vanilluxe:technical/ride
+advancement revoke @s only vanilluxe:technical/better_leads_ride
 execute on vehicle store success score #result better_leads_raycast run data get entity @s leash
 execute if score #result better_leads_raycast matches 0 run return 0
 execute on vehicle on leasher store result storage vanilluxe:better_leads/macro x int 1 run data get entity @s Pos[0] 1

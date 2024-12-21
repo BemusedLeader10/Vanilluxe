@@ -10,8 +10,8 @@
               "loot_table": "minecraft:archaeology/desert_well"
             },
             "input_predicate": {
-              "predicate_type": "minecraft:tag_match",
-              "tag": "vanilluxe:desert_well_replaceables"
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:red_wool"
             },
             "location_predicate": {
               "predicate_type": "minecraft:always_true"
@@ -25,8 +25,70 @@
           }
         ]
       },
-      "limit": 2,
+      "limit": 1,
       "processor_type": "minecraft:capped"
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:red_wool"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sand"
+          }
+        }
+      ]
+    },
+    {
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "minecraft:archaeology/desert_well"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:blue_wool"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:suspicious_sand",
+              "Properties": {
+                "dusted": "0"
+              }
+            }
+          }
+        ]
+      },
+      "limit": 1,
+      "processor_type": "minecraft:capped"
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:blue_wool"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sand"
+          }
+        }
+      ]
     }
   ]
 }

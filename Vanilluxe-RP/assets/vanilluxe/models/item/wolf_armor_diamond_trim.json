@@ -2,7 +2,6 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/wolf_armor",
-    "layer1": "minecraft:item/wolf_armor_overlay",
-    "layer2": "vanilluxe:trims/items/wolf_armor_trim_diamond"
+    "layer1": "vanilluxe:trims/items/wolf_armor_trim_diamond"
   }
 }

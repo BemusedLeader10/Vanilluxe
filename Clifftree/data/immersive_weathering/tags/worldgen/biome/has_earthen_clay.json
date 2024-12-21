@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_badlands",
+    "#minecraft:is_savanna",
+    "clifftree:desert_cliff",
+    "clifftree:shrubland",
+    "clifftree:oasis"
+  ]
+}

@@ -16,6 +16,16 @@
       "prefix": "entity/conduit/"
     },
     {
+      "type": "directory",
+      "source": "particle/break",
+      "prefix": "particle/break/"
+    },
+    {
+      "type": "directory",
+      "source": "particle/item_interact",
+      "prefix": "particle/item_interact/"
+    },
+    {
       "type": "single",
       "resource": "minecraft:entity/bell/bell_body"
     },
@@ -35,6 +45,7 @@
         "minecraft:trims/items/helmet_trim",
         "minecraft:trims/items/boots_trim",
         "vanilluxe:trims/items/elytra_trim",
+        "vanilluxe:trims/items/elytra_broken_trim",
         "vanilluxe:trims/items/horse_armor_trim",
         "vanilluxe:trims/items/wolf_armor_trim"
       ],
@@ -53,7 +64,14 @@
         "iron_darker": "minecraft:trims/color_palettes/iron_darker",
         "gold_darker": "minecraft:trims/color_palettes/gold_darker",
         "diamond_darker": "minecraft:trims/color_palettes/diamond_darker",
-        "netherite_darker": "minecraft:trims/color_palettes/netherite_darker"
+        "netherite_darker": "minecraft:trims/color_palettes/netherite_darker",
+        "resin": "minecraft:trims/color_palettes/resin",
+        "echo": "vanilluxe:trims/color_palettes/echo",
+        "glowstone": "vanilluxe:trims/color_palettes/glowstone",
+        "coal": "vanilluxe:trims/color_palettes/coal",
+        "prismarine": "vanilluxe:trims/color_palettes/prismarine",
+        "echo_darker": "vanilluxe:trims/color_palettes/echo_darker",
+        "glowstone_darker": "vanilluxe:trims/color_palettes/glowstone_darker"
       }
     }
   ]

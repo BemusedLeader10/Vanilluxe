@@ -1,127 +1,119 @@
 {
-    "providers": [
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/armor.png",
-            "ascent": 8,
-            "chars": [
-                "🛡"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/boots.png",
-            "ascent": 8,
-            "chars": [
-                "👟"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/chestplate.png",
-            "ascent": 8,
-            "chars": [
-                "👕"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/compass.png",
-            "ascent": 8,
-            "chars": [
-                "🧭"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/crossbow.png",
-            "ascent": 8,
-            "chars": [
-                "†"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/elytra.png",
-            "ascent": 8,
-            "chars": [
-                "🪲"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/helmet.png",
-            "ascent": 8,
-            "chars": [
-                "🧢"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/leggings.png",
-            "ascent": 8,
-            "chars": [
-                "👖"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/mace.png",
-            "ascent": 8,
-            "chars": [
-                "🔨"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/redstone_uncommon.png",
-            "ascent": 8,
-            "chars": [
-                "\uEFF0"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/redstone_uncommon.png",
-            "ascent": 8,
-            "chars": [
-                "\uEFF0"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/redstone_rare.png",
-            "ascent": 8,
-            "chars": [
-                "\uEFF1"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/hunger_half.png",
-            "height": 9,
-            "ascent": 8,
-            "chars": [
-                "\uEFF2"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/hunger_full.png",
-            "height": 9,
-            "ascent": 8,
-            "chars": [
-                "\uEFF3"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:misc/hunger_full_rare.png",
-            "height": 9,
-            "ascent": 8,
-            "chars": [
-                "\uEFF4"
-            ]
-        }
-    ]
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/armor.png",
+      "ascent": 8,
+      "chars": [
+        "🛡"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/boots.png",
+      "ascent": 8,
+      "chars": [
+        "👟"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/chestplate.png",
+      "ascent": 8,
+      "chars": [
+        "👕"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/compass.png",
+      "ascent": 8,
+      "chars": [
+        "🧭"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/crossbow.png",
+      "ascent": 8,
+      "chars": [
+        "†"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/elytra.png",
+      "ascent": 8,
+      "chars": [
+        "🪲"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/helmet.png",
+      "ascent": 8,
+      "chars": [
+        "🧢"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/leggings.png",
+      "ascent": 8,
+      "chars": [
+        "👖"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/mace.png",
+      "ascent": 8,
+      "chars": [
+        "🔨"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/redstone_uncommon.png",
+      "ascent": 8,
+      "chars": [
+        "\uEFF0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/redstone_rare.png",
+      "ascent": 8,
+      "chars": [
+        "\uEFF1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/hunger_half_common.png",
+      "height": 9,
+      "ascent": 8,
+      "chars": [
+        "\uEFF2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/hunger_full_common.png",
+      "height": 9,
+      "ascent": 8,
+      "chars": [
+        "\uEFF3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:misc/hunger_full_rare.png",
+      "height": 9,
+      "ascent": 8,
+      "chars": [
+        "\uEFF4"
+      ]
+    }
+  ]
 }

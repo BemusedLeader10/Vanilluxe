@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "clifftree:cold_caves",
+    "clifftree:frozen_caves",
+    "clifftree:mushroom_caves",
+    "clifftree:dirt_caves"
+  ]
+}

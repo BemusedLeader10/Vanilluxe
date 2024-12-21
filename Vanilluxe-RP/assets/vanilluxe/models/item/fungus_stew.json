@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "vanilluxe:item/fungus_stew"
+    "layer0": "vanilluxe:item/fungus_stew",
+    "particle": "minecraft:particle/item_interact/transparent"
   }
 }

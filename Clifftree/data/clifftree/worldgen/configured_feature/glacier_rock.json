@@ -1,0 +1,60 @@
+{
+  "type": "random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:stone",
+                  "Properties": {}
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:cobblestone",
+                  "Properties": {}
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:diorite",
+                  "Properties": {}
+                },
+                "weight": 3
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:environment_scan",
+          "direction_of_search": "down",
+          "max_steps": 5,
+          "target_condition": {
+            "type": "has_sturdy_face",
+            "direction": "up",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          },
+          "allowed_search_condition": {
+            "type": "inside_world_bounds"
+          }
+        }
+      ]
+    },
+    "tries": 60,
+    "xz_spread": 6,
+    "y_spread": 2
+  }
+}

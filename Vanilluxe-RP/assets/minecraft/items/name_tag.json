@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/named_name_tag"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/unnamed_name_tag"
+    },
+    "property": "minecraft:has_component"
+  }
+}

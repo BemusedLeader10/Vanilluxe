@@ -4,9 +4,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "vanilluxe:witch_hut/brewing_stand_1",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1
@@ -15,9 +13,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "vanilluxe:witch_hut/brewing_stand_2",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1
@@ -26,9 +22,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "vanilluxe:witch_hut/brewing_stand_3",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1
@@ -37,9 +31,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "vanilluxe:witch_hut/brewing_stand_4",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1
@@ -48,9 +40,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "vanilluxe:witch_hut/brewing_stand_5",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1
@@ -59,9 +49,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "vanilluxe:witch_hut/brewing_stand_6",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1

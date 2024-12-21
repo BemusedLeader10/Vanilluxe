@@ -5,6 +5,84 @@
     ],
     "subtitle": "subtitles.entity.player.hurt"
   },
+  "music.nether.deepslate_depths": {
+    "sounds": [
+      {
+        "name": "music/game/nether/ballad_of_the_cats",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/concrete_halls",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/dead_voxel",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether_wastes/rubedo",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 6
+      },
+      {
+        "name": "music/game/nether/warmth",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.infernal_basin": {
+    "sounds": [
+      {
+        "name": "music/game/nether/ballad_of_the_cats",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/concrete_halls",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/dead_voxel",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/soulsand_valley/so_below",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 7
+      },
+      {
+        "name": "music/game/nether/warmth",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.last_circle": {
+    "sounds": [
+      {
+        "name": "music/game/nether/ballad_of_the_cats",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/concrete_halls",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/dead_voxel",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether_wastes/rubedo",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 6
+      },
+      {
+        "name": "music/game/nether/warmth",
+        "stream": true
+      }
+    ]
+  },
   "music_disc.tall": {
     "sounds": [
       {

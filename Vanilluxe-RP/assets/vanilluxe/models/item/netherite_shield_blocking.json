@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/template_shield_blocking",
+  "parent": "vanilluxe:item/template_shield_blocking",
   "textures": {
     "layer0": "vanilluxe:item/netherite_shield"
   }

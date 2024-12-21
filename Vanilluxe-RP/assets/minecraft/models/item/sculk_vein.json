@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/sculk_glorp"
+    "layer0": "vanilluxe:item/sculk_glorp"
   }
 }

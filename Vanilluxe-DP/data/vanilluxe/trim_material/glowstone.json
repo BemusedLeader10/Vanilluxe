@@ -1,0 +1,11 @@
+{
+  "asset_name": "glowstone",
+  "description": {
+    "color": "#AF8141",
+    "translate": "trim_material.vanilluxe.glowstone"
+  },
+  "ingredient": "minecraft:glowstone_dust",
+  "override_armor_materials": {
+    "minecraft:gold": "glowstone_darker"
+  }
+}

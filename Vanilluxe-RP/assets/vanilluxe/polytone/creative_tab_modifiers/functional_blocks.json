@@ -1,0 +1,443 @@
+{
+  "targets": [
+    "minecraft:functional_blocks"
+  ],
+  "additions": [
+    {
+      "items": [
+        {
+          "id": "minecraft:cyan_banner",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:banner_patterns": [
+              {
+                "color": "cyan",
+                "pattern": "minecraft:triangles_top"
+              },
+              {
+                "color": "cyan",
+                "pattern": "minecraft:triangles_bottom"
+              },
+              {
+                "color": "black",
+                "pattern": "minecraft:bricks"
+              },
+              {
+                "color": "light_blue",
+                "pattern": "minecraft:rhombus"
+              },
+              {
+                "color": "cyan",
+                "pattern": "minecraft:border"
+              },
+              {
+                "color": "black",
+                "pattern": "minecraft:curly_border"
+              },
+              {
+                "color": "black",
+                "pattern": "minecraft:cross"
+              },
+              {
+                "color": "black",
+                "pattern": "minecraft:straight_cross"
+              }
+            ],
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:hide_additional_tooltip": {},
+            "minecraft:item_model": "minecraft:cyan_banner",
+            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.eldritch_banner\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 16,
+            "minecraft:rarity": "uncommon",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:magenta_banner",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:banner_patterns": [
+              {
+                "color": "black",
+                "pattern": "minecraft:triangle_top"
+              },
+              {
+                "color": "black",
+                "pattern": "minecraft:triangle_bottom"
+              },
+              {
+                "color": "black",
+                "pattern": "minecraft:rhombus"
+              },
+              {
+                "color": "black",
+                "pattern": "minecraft:flower"
+              },
+              {
+                "color": "magenta",
+                "pattern": "minecraft:circle"
+              }
+            ],
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:item_model": "minecraft:magenta_banner",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 16,
+            "minecraft:rarity": "common",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": true,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:skeleton_skull"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:player_head",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:equippable": {
+              "slot": "head",
+              "swappable": false
+            },
+            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.stray_skull\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:note_block_sound": "minecraft:entity.stray.ambient",
+            "minecraft:profile": {
+              "properties": {
+                "textures": [
+                  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTkyYjU1OTcwODVlMzVkYjUzZDliZGEwMDhjYWU3MmIyZjAwY2Q3ZDRjZDhkYzY5ZmYxNzRhNTViNjg5ZTZlIn19fQ=="
+                ]
+              }
+            },
+            "minecraft:rarity": "uncommon",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:player_head",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+              },
+              "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:equippable": {
+              "slot": "head",
+              "swappable": false
+            },
+            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.bogged_skull\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:note_block_sound": "minecraft:entity.bogged.ambient",
+            "minecraft:profile": {
+              "properties": {
+                "textures": [
+                  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE0NGQ3YmQxNDY5NTkzZGY1OWRjZTBjZWZiM2FmZWFhNTRiOGIzMjk5Y2RiZmMzNGIzMzhiZmI5YWQyMTAwIn19fQ=="
+                ]
+              }
+            },
+            "minecraft:rarity": "uncommon",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:skeleton_skull"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:player_head",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+              },
+              "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:equippable": {
+              "slot": "head",
+              "swappable": false
+            },
+            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.breeze_skull\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:note_block_sound": "minecraft:entity.breeze.idle_air",
+            "minecraft:profile": {
+              "properties": {
+                "textures": [
+                  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q2ZTYwMmY3NmY4MGMwNjU3YjVhZWQ2NGUyNjdlZWVhNzAyYjMxZTZkYWU4NjM0NmM4NTA2ZjI1MzVjZWQwMiJ9fX0="
+                ]
+              }
+            },
+            "minecraft:rarity": "rare",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:player_head",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:equippable": {
+              "slot": "head",
+              "swappable": false
+            },
+            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.blaze_skull\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:note_block_sound": "minecraft:entity.blaze.ambient",
+            "minecraft:profile": {
+              "properties": {
+                "textures": [
+                  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVlMjNkYzdhMTBjNmE4N2VmOTM3NDU0YzBlOTRlZDQyYzIzYWE2NDFhOTFlZDg0NzBhMzA0MmQwNWM1MmM1MiJ9fX0="
+                ]
+              }
+            },
+            "minecraft:rarity": "rare",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wither_skeleton_skull"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:player_head",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:equippable": {
+              "slot": "head",
+              "swappable": false
+            },
+            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.husk_head\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:note_block_sound": "minecraft:entity.husk.ambient",
+            "minecraft:profile": {
+              "properties": {
+                "textures": [
+                  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ4YTVhNWU0ZGY5MDUyOGRiYTM1ZTA2NjdjZGMwYTdkZGMwMjU3NDBhMmIxOWJmMzU1YTY4YWI4OTlhMmZlNyJ9fX0="
+                ]
+              }
+            },
+            "minecraft:rarity": "uncommon",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:player_head",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:equippable": {
+              "slot": "head",
+              "swappable": false
+            },
+            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.drowned_head\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:note_block_sound": "minecraft:entity.drowned.ambient",
+            "minecraft:profile": {
+              "properties": {
+                "textures": [
+                  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmN2NjZjYxZGJjM2Y5ZmU5YTYzMzNjZGUwYzBlMTQzOTllYjJlZWE3MWQzNGNmMjIzYjNhY2UyMjA1MSJ9fX0="
+                ]
+              }
+            },
+            "minecraft:rarity": "uncommon",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:zombie_head"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:player_head",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:equippable": {
+              "slot": "head",
+              "swappable": false
+            },
+            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.spider_head\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:note_block_sound": "minecraft:entity.spider.ambient",
+            "minecraft:profile": {
+              "properties": {
+                "textures": [
+                  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUyOGU2NjI5YjZlZDFkYTk0ZDRhODE4NzYxNjEyYzM2ZmIzYTY4MTNjNGI2M2ZiOWZlYTUwNzY0MTVmM2YwYyJ9fX0="
+                ]
+              }
+            },
+            "minecraft:rarity": "uncommon",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:player_head",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:equippable": {
+              "slot": "head",
+              "swappable": false
+            },
+            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.slime_head\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:note_block_sound": "minecraft:entity.slime.squish_small",
+            "minecraft:profile": {
+              "properties": {
+                "textures": [
+                  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA2NDI0ZWM3YTE5NmIxNWY5YWQ1NzMzYTM2YTZkMWYyZTZhMGQ0MmZmY2UxZTE1MDhmOTBmMzEyYWM0Y2FlZCJ9fX0="
+                ]
+              }
+            },
+            "minecraft:rarity": "uncommon",
+            "minecraft:repair_cost": 0
+          }
+        },
+        {
+          "id": "minecraft:player_head",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:equippable": {
+              "slot": "head",
+              "swappable": false
+            },
+            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.magma_cube_head\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:note_block_sound": "minecraft:entity.magma_cube.squish",
+            "minecraft:profile": {
+              "properties": {
+                "textures": [
+                  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjgxNzE4ZDQ5ODQ4NDdhNGFkM2VjMDgxYTRlYmZmZDE4Mzc0MzIzOWFlY2FiNjAzMjIxMzhhNzI2MDk4MTJjMyJ9fX0="
+                ]
+              }
+            },
+            "minecraft:rarity": "rare",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:creeper_head"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:player_head",
+          "components": {
+            "minecraft:attribute_modifiers": {
+              "modifiers": []
+            },
+            "minecraft:enchantments": {
+              "levels": {}
+            },
+            "minecraft:equippable": {
+              "slot": "head",
+              "swappable": false
+            },
+            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.enderman_head\"}",
+            "minecraft:lore": [],
+            "minecraft:max_stack_size": 64,
+            "minecraft:note_block_sound": "minecraft:entity.enderman.ambient",
+            "minecraft:profile": {
+              "properties": {
+                "textures": [
+                  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk3N2E5NGYwMjQ5OGNhZDBjZmRiNjVjYTdjYjcyZTIzMTExYTkxNGQ4YzY3MGFjY2NjN2E2NWIzNDdkNzc3NiJ9fX0="
+                ]
+              }
+            },
+            "minecraft:rarity": "rare",
+            "minecraft:repair_cost": 0
+          }
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:piglin_head"
+        ]
+      }
+    }
+  ]
+}

@@ -6,15 +6,9 @@
   "size": 7,
   "spawn_overrides": {},
   "start_height": {
-    "type": "minecraft:uniform",
-    "max_inclusive": {
-      "absolute": -1
-    },
-    "min_inclusive": {
-      "absolute": -3
-    }
+    "absolute": 0
   },
-  "start_pool": "vanilluxe:badlands_pyramid/top",
+  "start_pool": "vanilluxe:badlands_pyramid/ground",
   "step": "surface_structures",
-  "use_expansion_hack": false
+  "use_expansion_hack": true
 }

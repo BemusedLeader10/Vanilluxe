@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.vanilluxe.lunging"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1.0,
+          "per_level_above_first": 0.5
+        },
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "vanilluxe:enchantment.lunging",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#vanilluxe:exclusive_set/efficiency",
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 7
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/trident",
+  "weight": 3
+}

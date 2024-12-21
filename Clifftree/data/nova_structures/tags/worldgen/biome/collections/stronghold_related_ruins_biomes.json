@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "clifftree:caves",
+	  "clifftree:sparse_forest",
+    "clifftree:mushroom_caves",
+    "clifftree:inferno",
+    "clifftree:frozen_caves",
+    "clifftree:cold_caves",
+    "clifftree:bog",
+    "clifftree:tundra"
+  ]
+}

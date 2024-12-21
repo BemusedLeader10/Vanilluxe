@@ -1,0 +1,11 @@
+{
+  "asset_name": "echo",
+  "description": {
+    "color": "#1C99A3",
+    "translate": "trim_material.vanilluxe.echo"
+  },
+  "ingredient": "minecraft:echo_shard",
+  "override_armor_materials": {
+    "minecraft:diamond": "echo_darker"
+  }
+}

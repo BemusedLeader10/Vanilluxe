@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 57,
+    "pack_format": 61,
     "description": [
       {
         "text": "Vanilluxe",
@@ -11,19 +11,59 @@
       },
       {
         "text": "Version 1.3",
-        "color": "dark_aqua"
+        "color": "#00AAAA"
       }
     ]
   },
   "filter": {
     "block": [
       {
-        "namespace": "minecraft",
-        "path": "recipe/music_disc_5.json"
+        "namespace": "^clifftree$",
+        "path": "^structure/beached_treasure\\.json$"
       },
       {
-        "namespace": "minecraft",
-        "path": "recipe/shield_decoration.json"
+        "namespace": "^clifftree$",
+        "path": "^structure/camel\\.json$"
+      },
+      {
+        "namespace": "^clifftree$",
+        "path": "^worldgen/processor_list/beached_treasure\\.json$"
+      },
+      {
+        "namespace": "^clifftree$",
+        "path": "^worldgen/structure/beached_treasure\\.json$"
+      },
+      {
+        "namespace": "^clifftree$",
+        "path": "^worldgen/structure/camel\\.json$"
+      },
+      {
+        "namespace": "^clifftree$",
+        "path": "^worldgen/structure_set/beached_treasure\\.json$"
+      },
+      {
+        "namespace": "^clifftree$",
+        "path": "^worldgen/structure_set/camel\\.json$"
+      },
+      {
+        "namespace": "^clifftree$",
+        "path": "^worldgen/template_pool/beached_treasure\\.json$"
+      },
+      {
+        "namespace": "^clifftree$",
+        "path": "^worldgen/template_pool/camel\\.json$"
+      },
+      {
+        "namespace": "^minecraft$",
+        "path": "^recipe/music_disc_5\\.json$"
+      },
+      {
+        "namespace": "^minecraft$",
+        "path": "^recipe/shield_decoration\\.json$"
+      },
+      {
+        "namespace": "^vanilluxe$",
+        "path": "^tags/worldgen/biome/has_structure/bog_hut\\.json$"
       }
     ]
   }

@@ -1,0 +1,102 @@
+{
+  "dye": {
+    "black": {
+      "diffuse": "1D1D21",
+      "firework": "1D1D21",
+      "text": "1D1D21"
+    },
+    "blue": {
+      "diffuse": "3C44AA",
+      "firework": "3C44AA",
+      "text": "3C44AA"
+    },  
+    "brown": {
+      "diffuse": "835432",
+      "firework": "835432",
+      "text": "835432"
+    },
+    "cyan": {
+      "diffuse": "169C9C",
+      "firework": "169C9C",
+      "text": "169C9C"
+    },
+    "gray": {
+      "diffuse": "474F52",
+      "firework": "474F52",
+      "text": "474F52"
+    },
+    "green": {
+      "diffuse": "5E7C16",
+      "firework": "5E7C16",
+      "text": "5E7C16"
+    },
+    "light_blue": {
+      "diffuse": "3AB3DA",
+      "firework": "3AB3DA",
+      "text": "3AB3DA"
+    },
+    "light_gray": {
+      "diffuse": "9D9D97",
+      "firework": "9D9D97",
+      "text": "9D9D97"
+    },
+    "lime": {
+      "diffuse": "80C71F",
+      "firework": "80C71F",
+      "text": "80C71F"
+    },
+    "magenta": {
+      "diffuse": "C74EBD",
+      "firework": "C74EBD",
+      "text": "C74EBD"
+    },
+    "orange": {
+      "diffuse": "F9801D",
+      "firework": "F9801D",
+      "text": "F9801D"
+    },
+    "pink": {
+      "diffuse": "F38BAA",
+      "firework": "F38BAA",
+      "text": "F38BAA"
+    },
+    "purple": {
+      "diffuse": "8932B8",
+      "firework": "8932B8",
+      "text": "8932B8"
+    },
+    "red": {
+      "diffuse": "B02E26",
+      "firework": "B02E26",
+      "text": "B02E26"
+    },
+    "white": {
+      "diffuse": "F0F0F0‌",
+      "firework": "F0F0F0‌",
+      "text": "F0F0F0‌"
+    },
+    "yellow": {
+      "diffuse": "FED83D",
+      "firework": "FED83D",
+      "text": "FED83D"
+    }
+  },
+  "sheep": {
+    "black": "1D1D21",
+    "blue": "3C44AA",
+    "brown": "835432",
+    "cyan": "169C9C",
+    "gray": "474F52",
+    "green": "5E7C16",
+    "light_blue": "3AB3DA",
+    "light_gray": "9D9D97",
+    "lime": "80C71F",
+    "magenta": "C74EBD",
+    "orange": "F9801D",
+    "pink": "F38BAA",
+    "purple": "8932B8",
+    "red": "B02E26",
+    "white": "F0F0F0‌",
+    "yellow": "FED83D"
+  }
+}

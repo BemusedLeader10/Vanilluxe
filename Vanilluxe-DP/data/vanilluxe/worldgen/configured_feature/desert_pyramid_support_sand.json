@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:air",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:fire",
+        "minecraft:soul_fire",
+        "minecraft:snow",
+        "minecraft:resin_clump",
+        "minecraft:light",
+        "minecraft:structure_void",
+        "minecraft:void_air",
+        "minecraft:cave_air",
+        "minecraft:bubble_column",
+        "minecraft:jungle_leaves",
+        "minecraft:oak_leaves",
+        "minecraft:spruce_leaves",
+        "minecraft:pale_oak_leaves",
+        "minecraft:dark_oak_leaves",
+        "minecraft:acacia_leaves",
+        "minecraft:birch_leaves",
+        "minecraft:azalea_leaves",
+        "minecraft:flowering_azalea_leaves",
+        "minecraft:mangrove_leaves",
+        "minecraft:cherry_leaves",
+        "minecraft:dandelion",
+        "minecraft:open_eyeblossom",
+        "minecraft:poppy",
+        "minecraft:blue_orchid",
+        "minecraft:allium",
+        "minecraft:azure_bluet",
+        "minecraft:red_tulip",
+        "minecraft:orange_tulip",
+        "minecraft:white_tulip",
+        "minecraft:pink_tulip",
+        "minecraft:oxeye_daisy",
+        "minecraft:cornflower",
+        "minecraft:lily_of_the_valley",
+        "minecraft:wither_rose",
+        "minecraft:torchflower",
+        "minecraft:closed_eyeblossom",
+        "minecraft:pale_moss_carpet",
+        "minecraft:short_grass",
+        "minecraft:fern",
+        "minecraft:dead_bush",
+        "minecraft:vine",
+        "minecraft:glow_lichen",
+        "minecraft:sunflower",
+        "minecraft:lilac",
+        "minecraft:rose_bush",
+        "minecraft:peony",
+        "minecraft:tall_grass",
+        "minecraft:large_fern",
+        "minecraft:hanging_roots",
+        "minecraft:pitcher_plant",
+        "minecraft:water",
+        "minecraft:seagrass",
+        "minecraft:tall_seagrass",
+        "minecraft:warped_roots",
+        "minecraft:nether_sprouts",
+        "minecraft:crimson_roots"
+      ],
+      "offset": [
+        0,
+        1,
+        0
+      ]
+    },
+    "direction": "down",
+    "layers": [
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:sand"
+          }
+        }
+      },
+      {
+        "height": 511,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:sandstone"
+          }
+        }
+      }
+    ],
+    "prioritize_tip": false
+  }
+}

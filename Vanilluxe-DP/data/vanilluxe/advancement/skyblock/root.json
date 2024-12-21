@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "skyblock": {
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "vanilluxe:skyblock"
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/cobblestone.png",
+    "description": {
+      "translate": "advancements.skyblock.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:grass_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.skyblock.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "skyblock"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
