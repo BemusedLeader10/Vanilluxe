@@ -1,5 +1,5 @@
 {
-  "parent": "vanilluxe:adventure/echolocation",
+  "parent": "vanilluxe:adventure/ahoy",
   "criteria": {
     "loot_buried_treasure": {
       "conditions": {

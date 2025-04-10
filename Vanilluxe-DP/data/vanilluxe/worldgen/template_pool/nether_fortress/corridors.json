@@ -61,7 +61,7 @@
         "processors": "vanilluxe:nether_fortress_generic_degradation",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 5
     }
   ],
   "fallback": "minecraft:empty"

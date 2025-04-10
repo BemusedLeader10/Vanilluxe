@@ -3,15 +3,21 @@
   "downfall": 0.0,
   "effects": {
     "additions_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "sound": {
+        "sound_id": "minecraft:ambient.infernal_basin.additions"
+      },
       "tick_chance": 0.0111
     },
-    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.infernal_basin.loop"
+    },
     "fog_color": 5851181,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
-      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "sound": {
+        "sound_id": "minecraft:ambient.infernal_basin.mood"
+      },
       "tick_delay": 6000
     },
     "music": [
@@ -20,7 +26,9 @@
           "max_delay": 24000,
           "min_delay": 12000,
           "replace_current_music": false,
-          "sound": "minecraft:music.nether.soul_sand_valley"
+          "sound": {
+            "sound_id": "minecraft:music.nether.infernal_basin"
+          }
         },
         "weight": 1
       }

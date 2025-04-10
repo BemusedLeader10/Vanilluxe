@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:adventure/root",
   "criteria": {
-    "location": {
+    "echolocation": {
       "conditions": {
         "item": {
           "items": "#vanilluxe:raw_fishes"
@@ -21,7 +21,7 @@
   },
   "display": {
     "description": {
-      "translate": "advancements.adventure.location.description"
+      "translate": "advancements.adventure.echolocation.description"
     },
     "frame": "task",
     "icon": {
@@ -29,12 +29,12 @@
       "id": "minecraft:cod"
     },
     "title": {
-      "translate": "advancements.adventure.location.title"
+      "translate": "advancements.adventure.echolocation.title"
     }
   },
   "requirements": [
     [
-      "location"
+      "echolocation"
     ]
   ],
   "sends_telemetry_event": true

@@ -1,0 +1,8 @@
+{
+  "targets": "minecraft:campfire",
+  "components": {
+    "minecraft:block_state": {
+      "lit": "false"
+    }
+  }
+}

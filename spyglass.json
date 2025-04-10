@@ -1,5 +1,23 @@
 {
   "env": {
-    "gameVersion": "1.21.4"
+    "dependencies": [
+      "@vanilla-datapack",
+      "@vanilla-mcdoc"
+    ],
+    "gameVersion": "1.21.5"
+  },
+  "lint": {
+    "undeclaredSymbol": [
+      {
+        "if": [
+          {
+            "namespace": "clifftree"
+          }
+        ],
+        "then": {
+          "report": "information"
+        }
+      }
+    ]
   }
 }

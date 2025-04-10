@@ -1,6 +1,7 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": "#vanilluxe:has_structure/desert_well",
+  "liquid_settings": "ignore_waterlogging",
   "max_distance_from_center": 80,
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "size": 2,

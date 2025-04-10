@@ -1,30 +1,34 @@
 {
-  "targets": [
-    "minecraft:natural_blocks"
-  ],
+  "targets": "minecraft:natural_blocks",
   "additions": [
     {
       "items": [
         {
           "id": "minecraft:armor_stand",
           "components": {
-            "minecraft:attribute_modifiers": {
-              "modifiers": []
-            },
-            "minecraft:enchantments": {
-              "levels": {}
-            },
+            "minecraft:attribute_modifiers": [],
+            "minecraft:break_sound": "minecraft:entity.item.break",
+            "minecraft:enchantments": {},
             "minecraft:entity_data": {
-              "id":"minecraft:armor_stand",
+              "id": "minecraft:armor_stand",
               "Invisible": true,
               "Tags": ["bone_column"]
             },
             "minecraft:item_model": "vanilluxe:bone_column",
-            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.bone_column\"}",
-            "minecraft:lore": [],
+            "minecraft:item_name": {
+              "translate": "block.vanilluxe.bone_column"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.vanilluxe.desc",
+                "color": "blue",
+                "italic": true
+              }
+            ],
             "minecraft:max_stack_size": 64,
             "minecraft:rarity": "common",
-            "minecraft:repair_cost": 0
+            "minecraft:repair_cost": 0,
+            "minecraft:tooltip_display": {}
           }
         }
       ],
@@ -41,22 +45,28 @@
         {
           "id": "minecraft:petrified_oak_slab",
           "components": {
-            "minecraft:attribute_modifiers": {
-              "modifiers": []
-            },
+            "minecraft:attribute_modifiers": [],
+            "minecraft:break_sound": "minecraft:entity.item.break",
             "minecraft:block_state": {
               "type": "double",
               "waterlogged": "false"
             },
-            "minecraft:enchantments": {
-              "levels": {}
-            },
+            "minecraft:enchantments": {},
             "minecraft:item_model": "vanilluxe:nether_iron_ore",
-            "minecraft:item_name": "{\"translate\":\"block.vanilluxe.nether_iron_ore\"}",
-            "minecraft:lore": [],
+            "minecraft:item_name": {
+              "translate": "block.vanilluxe.nether_iron_ore"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.vanilluxe.desc",
+                "color": "blue",
+                "italic": true
+              }
+            ],
             "minecraft:max_stack_size": 64,
             "minecraft:rarity": "common",
-            "minecraft:repair_cost": 0
+            "minecraft:repair_cost": 0,
+            "minecraft:tooltip_display": {}
           }
         }
       ],
@@ -66,6 +76,86 @@
         "items": [
           "minecraft:nether_quartz_ore"
         ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:pale_oak_log"
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:acacia_log"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:pale_oak_leaves"
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:acacia_leaves"
+        ]
+      }
+    },
+    {
+      "items": [
+        {
+          "id": "minecraft:pale_oak_sapling"
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:acacia_sapling"
+        ]
+      }
+    }
+  ],
+  "removals": [
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:pale_moss_block"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:pale_moss_carpet"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:pale_hanging_moss"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_log"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_leaves"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_sapling"
       }
     }
   ]

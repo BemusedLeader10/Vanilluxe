@@ -32,6 +32,7 @@
       "translate": "advancements.end.ring_of_the_end.description"
     },
     "frame": "challenge",
+    "hidden": true,
     "icon": {
       "count": 1,
       "id": "minecraft:dragon_head"

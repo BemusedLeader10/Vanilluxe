@@ -10,25 +10,29 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:attribute_modifiers": {
-                  "modifiers": []
-                },
-                "minecraft:enchantments": {
-                  "levels": {}
-                },
+                "minecraft:attribute_modifiers": [],
+                "minecraft:break_sound": "minecraft:entity.item.break",
+                "minecraft:enchantments": {},
                 "minecraft:item_model": "vanilluxe:music_disc_tall",
-                "minecraft:item_name": "{\"translate\":\"item.vanilluxe.music_disc_tall\"}",
-                "minecraft:jukebox_playable": {
-                  "song": "vanilluxe:tall"
+                "minecraft:item_name": {
+                  "translate": "item.vanilluxe.music_disc_tall"
                 },
-                "minecraft:lore": [],
+                "minecraft:jukebox_playable": "vanilluxe:tall",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.vanilluxe.desc",
+                    "color": "blue",
+                    "italic": true
+                  }
+                ],
                 "minecraft:max_stack_size": 1,
                 "minecraft:rarity": "rare",
-                "minecraft:repair_cost": 0
+                "minecraft:repair_cost": 0,
+                "minecraft:tooltip_display": {}
               }
             }
           ],
-          "name": "minecraft:music_disc_11"
+          "name": "minecraft:disc_fragment_5"
         }
       ],
       "rolls": 1.0

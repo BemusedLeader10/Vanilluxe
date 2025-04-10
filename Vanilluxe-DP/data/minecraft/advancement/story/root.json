@@ -13,7 +13,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/block/stone.png",
+    "background": "minecraft:block/stone",
     "description": {
       "translate": "advancements.story.root.description"
     },

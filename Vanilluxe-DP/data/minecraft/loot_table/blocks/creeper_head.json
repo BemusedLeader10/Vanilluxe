@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_components",
+              "include": [
+                "minecraft:attribute_modifiers",
+                "minecraft:custom_name",
+                "minecraft:enchantments",
+                "minecraft:equippable",
+                "minecraft:item_model",
+                "minecraft:item_name",
+                "minecraft:lore",
+                "minecraft:max_stack_size",
+                "minecraft:note_block_sound",
+                "minecraft:rarity",
+                "minecraft:repair_cost",
+                "minecraft:tooltip_style"
+              ],
+              "source": "block_entity"
+            }
+          ],
+          "name": "minecraft:creeper_head"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/creeper_head"
+}

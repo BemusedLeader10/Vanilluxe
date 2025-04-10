@@ -13,13 +13,13 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/block/cobblestone.png",
+    "background": "minecraft:block/cobblestone",
     "description": {
       "translate": "advancements.skyblock.root.description"
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:grass_block"
+      "id": "minecraft:oak_log"
     },
     "show_toast": false,
     "title": {

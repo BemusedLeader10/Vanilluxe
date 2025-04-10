@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_command_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:command_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vanilluxe:command_block_minecart"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_command_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vanilluxe:command_block_minecart"
+    ]
+  }
+}

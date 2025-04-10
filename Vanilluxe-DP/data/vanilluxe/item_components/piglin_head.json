@@ -1,0 +1,6 @@
+{
+  "targets": "minecraft:piglin_head",
+  "components": {
+    "minecraft:rarity": "rare"
+  }
+}

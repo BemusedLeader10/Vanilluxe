@@ -1,0 +1,30 @@
+{
+  "targets": "minecraft:golden_sword",
+  "components": {
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 2.0,
+          "id": "minecraft:base_attack_damage",
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": 1.0,
+          "id": "minecraft:base_attack_speed",
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:entity_interaction_range",
+          "amount": 0.5,
+          "id": "minecraft:base_attack_reach",
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}

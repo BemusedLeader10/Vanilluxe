@@ -1,0 +1,12 @@
+{
+  "targets": "#vanilluxe:minecraft_items",
+  "components": {
+    "minecraft:lore": [
+      {
+        "translate": "item.minecraft.desc",
+        "color": "blue",
+        "italic": true
+      }
+    ]
+  }
+}

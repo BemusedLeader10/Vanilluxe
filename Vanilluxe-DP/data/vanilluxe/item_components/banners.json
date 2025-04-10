@@ -1,0 +1,9 @@
+{
+  "targets": "#minecraft:banners",
+  "components": {
+    "minecraft:equippable": {
+      "slot": "head",
+      "swappable": false
+    }
+  }
+}

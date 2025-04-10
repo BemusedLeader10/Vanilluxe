@@ -33,7 +33,8 @@
     "description": {
       "translate": "advancements.adventure.spyglass_at_bat.description"
     },
-    "frame": "goal",
+    "frame": "challenge",
+    "hidden": true,
     "icon": {
       "count": 1,
       "id": "minecraft:spyglass"

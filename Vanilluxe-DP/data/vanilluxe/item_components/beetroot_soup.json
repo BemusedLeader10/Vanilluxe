@@ -1,0 +1,9 @@
+{
+  "targets": "minecraft:beetroot_soup",
+  "components": {
+    "minecraft:consumable": {
+      "consume_seconds": 1.0
+    },
+    "minecraft:max_stack_size": 16
+  }
+}

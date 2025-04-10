@@ -1,0 +1,6 @@
+{
+  "targets": "minecraft:piglin_banner_pattern",
+  "components": {
+    "minecraft:rarity": "rare"
+  }
+}

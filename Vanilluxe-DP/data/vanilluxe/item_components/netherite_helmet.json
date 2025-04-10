@@ -1,0 +1,6 @@
+{
+  "targets": "minecraft:netherite_helmet",
+  "components": {
+    "minecraft:rarity": "uncommon"
+  }
+}

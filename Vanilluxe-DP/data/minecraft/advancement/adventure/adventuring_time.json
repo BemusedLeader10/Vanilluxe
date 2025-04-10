@@ -30,9 +30,10 @@
             "predicate": {
               "location": {
                 "biomes": [
+                  "clifftree:gravelly_beach",
+                  "clifftree:temperate_beach",
                   "minecraft:beach",
-                  "minecraft:snowy_beach",
-                  "minecraft:stony_shore"
+                  "minecraft:snowy_beach"
                 ]
               }
             }
@@ -52,6 +53,33 @@
                 "biomes": [
                   "minecraft:birch_forest",
                   "minecraft:old_growth_birch_forest"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:caves": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "clifftree:caves",
+                  "clifftree:cold_caves",
+                  "clifftree:dirt_caves",
+                  "clifftree:frozen_caves",
+                  "clifftree:inferno",
+                  "clifftree:lukewarm_caves",
+                  "clifftree:warm_caves",
+                  "minecraft:deep_dark",
+                  "minecraft:dripstone_caves",
+                  "minecraft:lush_caves"
                 ]
               }
             }
@@ -100,22 +128,6 @@
       },
       "trigger": "minecraft:location"
     },
-    "minecraft:deep_dark": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biomes": "minecraft:deep_dark"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
-    },
     "minecraft:deserts": {
       "conditions": {
         "player": [
@@ -125,24 +137,11 @@
             "predicate": {
               "location": {
                 "biomes": [
+                  "clifftree:desert_cliff",
+                  "clifftree:oasis",
+                  "clifftree:shrubland",
                   "minecraft:desert"
                 ]
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
-    },
-    "minecraft:dripstone_caves": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biomes": "minecraft:dripstone_caves"
               }
             }
           }
@@ -159,6 +158,7 @@
             "predicate": {
               "location": {
                 "biomes": [
+                  "clifftree:sparse_forest",
                   "minecraft:flower_forest",
                   "minecraft:forest"
                 ]
@@ -178,8 +178,10 @@
             "predicate": {
               "location": {
                 "biomes": [
+                  "clifftree:glacier_cliff",
                   "minecraft:frozen_peaks",
                   "minecraft:jagged_peaks",
+                  "minecraft:snowy_slopes",
                   "minecraft:stony_peaks"
                 ]
               }
@@ -198,6 +200,7 @@
             "predicate": {
               "location": {
                 "biomes": [
+                  "clifftree:glacier_valley",
                   "minecraft:cherry_grove",
                   "minecraft:grove",
                   "minecraft:meadow"
@@ -229,22 +232,6 @@
       },
       "trigger": "minecraft:location"
     },
-    "minecraft:lush_caves": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biomes": "minecraft:lush_caves"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
-    },
     "minecraft:mushroom_fields": {
       "conditions": {
         "player": [
@@ -253,7 +240,10 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "minecraft:mushroom_fields"
+                "biomes": [
+                  "clifftree:mushroom_caves",
+                  "minecraft:mushroom_fields"
+                ]
               }
             }
           }
@@ -270,6 +260,7 @@
             "predicate": {
               "location": {
                 "biomes": [
+                  "clifftree:stone_ocean",
                   "minecraft:deep_ocean",
                   "minecraft:ocean"
                 ]
@@ -289,6 +280,7 @@
             "predicate": {
               "location": {
                 "biomes": [
+                  "clifftree:snowy_old_growth_taiga",
                   "minecraft:old_growth_pine_taiga",
                   "minecraft:old_growth_spruce_taiga"
                 ]
@@ -308,6 +300,7 @@
             "predicate": {
               "location": {
                 "biomes": [
+                  "clifftree:tundra",
                   "minecraft:ice_spikes",
                   "minecraft:plains",
                   "minecraft:snowy_plains",
@@ -329,6 +322,9 @@
             "predicate": {
               "location": {
                 "biomes": [
+                  "clifftree:cold_river",
+                  "clifftree:tropical_river",
+                  "clifftree:warm_river",
                   "minecraft:frozen_river",
                   "minecraft:river"
                 ]
@@ -359,7 +355,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "minecraft:snowy_slopes": {
+    "minecraft:shores": {
       "conditions": {
         "player": [
           {
@@ -367,7 +363,12 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "minecraft:snowy_slopes"
+                "biomes": [
+                  "clifftree:diorite_shore",
+                  "clifftree:granite_shore",
+                  "clifftree:snowy_diorite_shore",
+                  "minecraft:stony_shore"
+                ]
               }
             }
           }
@@ -384,6 +385,7 @@
             "predicate": {
               "location": {
                 "biomes": [
+                  "clifftree:bog",
                   "minecraft:mangrove_swamp",
                   "minecraft:swamp"
                 ]
@@ -484,9 +486,6 @@
       "minecraft:swamps"
     ],
     [
-      "minecraft:snowy_slopes"
-    ],
-    [
       "minecraft:groves"
     ],
     [
@@ -532,13 +531,10 @@
       "minecraft:old_growth_taigas"
     ],
     [
-      "minecraft:dripstone_caves"
+      "minecraft:shores"
     ],
     [
-      "minecraft:lush_caves"
-    ],
-    [
-      "minecraft:deep_dark"
+      "minecraft:caves"
     ]
   ],
   "rewards": {

@@ -26,7 +26,9 @@
         "items": [
           {
             "components": {
-              "minecraft:item_name": "{\"translate\":\"item.vanilluxe.fungus_stew\"}"
+              "minecraft:item_name": {
+                "translate": "item.vanilluxe.fungus_stew"
+              }
             },
             "items": "minecraft:disc_fragment_5"
           }

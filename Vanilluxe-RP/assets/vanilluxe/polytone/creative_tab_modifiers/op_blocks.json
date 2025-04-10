@@ -1,0 +1,30 @@
+{
+  "targets": "minecraft:op_blocks",
+  "additions": [
+    {
+      "items": [
+        {
+          "id": "minecraft:knowledge_book"
+        },
+        {
+          "id": "minecraft:ender_dragon_spawn_egg"
+        },
+        {
+          "id": "minecraft:wither_spawn_egg"
+        },
+        {
+          "id": "minecraft:tipped_arrow"
+        },
+        {
+          "id": "minecraft:potion"
+        },
+        {
+          "id": "minecraft:splash_potion"
+        },
+        {
+          "id": "minecraft:lingering_potion"
+        }
+      ]
+    }
+  ]
+}

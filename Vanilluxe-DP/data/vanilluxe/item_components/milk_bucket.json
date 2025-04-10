@@ -1,0 +1,8 @@
+{
+  "targets": "minecraft:milk_bucket",
+  "components": {
+    "minecraft:consumable": {
+      "consume_seconds": 1.0
+    }
+  }
+}

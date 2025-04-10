@@ -9,7 +9,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/block/end_stone.png",
+    "background": "minecraft:block/end_stone",
     "description": {
       "translate": "advancements.end.root.description"
     },

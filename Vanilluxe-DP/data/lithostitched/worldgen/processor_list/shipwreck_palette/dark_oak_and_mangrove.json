@@ -1,0 +1,20 @@
+{
+  "processors": [
+    {
+      "processor_type": "lithostitched:block_swap",
+      "blocks": {
+        "minecraft:oak_log": "minecraft:pale_oak_log",
+        "minecraft:oak_planks": "minecraft:pale_oak_planks",
+        "minecraft:oak_stairs": "minecraft:pale_oak_stairs",
+        "minecraft:oak_slab": "minecraft:pale_oak_slab",
+        "minecraft:oak_fence": "minecraft:pale_oak_fence",
+        "minecraft:oak_door": "minecraft:pale_oak_door",
+        "minecraft:oak_trapdoor": "minecraft:pale_oak_trapdoor",
+        "minecraft:spruce_planks": "minecraft:mangrove_planks",
+        "minecraft:spruce_stairs": "minecraft:mangrove_stairs",
+        "minecraft:spruce_slab": "minecraft:mangrove_slab",
+        "minecraft:spruce_fence": "minecraft:mangrove_fence"
+      }
+    }
+  ]
+}

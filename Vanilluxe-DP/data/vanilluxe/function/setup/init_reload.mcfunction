@@ -1,0 +1,1 @@
+advancement revoke @a only vanilluxe:technical/init

@@ -1,0 +1,6 @@
+{
+  "targets": "minecraft:netherite_boots",
+  "components": {
+    "minecraft:rarity": "uncommon"
+  }
+}

@@ -10,5 +10,6 @@
   },
   "start_pool": "vanilluxe:skyblock",
   "step": "raw_generation",
+  "terrain_adaptation": "none",
   "use_expansion_hack": false
 }

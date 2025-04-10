@@ -61,7 +61,9 @@
       "conditions": {
         "item": {
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.cherries\"}"
+            "minecraft:item_name": {
+              "translate": "item.vanilluxe.cherries"
+            }
           },
           "items": "minecraft:disc_fragment_5"
         }
@@ -176,7 +178,9 @@
       "conditions": {
         "item": {
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.fungus_stew\"}"
+            "minecraft:item_name": {
+              "translate": "item.vanilluxe.fungus_stew"
+            }
           },
           "items": "minecraft:disc_fragment_5"
         }
@@ -211,7 +215,9 @@
       "conditions": {
         "item": {
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.honey_bread\"}"
+            "minecraft:item_name": {
+              "translate": "item.vanilluxe.honey_bread"
+            }
           },
           "items": "minecraft:disc_fragment_5"
         }
@@ -354,11 +360,13 @@
       },
       "trigger": "minecraft:consume_item"
     },
-    "warped_berry": {
+    "warped_berries": {
       "conditions": {
         "item": {
           "components": {
-            "minecraft:item_name": "{\"translate\":\"item.vanilluxe.warped_berry\"}"
+            "minecraft:item_name": {
+              "translate": "item.vanilluxe.warped_berries"
+            }
           },
           "items": "minecraft:disc_fragment_5"
         }
@@ -510,7 +518,7 @@
       "honey_bread"
     ],
     [
-      "warped_berry"
+      "warped_berries"
     ]
   ],
   "rewards": {

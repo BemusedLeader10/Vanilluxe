@@ -1,0 +1,20 @@
+{
+  "processors": [
+    {
+      "processor_type": "lithostitched:block_swap",
+      "blocks": {
+        "minecraft:oak_log": "minecraft:acacia_log",
+        "minecraft:oak_planks": "minecraft:acacia_planks",
+        "minecraft:oak_stairs": "minecraft:acacia_stairs",
+        "minecraft:oak_slab": "minecraft:acacia_slab",
+        "minecraft:oak_fence": "minecraft:acacia_fence",
+        "minecraft:oak_door": "minecraft:acacia_door",
+        "minecraft:oak_trapdoor": "minecraft:acacia_trapdoor",
+        "minecraft:spruce_planks": "minecraft:jungle_planks",
+        "minecraft:spruce_stairs": "minecraft:jungle_stairs",
+        "minecraft:spruce_slab": "minecraft:jungle_slab",
+        "minecraft:spruce_fence": "minecraft:jungle_fence"
+      }
+    }
+  ]
+}

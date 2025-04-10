@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "init": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "init"
+    ]
+  ],
+  "rewards": {
+    "function": "vanilluxe:setup/init"
+  },
+  "sends_telemetry_event": true
+}

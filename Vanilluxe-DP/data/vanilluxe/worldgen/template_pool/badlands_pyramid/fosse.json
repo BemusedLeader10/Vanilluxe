@@ -4,7 +4,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "vanilluxe:badlands_pyramid/fosse",
-        "processors": "minecraft:empty",
+        "processors": "vanilluxe:badlands_pyramid_archaeology",
         "projection": "rigid"
       },
       "weight": 1

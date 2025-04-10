@@ -16,7 +16,7 @@
     "description": {
       "translate": "advancements.adventure.ride_pig.description"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "icon": {
       "count": 1,
       "id": "minecraft:saddle"

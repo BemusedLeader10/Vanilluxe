@@ -1,0 +1,6 @@
+{
+  "targets": "minecraft:netherite_leggings",
+  "components": {
+    "minecraft:rarity": "uncommon"
+  }
+}

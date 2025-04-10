@@ -3,15 +3,21 @@
   "downfall": 0.0,
   "effects": {
     "additions_sound": {
-      "sound": "minecraft:ambient.nether_wastes.additions",
+      "sound": {
+        "sound_id": "minecraft:ambient.deepslate_depths.additions"
+      },
       "tick_chance": 0.0111
     },
-    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.deepslate_depths.loop"
+    },
     "fog_color": 6840176,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
-      "sound": "minecraft:ambient.nether_wastes.mood",
+      "sound": {
+        "sound_id": "minecraft:ambient.deepslate_depths.mood"
+      },
       "tick_delay": 6000
     },
     "music": [
@@ -20,7 +26,9 @@
           "max_delay": 24000,
           "min_delay": 12000,
           "replace_current_music": false,
-          "sound": "minecraft:music.nether.nether_wastes"
+          "sound": {
+            "sound_id": "minecraft:music.nether.deepslate_depths"
+          }
         },
         "weight": 1
       }

@@ -3,6 +3,7 @@
   "values": [
     "vanilluxe:better_leads/init",
     "vanilluxe:crystal_bossbar/load",
-    "vanilluxe:teleporter_enchantment/load"
+    "vanilluxe:teleporter_enchantment/load",
+    "vanilluxe:setup/init_reload"
   ]
 }

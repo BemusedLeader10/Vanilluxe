@@ -1,0 +1,135 @@
+{
+  "targets": "minecraft:building_blocks",
+  "additions": [
+    {
+      "items": [
+        {
+          "id": "minecraft:pale_oak_log"
+        },
+        {
+          "id": "minecraft:pale_oak_wood"
+        },
+        {
+          "id": "minecraft:stripped_pale_oak_log"
+        },
+        {
+          "id": "minecraft:stripped_pale_oak_wood"
+        },
+        {
+          "id": "minecraft:pale_oak_planks"
+        },
+        {
+          "id": "minecraft:pale_oak_stairs"
+        },
+        {
+          "id": "minecraft:pale_oak_slab"
+        },
+        {
+          "id": "minecraft:pale_oak_fence"
+        },
+        {
+          "id": "minecraft:pale_oak_fence_gate"
+        },
+        {
+          "id": "minecraft:pale_oak_door"
+        },
+        {
+          "id": "minecraft:pale_oak_trapdoor"
+        },
+        {
+          "id": "minecraft:pale_oak_pressure_plate"
+        },
+        {
+          "id": "minecraft:pale_oak_button"
+        }
+      ],
+      "before": false,
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:acacia_button"
+        ]
+      }
+    }
+  ],
+  "removals": [
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_log"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_wood"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:stripped_dark_oak_log"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:stripped_dark_oak_wood"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_planks"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_stairs"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_slab"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_fence"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_fence_gate"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_door"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_trapdoor"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_pressure_plate"
+      }
+    },
+    {
+      "type": "itemstack_match",
+      "itemstack": {
+        "id": "minecraft:dark_oak_button"
+      }
+    }
+  ]
+}

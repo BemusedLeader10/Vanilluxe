@@ -7,7 +7,9 @@
           {
             "items": "minecraft:enchanted_book",
             "components": {
-              "minecraft:item_name": "{\"translate\":\"item.vanilluxe.golden_enchanted_book\"}"
+              "minecraft:item_name": {
+                "translate": "item.vanilluxe.golden_enchanted_book"
+              }
             }
           }
         ]

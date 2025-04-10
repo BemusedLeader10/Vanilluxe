@@ -1,0 +1,22 @@
+{
+  "values": [
+    "minecraft:beacon",
+    "minecraft:enchanted_golden_apple",
+    "minecraft:eye_armor_trim_smithing_template",
+    "minecraft:flow_banner_pattern",
+    "minecraft:guster_banner_pattern",
+    "minecraft:mojang_banner_pattern",
+    "minecraft:music_disc_creator",
+    "minecraft:music_disc_otherside",
+    "minecraft:music_disc_pigstep",
+    "minecraft:nether_star",
+    "minecraft:piglin_banner_pattern",
+    "minecraft:piglin_head",
+    "minecraft:skull_banner_pattern",
+    "minecraft:spire_armor_trim_smithing_template",
+    "minecraft:trident",
+    "minecraft:vex_armor_trim_smithing_template",
+    "minecraft:ward_armor_trim_smithing_template",
+    "minecraft:wither_skeleton_skull"
+  ]
+}

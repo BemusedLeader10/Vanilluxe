@@ -10,24 +10,29 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:attribute_modifiers": {
-                  "modifiers": []
-                },
+                "minecraft:attribute_modifiers": [],
+                "minecraft:break_sound": "minecraft:entity.item.break",
                 "minecraft:consumable": {},
-                "minecraft:enchantments": {
-                  "levels": {}
-                },
+                "minecraft:enchantments": {},
                 "minecraft:food": {
                   "nutrition": 3,
                   "saturation": 1.2
                 },
-                "minecraft:hide_additional_tooltip": {},
                 "minecraft:item_model": "vanilluxe:cherries",
-                "minecraft:item_name": "{\"translate\":\"item.vanilluxe.cherries\"}",
-                "minecraft:lore": [],
+                "minecraft:item_name": {
+                  "translate": "item.vanilluxe.cherries"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.vanilluxe.desc",
+                    "color": "blue",
+                    "italic": true
+                  }
+                ],
                 "minecraft:max_stack_size": 64,
                 "minecraft:rarity": "common",
-                "minecraft:repair_cost": 0
+                "minecraft:repair_cost": 0,
+                "minecraft:tooltip_display": {}
               }
             }
           ],

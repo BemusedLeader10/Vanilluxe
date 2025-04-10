@@ -1,57 +1,41 @@
 {
-  "pack": {
-    "pack_format": 61,
-    "description": [
-      {
-        "text": "Vanilluxe",
-        "color": "#b9f2ff"
-      },
-      {
-        "text": "\n"
-      },
-      {
-        "text": "Version 1.3",
-        "color": "#00AAAA"
-      }
-    ]
-  },
   "filter": {
     "block": [
       {
-        "namespace": "^clifftree$",
-        "path": "^structure/beached_treasure\\.json$"
+        "namespace": "^c$",
+        "path": "^tags/*\\.json"
       },
       {
         "namespace": "^clifftree$",
-        "path": "^structure/camel\\.json$"
+        "path": "^structure/*\\.json$"
       },
       {
         "namespace": "^clifftree$",
-        "path": "^worldgen/processor_list/beached_treasure\\.json$"
+        "path": "^worldgen/processor_list/*\\.json$"
       },
       {
         "namespace": "^clifftree$",
-        "path": "^worldgen/structure/beached_treasure\\.json$"
+        "path": "^worldgen/structure/*\\.json$"
       },
       {
         "namespace": "^clifftree$",
-        "path": "^worldgen/structure/camel\\.json$"
+        "path": "^worldgen/structure_set/*\\.json$"
       },
       {
         "namespace": "^clifftree$",
-        "path": "^worldgen/structure_set/beached_treasure\\.json$"
+        "path": "^worldgen/template_pool/*\\.json$"
       },
       {
-        "namespace": "^clifftree$",
-        "path": "^worldgen/structure_set/camel\\.json$"
+        "namespace": "^minecraft$",
+        "path": "^advancement/recipes/building_blocks/bookshelf\\.json$"
       },
       {
-        "namespace": "^clifftree$",
-        "path": "^worldgen/template_pool/beached_treasure\\.json$"
+        "namespace": "^minecraft$",
+        "path": "^advancement/recipes/misc/music_disc_5\\.json$"
       },
       {
-        "namespace": "^clifftree$",
-        "path": "^worldgen/template_pool/camel\\.json$"
+        "namespace": "^minecraft$",
+        "path": "^recipe/bookshelf\\.json$"
       },
       {
         "namespace": "^minecraft$",
@@ -62,8 +46,28 @@
         "path": "^recipe/shield_decoration\\.json$"
       },
       {
-        "namespace": "^vanilluxe$",
-        "path": "^tags/worldgen/biome/has_structure/bog_hut\\.json$"
+        "namespace": "^minecraft$",
+        "path": "^structure/shipwreck/variants/*\\.nbt$"
+      },
+      {
+        "namespace": "^minecraft$",
+        "path": "^worldgen/structure_set/shipwrecks_stone_ocean\\.json$"
+      }
+    ]
+  },
+  "pack": {
+    "pack_format": 71,
+    "description": [
+      {
+        "text": "Vanilluxe",
+        "color": "#b9f2ff"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Version 1.4",
+        "color": "#00AAAA"
       }
     ]
   }

@@ -3,6 +3,5 @@
   "description": {
     "color": "#3B3B42",
     "translate": "trim_material.vanilluxe.coal"
-  },
-  "ingredient": "minecraft:coal"
+  }
 }

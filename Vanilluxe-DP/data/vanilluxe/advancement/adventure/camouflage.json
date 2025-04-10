@@ -155,7 +155,9 @@
             "equipment": {
               "head": {
                 "components": {
-                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.spider_head\"}"
+                  "minecraft:item_name": {
+                    "translate": "block.vanilluxe.spider_head"
+                  }
                 }
               }
             }
@@ -180,7 +182,9 @@
             "equipment": {
               "head": {
                 "components": {
-                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.slime_head\"}"
+                  "minecraft:item_name": {
+                    "translate": "block.vanilluxe.slime_head"
+                  }
                 }
               }
             }
@@ -205,7 +209,9 @@
             "equipment": {
               "head": {
                 "components": {
-                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.husk_head\"}"
+                  "minecraft:item_name": {
+                    "translate": "block.vanilluxe.husk_head"
+                  }
                 }
               }
             }
@@ -230,7 +236,9 @@
             "equipment": {
               "head": {
                 "components": {
-                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.drowned_head\"}"
+                  "minecraft:item_name": {
+                    "translate": "block.vanilluxe.drowned_head"
+                  }
                 }
               }
             }
@@ -255,7 +263,9 @@
             "equipment": {
               "head": {
                 "components": {
-                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.stray_skull\"}"
+                  "minecraft:item_name": {
+                    "translate": "block.vanilluxe.stray_skull"
+                  }
                 }
               }
             }
@@ -280,7 +290,9 @@
             "equipment": {
               "head": {
                 "components": {
-                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.bogged_skull\"}"
+                  "minecraft:item_name": {
+                    "translate": "block.vanilluxe.bogged_skull"
+                  }
                 }
               }
             }
@@ -305,7 +317,9 @@
             "equipment": {
               "head": {
                 "components": {
-                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.breeze_skull\"}"
+                  "minecraft:item_name": {
+                    "translate": "block.vanilluxe.breeze_skull"
+                  }
                 }
               }
             }
@@ -330,7 +344,9 @@
             "equipment": {
               "head": {
                 "components": {
-                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.magma_cube_head\"}"
+                  "minecraft:item_name": {
+                    "translate": "block.vanilluxe.magma_cube_head"
+                  }
                 }
               }
             }
@@ -355,7 +371,9 @@
             "equipment": {
               "head": {
                 "components": {
-                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.blaze_skull\"}"
+                  "minecraft:item_name": {
+                    "translate": "block.vanilluxe.blaze_skull"
+                  }
                 }
               }
             }
@@ -380,7 +398,9 @@
             "equipment": {
               "head": {
                 "components": {
-                  "minecraft:item_name": "{\"translate\":\"block.vanilluxe.enderman_head\"}"
+                  "minecraft:item_name": {
+                    "translate": "block.vanilluxe.enderman_head"
+                  }
                 }
               }
             }

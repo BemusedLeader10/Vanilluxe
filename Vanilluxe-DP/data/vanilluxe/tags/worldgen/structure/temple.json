@@ -1,7 +1,9 @@
 {
   "values": [
     "vanilluxe:badlands_pyramid",
+    "#vanilluxe:witch_hut",
     "minecraft:desert_pyramid",
+    "minecraft:igloo",
     "minecraft:jungle_pyramid"
   ]
 }

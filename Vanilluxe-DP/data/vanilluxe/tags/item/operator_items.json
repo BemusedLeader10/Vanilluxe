@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:barrier",
+    "minecraft:chain_command_block",
+    "minecraft:command_block",
+    "minecraft:command_block_minecart",
+    "minecraft:debug_stick",
+    "minecraft:jigsaw",
+    "minecraft:knowledge_book",
+    "minecraft:light",
+    "minecraft:repeating_command_block",
+    "minecraft:structure_block",
+    "minecraft:structure_void",
+    "minecraft:test_block",
+    "minecraft:test_instance_block"
+  ]
+}

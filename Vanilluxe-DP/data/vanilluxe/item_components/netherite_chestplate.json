@@ -1,0 +1,6 @@
+{
+  "targets": "minecraft:netherite_chestplate",
+  "components": {
+    "minecraft:rarity": "uncommon"
+  }
+}

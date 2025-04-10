@@ -10,12 +10,19 @@
             {
               "function": "minecraft:copy_components",
               "include": [
-                "minecraft:profile",
-                "minecraft:note_block_sound",
+                "minecraft:attribute_modifiers",
                 "minecraft:custom_name",
+                "minecraft:enchantments",
+                "minecraft:equippable",
+                "minecraft:item_model",
                 "minecraft:item_name",
-                "minecraft:hide_additional_tooltip",
-                "minecraft:rarity"
+                "minecraft:lore",
+                "minecraft:max_stack_size",
+                "minecraft:note_block_sound",
+                "minecraft:profile",
+                "minecraft:rarity",
+                "minecraft:repair_cost",
+                "minecraft:tooltip_style"
               ],
               "source": "block_entity"
             }
